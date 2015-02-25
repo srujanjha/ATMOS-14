@@ -1,0 +1,336 @@
+﻿<Page
+    x:Class="ATMOS_14.TimeLine"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:ATMOS_14"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    DataContext="{Binding DefaultViewModel, RelativeSource={RelativeSource Self}}"
+    mc:Ignorable="d">
+    <Page.Background>
+        <ImageBrush x:Name="Back" Stretch="Fill" ImageSource="Assets/signup.jpg" Opacity="1"/>
+    </Page.Background>
+    <Page.Resources>
+        <DataTemplate x:Key="HeaderTemplate">
+            <TextBlock Margin="0,0,0,-9.5" Text="{Binding}" FontSize="30"/>
+        </DataTemplate>
+        <CollectionViewSource
+                x:Name="groupViewSource"
+                Source="{Binding Groupsd}"
+                IsSourceGrouped="True"
+                ItemsPath="Items"
+                d:Source="{Binding Groupsd}"/>
+        <CollectionViewSource
+                x:Name="groupViewSource1"
+                Source="{Binding Groups1}"
+                IsSourceGrouped="True"
+                ItemsPath="Items"
+                d:Source="{Binding Groups1}"/>
+        <Style x:Key="SemanticZoomStyle1" TargetType="SemanticZoom">
+            <Setter Property="Padding" Value="3"/>
+            <Setter Property="Background" Value="Transparent"/>
+            <Setter Property="BorderThickness" Value="0"/>
+            <Setter Property="IsTabStop" Value="False"/>
+            <Setter Property="TabNavigation" Value="Once"/>
+            <Setter Property="ScrollViewer.HorizontalScrollMode" Value="Enabled"/>
+            <Setter Property="ScrollViewer.IsHorizontalRailEnabled" Value="False"/>
+            <Setter Property="ScrollViewer.VerticalScrollMode" Value="Disabled"/>
+            <Setter Property="ScrollViewer.IsVerticalRailEnabled" Value="False"/>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="SemanticZoom">
+                        <Grid>
+                            <VisualStateManager.VisualStateGroups>
+                                <VisualStateGroup x:Name="SemanticZoomStates">
+                                    <VisualState x:Name="ZoomInView">
+                                        <Storyboard>
+                                            <FadeOutThemeAnimation TargetName="ZoomedOutPresenter"/>
+                                            <FadeInThemeAnimation TargetName="ZoomedInPresenter"/>
+                                        </Storyboard>
+                                    </VisualState>
+                                    <VisualState x:Name="ZoomOutView">
+                                        <Storyboard>
+                                            <FadeOutThemeAnimation TargetName="ZoomedInPresenter"/>
+                                            <FadeInThemeAnimation TargetName="ZoomedOutPresenter"/>
+                                        </Storyboard>
+                                    </VisualState>
+                                </VisualStateGroup>
+                                <VisualStateGroup x:Name="ZoomOutButtonStates">
+                                    <VisualStateGroup.Transitions>
+                                        <VisualTransition From="ZoomOutButtonVisible" To="ZoomOutButtonHidden">
+                                            <Storyboard BeginTime="0:0:3">
+                                                <FadeOutThemeAnimation TargetName="ZoomOutButton"/>
+                                                <ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="IsHitTestVisible" Storyboard.TargetName="ZoomOutButton">
+                                                    <DiscreteObjectKeyFrame KeyTime="0">
+                                                        <DiscreteObjectKeyFrame.Value>
+                                                            <x:Boolean>False</x:Boolean>
+                                                        </DiscreteObjectKeyFrame.Value>
+                                                    </DiscreteObjectKeyFrame>
+                                                </ObjectAnimationUsingKeyFrames>
+                                            </Storyboard>
+                                        </VisualTransition>
+                                    </VisualStateGroup.Transitions>
+                                    <VisualState x:Name="ZoomOutButtonVisible">
+                                        <Storyboard>
+                                            <FadeInThemeAnimation TargetName="ZoomOutButton"/>
+                                        </Storyboard>
+                                    </VisualState>
+                                    <VisualState x:Name="ZoomOutButtonHidden">
+                                        <Storyboard>
+                                            <FadeOutThemeAnimation TargetName="ZoomOutButton"/>
+                                            <ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="IsHitTestVisible" Storyboard.TargetName="ZoomOutButton">
+                                                <DiscreteObjectKeyFrame KeyTime="0">
+                                                    <DiscreteObjectKeyFrame.Value>
+                                                        <x:Boolean>False</x:Boolean>
+                                                    </DiscreteObjectKeyFrame.Value>
+                                                </DiscreteObjectKeyFrame>
+                                            </ObjectAnimationUsingKeyFrames>
+                                        </Storyboard>
+                                    </VisualState>
+                                </VisualStateGroup>
+                            </VisualStateManager.VisualStateGroups>
+                            <ScrollViewer x:Name="ScrollViewer" AutomationProperties.AccessibilityView="Raw" HorizontalScrollMode="{TemplateBinding ScrollViewer.HorizontalScrollMode}" HorizontalContentAlignment="Center" HorizontalScrollBarVisibility="Hidden" IsHorizontalRailEnabled="{TemplateBinding ScrollViewer.IsHorizontalRailEnabled}" IsScrollInertiaEnabled="True" IsZoomChainingEnabled="True" IsZoomInertiaEnabled="False" IsVerticalRailEnabled="{TemplateBinding ScrollViewer.IsVerticalRailEnabled}" MinZoomFactor="0.5" MaxZoomFactor="1.0" VerticalScrollBarVisibility="Hidden" VerticalScrollMode="{TemplateBinding ScrollViewer.VerticalScrollMode}" VerticalContentAlignment="Center" ZoomMode="Enabled">
+                                <ScrollViewer.Template>
+                                    <ControlTemplate TargetType="ScrollViewer">
+                                        <ScrollContentPresenter x:Name="ScrollContentPresenter" ContentTemplate="{TemplateBinding ContentTemplate}" Margin="{TemplateBinding Padding}"/>
+                                    </ControlTemplate>
+                                </ScrollViewer.Template>
+                                <Border BorderBrush="{TemplateBinding BorderBrush}" BorderThickness="{TemplateBinding BorderThickness}" Background="{TemplateBinding Background}" RenderTransformOrigin="0.5, 0.5">
+                                    <Border.RenderTransform>
+                                        <CompositeTransform x:Name="ManipulatedElementTransform"/>
+                                    </Border.RenderTransform>
+                                    <Grid Margin="{TemplateBinding Padding}">
+                                        <ContentPresenter x:Name="ZoomedInPresenter" Content="{TemplateBinding ZoomedInView}" IsHitTestVisible="False" RenderTransformOrigin="0.5, 0.5" Visibility="Collapsed">
+                                            <ContentPresenter.RenderTransform>
+                                                <CompositeTransform x:Name="ZoomedInTransform"/>
+                                            </ContentPresenter.RenderTransform>
+                                        </ContentPresenter>
+                                        <ContentPresenter x:Name="ZoomedOutPresenter" Content="{TemplateBinding ZoomedOutView}" IsHitTestVisible="False" RenderTransformOrigin="0.5, 0.5" Visibility="Collapsed">
+                                            <ContentPresenter.RenderTransform>
+                                                <CompositeTransform x:Name="ZoomedOutTransform"/>
+                                            </ContentPresenter.RenderTransform>
+                                        </ContentPresenter>
+                                    </Grid>
+                                </Border>
+                            </ScrollViewer>
+                            <Button x:Name="ZoomOutButton" HorizontalAlignment="Right" IsTabStop="False" Margin="0,0,7,24" VerticalAlignment="Bottom">
+                                <Button.Template>
+                                    <ControlTemplate TargetType="Button">
+                                        <Border x:Name="Root" BorderBrush="{ThemeResource SemanticZoomButtonBorderThemeBrush}" BorderThickness="1" Background="{ThemeResource SemanticZoomButtonBackgroundThemeBrush}" Height="21" Width="21">
+                                            <VisualStateManager.VisualStateGroups>
+                                                <VisualStateGroup x:Name="NormalStates">
+                                                    <VisualState x:Name="Normal"/>
+                                                    <VisualState x:Name="PointerOver">
+                                                        <Storyboard>
+                                                            <ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="Background" Storyboard.TargetName="Root">
+                                                                <DiscreteObjectKeyFrame KeyTime="0" Value="{ThemeResource SemanticZoomButtonPointerOverBackgroundThemeBrush}"/>
+                                                            </ObjectAnimationUsingKeyFrames>
+                                                            <ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="BorderBrush" Storyboard.TargetName="Root">
+                                                                <DiscreteObjectKeyFrame KeyTime="0" Value="{ThemeResource SemanticZoomButtonPointerOverBorderThemeBrush}"/>
+                                                            </ObjectAnimationUsingKeyFrames>
+                                                            <ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="Foreground" Storyboard.TargetName="Glyph">
+                                                                <DiscreteObjectKeyFrame KeyTime="0" Value="{ThemeResource SemanticZoomButtonPointerOverForegroundThemeBrush}"/>
+                                                            </ObjectAnimationUsingKeyFrames>
+                                                        </Storyboard>
+                                                    </VisualState>
+                                                    <VisualState x:Name="Pressed">
+                                                        <Storyboard>
+                                                            <ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="Background" Storyboard.TargetName="Root">
+                                                                <DiscreteObjectKeyFrame KeyTime="0" Value="{ThemeResource SemanticZoomButtonPressedBackgroundThemeBrush}"/>
+                                                            </ObjectAnimationUsingKeyFrames>
+                                                            <ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="BorderBrush" Storyboard.TargetName="Root">
+                                                                <DiscreteObjectKeyFrame KeyTime="0" Value="{ThemeResource SemanticZoomButtonPressedBorderThemeBrush}"/>
+                                                            </ObjectAnimationUsingKeyFrames>
+                                                            <ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="Foreground" Storyboard.TargetName="Glyph">
+                                                                <DiscreteObjectKeyFrame KeyTime="0" Value="{ThemeResource SemanticZoomButtonPressedForegroundThemeBrush}"/>
+                                                            </ObjectAnimationUsingKeyFrames>
+                                                        </Storyboard>
+                                                    </VisualState>
+                                                </VisualStateGroup>
+                                            </VisualStateManager.VisualStateGroups>
+                                            <TextBlock x:Name="Glyph" AutomationProperties.AccessibilityView="Raw" Foreground="{ThemeResource SemanticZoomButtonForegroundThemeBrush}" FontSize="{ThemeResource SemanticZoomButtonFontSize}" FontFamily="Segoe UI Symbol" HorizontalAlignment="Center" IsHitTestVisible="False" Margin="0,0,0,1" Text="&#xE0B8;" UseLayoutRounding="False" VerticalAlignment="Center"/>
+                                        </Border>
+                                    </ControlTemplate>
+                                </Button.Template>
+                            </Button>
+                        </Grid>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+    </Page.Resources>
+
+    <Grid x:Name="LayoutRoot">
+        
+        <Pivot Name="Time" Title="ATMOS '14">
+            <PivotItem Header="What's up?">
+                <Grid Name="whatsup" Margin="19,9.5,19,0" DataContext="{Binding Groups1}">
+                    <SemanticZoom Name="semantic" Style="{StaticResource SemanticZoomStyle1}">
+                        <SemanticZoom.ZoomedInView>
+                            <ListView ItemsSource="{Binding Source={StaticResource groupViewSource1}}">
+                                <ListView.ItemTemplate>
+                                    <DataTemplate>
+                                        <Grid Height="60" Margin="0">
+                                            <Grid.ColumnDefinitions>
+                                                <ColumnDefinition Width="Auto" />
+                                                <ColumnDefinition Width="*" />
+                                            </Grid.ColumnDefinitions>
+                                            <StackPanel Grid.Column="1" VerticalAlignment="Top" Margin="12,0,0,0">
+                                                <TextBlock Text="{Binding eventName}" FontSize="20"
+                                                       Style="{ThemeResource ListViewItemTextBlockStyle}" />
+                                                <StackPanel Orientation="Horizontal">
+                                                    <TextBlock  FontSize="15"
+                                                       Opacity="0.8" >
+                                                 <Run Text="Starting At:"></Run>
+                                            <Run Text="{Binding startTime.TimeOfDay}"></Run>
+                                                    </TextBlock>
+                                                    <TextBlock FontSize="15"
+                                                       Opacity="0.8" >
+                                            <Run Text=" Venue:"></Run>
+                                            <Run Text="{Binding venue}"></Run>
+                                                    </TextBlock>
+                                                </StackPanel>
+                                            </StackPanel>
+                                        </Grid>
+                                    </DataTemplate>
+
+                                </ListView.ItemTemplate>
+                                <ListView.GroupStyle >
+                                    <GroupStyle HidesIfEmpty="True">
+                                        <GroupStyle.HeaderTemplate>
+                                            <DataTemplate>
+                                                <Border Background="Black"
+                                                BorderBrush="{StaticResource PhoneAccentBrush}" BorderThickness="5"  Opacity="0.7" Width="300" Height="65">
+                                                    <Grid>
+                                                        <TextBlock Text="{Binding Date}" Margin="10,0,0,0"
+                                                   Style="{ThemeResource SubheaderTextBlockStyle}" />
+                                                    </Grid>
+                                                </Border>
+                                            </DataTemplate>
+                                        </GroupStyle.HeaderTemplate>
+                                    </GroupStyle>
+                                </ListView.GroupStyle>
+                            </ListView>
+                        </SemanticZoom.ZoomedInView>
+                        <SemanticZoom.ZoomedOutView>
+                            <ListView ItemsSource="{Binding Source={StaticResource groupViewSource1}, Path=CollectionGroups}">
+                                <ListView.ItemTemplate>
+                                    <DataTemplate>
+                                        <Grid Height="75" Width="280" Margin="16">
+                                            <Grid.ColumnDefinitions>
+                                                <ColumnDefinition Width="Auto" />
+                                                <ColumnDefinition Width="*" />
+                                            </Grid.ColumnDefinitions>
+
+                                            <Border Background="Black"
+                                                BorderBrush="{StaticResource PhoneAccentBrush}" BorderThickness="5"  Opacity="0.7" Width="280" Height="60">
+                                                <Grid>
+                                                    <TextBlock Text="{Binding Group.Date}" Margin="10,0,0,0"
+                                                   Style="{ThemeResource SubheaderTextBlockStyle}" />
+                                                </Grid>
+                                            </Border>
+                                        </Grid>
+                                    </DataTemplate>
+                                </ListView.ItemTemplate>
+                            </ListView>
+                        </SemanticZoom.ZoomedOutView>
+                    </SemanticZoom>
+                    
+                </Grid>
+
+            </PivotItem>
+
+            <PivotItem Header="schedule">
+            <Grid x:Name="ContentRoot" Margin="19,9.5,19,0" DataContext="{Binding Groups}">
+                <SemanticZoom x:Name="MySemanticZoom" Style="{StaticResource SemanticZoomStyle1}">
+                    <SemanticZoom.ZoomedInView>
+                        <ListView ItemsSource="{Binding Source={StaticResource groupViewSource}}">
+                            <ListView.ItemTemplate>
+                                <DataTemplate>
+                                    <Grid Height="60" Margin="0">
+                                        <Grid.ColumnDefinitions>
+                                            <ColumnDefinition Width="Auto" />
+                                            <ColumnDefinition Width="*" />
+                                        </Grid.ColumnDefinitions>
+                                        <StackPanel Grid.Column="1" VerticalAlignment="Top" Margin="12,0,0,0">
+                                            <TextBlock Text="{Binding eventName}" FontSize="20"
+                                                       Style="{ThemeResource ListViewItemTextBlockStyle}" />
+                                            <StackPanel Orientation="Horizontal">
+                                                <TextBlock  FontSize="15"
+                                                       Opacity="0.8" >
+                                                 <Run Text="Starting At:"></Run>
+                                            <Run Text="{Binding startTime.TimeOfDay}"></Run>
+                                                </TextBlock>
+                                                <TextBlock FontSize="15"
+                                                       Opacity="0.8">
+                                            <Run Text=" Venue:"></Run>
+                                            <Run Text="{Binding venue}"></Run>
+                                                </TextBlock>
+                                            </StackPanel>
+                                        </StackPanel>
+                                    </Grid>
+                                </DataTemplate>
+
+                            </ListView.ItemTemplate>
+                            <ListView.GroupStyle >
+                                <GroupStyle HidesIfEmpty="True">
+                                    <GroupStyle.HeaderTemplate>
+                                        <DataTemplate>
+                                                <Border Background="Black"
+                                                BorderBrush="{StaticResource PhoneAccentBrush}" BorderThickness="5"  Opacity="0.7" Width="300" Height="60">
+                                                    <Grid>
+                                                        <TextBlock Text="{Binding Date}" Margin="10,0,0,0"
+                                                   Style="{ThemeResource SubheaderTextBlockStyle}" />
+                                                        <TextBlock Text="{Binding Time}" Margin="10,0,0,0"
+                                                   Style="{ThemeResource SubheaderTextBlockStyle}" />
+                                                </Grid>
+                                            </Border>
+                                        </DataTemplate>
+                                    </GroupStyle.HeaderTemplate>
+                                </GroupStyle>
+                            </ListView.GroupStyle>
+                        </ListView>
+                    </SemanticZoom.ZoomedInView>
+                    <SemanticZoom.ZoomedOutView>
+                        <ListView ItemsSource="{Binding Source={StaticResource groupViewSource}, Path=CollectionGroups}">
+                            <ListView.ItemTemplate>
+                                <DataTemplate>
+                                    <Grid Height="65" Width="280" Margin="16">
+                                        <Grid.ColumnDefinitions>
+                                            <ColumnDefinition Width="Auto" />
+                                            <ColumnDefinition Width="*" />
+                                        </Grid.ColumnDefinitions>
+
+                                            <Border Background="Black"
+                                                BorderBrush="{StaticResource PhoneAccentBrush}" BorderThickness="5"  Opacity="0.7" Width="280" Height="60">
+                                            <Grid>
+                                                <TextBlock Text="{Binding Group.Date}" Margin="10,0,0,0"
+                                                   Style="{ThemeResource SubheaderTextBlockStyle}" />
+                                                <TextBlock Text="{Binding Group.Time}" Margin="10,0,0,0"
+                                                   Style="{ThemeResource SubheaderTextBlockStyle}" />
+                                            </Grid>
+                                        </Border>
+                                    </Grid>
+                                </DataTemplate>
+                            </ListView.ItemTemplate>
+                        </ListView>
+                    </SemanticZoom.ZoomedOutView>
+                </SemanticZoom>
+                <ProgressBar x:Name="Progress" IsIndeterminate="True" />
+            </Grid>
+
+            </PivotItem>
+             </Pivot>
+    </Grid>
+    <Page.BottomAppBar>
+        <CommandBar Background="Black" Opacity="0.6" >
+            <CommandBar.PrimaryCommands>
+                <AppBarButton Label="sort" Icon="Sort" Click="sort_Click"/>
+                <AppBarButton Name="zoom" Label="ZoomOut" Icon="Zoom" Click="zoom_Click"/>
+            </CommandBar.PrimaryCommands>
+            <CommandBar.SecondaryCommands>
+                <AppBarButton Name="sort" Label="sort by hour" Click="sort_Click"/>
+            </CommandBar.SecondaryCommands>
+        </CommandBar>
+    </Page.BottomAppBar>
+</Page>

@@ -1,0 +1,26 @@
+﻿<Page
+    x:Class="ATMOS_14.MapPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:ATMOS_14"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:Maps="using:Windows.UI.Xaml.Controls.Maps"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid x:Name="LayoutRoot">
+
+        <Maps:MapControl x:Name="Maps" HorizontalAlignment="Left" VerticalAlignment="Top" Height="640" Width="400" ZoomLevel="16" MapServiceToken="FC5sfY4NtZy1PPEAoXPBOQ" LandmarksVisible="True"/>
+
+    </Grid>
+    <Page.BottomAppBar>
+        <CommandBar Background="Black" Opacity="0.6" >
+            <CommandBar.PrimaryCommands>
+                <AppBarButton Label="Directions" Icon="Directions" Click="map_Click"/>
+                <AppBarButton Label="Drive to" Icon="MapDrive" Click="drive"/>
+                <AppBarButton Label="Walk to" Icon="Map" Click="walk"/>
+            </CommandBar.PrimaryCommands>
+        </CommandBar>
+    </Page.BottomAppBar>
+</Page>

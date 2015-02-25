@@ -1,0 +1,1031 @@
+﻿{
+    "Groups": [
+        {
+            "UniqueId": "Group-0",
+            "Title": "Headliners",
+            "Subtitle": "All events associated with Computer Science.",
+            "ImagePath": "Assets/CS.jpg",
+            "Items": [
+                {
+                    "UniqueId": "Group-0-Item-1",
+                    "Title": "Code Carnival",
+                    "Subtitle": "A workshop + hackathon on popular Google API's.",
+                    "ImagePath": "Assets/1.png",
+                    "Description": "You want APIs? Google's got’em by the fistful.\nIf you've been itching to build something in a fast-paced, time-crunched environment, to show off your skills or to flesh out your resume, we want you to come to this event, laptop in-hand. Best of all, learn directly from the Googlers, the ones who have also delivered in Silicon Valley.\nThe event has three parts :\n Workshop on Google APIs\no APIs that will be covered are:\n Cloud Storage API \n Google Maps Engine API \nhttps://developers.google.com/apis-explorer/#p/\n Hackathon, where you develop Android apps\n Talk on Cloud Computing and Google Wearables + Demo\nDates: 10th, 11th October\nTheme: “Campus Life”\nSchedule of events: https://drive.google.com/folderview?id=0BxjnaetpYGq2UFhZT04yNG9USEE&usp=sharing\n",
+                    "Content": "Rules:\nGot a team (or be it an individual) and want to participate follow this steps -\nStep 1 – Got an Idea? – Register your team onsite.\nStep 2 – Build your Hack – The registered teams will be given 12 hrs to transform their idea into an app using *any* open source APIs including the Google APIs (developers.google.com). Though the event is for 12 hours, you are allowed to think of an idea before the event.\nNote: The project must be open sourced and made available on GitHub.\nTeam Size:\nTeams of up to 3(a Hacker, a Hipster, a Hustler would be recommended) people are allowed. You are free to choose the team to join. \nHave fun: It’s a hackathon with a twist! Use whatever languages or hacks you have in your arsenal. Show us new concepts. \nWhat to Build: Create a prototype of a solution to a problem that can’t be easily found anywhere else.\nIt’s okay to Hack! : Feel free to use any tools, tricks, gems, shortcuts, or workarounds you’ve discovered over the years to help you build quicker. Use any frameworks, hosting service, etc.\nWhat We'll Provide\n Wi-Fi\n Assistance from GDG’s experts (like the ones who have delivered in Silicon Valley)\n A chill space to hack\n A GitHub space for the ease of Version Control of your project\nWhat to Bring\n Laptop\n Mobile Devices\n All Necessary Software (like SDK, IDE) pre-installed\nJava: http://www.oracle.com/technetwork/java/javase/downloads/jdk7-downloads-1880260.html\nAndroid: http://developer.android.com/sdk/index.html\n https://drive.google.com/folderview?id=0BxjnaetpYGq2UFhZT04yNG9USEE&usp=sharing\n Power Cords\n Student Photo ID \n Competitive Spirit!\nSubmissions\nEach team must pitch their hack at the end of the event. Each team will get 5 minutes to demo their project.\nJudging Criteria\nOriginality, Innovation and creative approach: to solving the outlined problem, along with actual demonstrated solution for the problem. Does the Contest App clearly address the theme, “Campus Life”? Is it creative in its usage of the theme? How distinct is the application compared to similar apps on the market?\nFunctionality: working functionality of submission as submitted, without further demonstration, and the potential for the submission to be completed through to launch (this will also take into account demonstrated technical capabilities).\nScalability: potential for internationalization and / or global scalability.\nImpact: the potential for the submission to drive immediate real world impact.\nSocial & Googleyness: Any integration with Google+ or usage of other Google products! (completely optional)\nPrizes (worth more than 1.5Lakh now & still increasing)\n Cash prizes as following:\no Grand Prize: 3K INR\no Second Prize: 2K INR\no Third Prize: 1K INR\n GitHub will provide the following:\no Grand prize: 1 year of Silver plan of an Organizational account\no Second place: 1 year of Bronze plan of an Organizational account \no Third place: 6 months of Bronze plan of an Organizational account \no Goodies for the participants\n CodeSchool will provide the following:\no Grand Prize: 6-month subscription credits to each individual\no Second place:  3-month subscription credits to each individual\n GDG-Hyderabad will also provide prizes in the form of goodies.\n Much more goodies and swegs are waiting for you ! :)\n",
+                    "Contacts": "Srujan Jha :+919010718698\nSagar Anand: +919666836106\n"
+
+                }, 
+                {
+                    "UniqueId": "Group-0-Item-2",
+                    "Title": "ROBOWARS",
+                    "Subtitle": "A clash of robo-titans.",
+                    "ImagePath": "Assets/2.png",
+                    "Description": "“War does not determine who is right…\n       ONLY WHO IS LEFT”\n         -Bertrand Russell\nThe headliner, the crowd-puller, the pure visual euphoria in any ATMOS always had just one name - RoboWars! See the rebirth of the majestic medieval knights in their 21st century avatar. See the robots battle it all out at the Colosseum in BITS Pilani Hyderabad Campus. Behold a futuristic projection of Gladiatorial days of combat.  \nThe war is about to begin. Tighten the screws, charge your batteries, oil the parts, it’s going to get messy. Are you ready?\n\nProblem Statement\nDesign and construct a robot capable of fighting a one on one tournament.\nGeneral Instructions\n All participants are to build and operate robots at their own risk. Combat robotics is dangerous. Please take care to not hurt yourself or others when building, testing and competing.\n Compliance with all event rules is mandatory. It is expected that competitors will comply with the rules and procedures of their own accord and not require constant policing.\n Robots will be inspected for safety and reliability before being allowed to compete. As a builder you are obligated to disclose all operating principles and potential dangers to the Event Coordinators.\n Proper activation and deactivation of robots is critical. Robots must only be activated in the arena, or with expressed consent of the Coordinators.\n Moving weapons that can cause damage or injury must have a clearly visible locking device in place at all times when not in the arena. Locking devices must be clearly capable of stopping, arresting or otherwise preventing harmful motion of the weapon.\n It is expected that all builders follow basic safety practices during work on the robot at the event. Please be alert and aware of your neighbors and people passing by.\n Any kind of damage to the arena or people standing by would mean immediate disqualification without the need for proper explanation.\n In all cases the decision of the Coordinators at the venue would be final, binding and unquestionable. \n",
+                    "Content": "BOT Specifications:\n1. Style\n1.1. Robots can be built using wheels, tracks and legs (Walker robots).\n1.2. Other styles or methods may be considered, but it is be sure to contact the Coordinators before registering.\n1.3. 'Cluster Bots' - robots consisting of two or more components - are allowed, but they must enter the arena as a single object. If 50% or more of the Cluster Bot is immobilized, the robot will be deemed to have lost that particular battle.\n\n2. Weight\n2.1. The maximum weight allowed for the robot is 40kgs (This assumes that the power supply for the robot is on-board).\n2.2. If interchangeable weapons /armor /systems are used, the weight measured is the one with the heaviest set-up in place.\n2.3. A 50% relaxation in weight and dimensions would be given to absolute walker bots. Decision of whether a particular Bot is an absolute walker Bot would be taken by the organizers, upon abstract submission.\n\n3. Dimensions\n3.1. Overall dimensions must not exceed 60cm x 60cm x 60cm (W x B x H) respectively.\n3.2. Width, breadth and height are measured to the extremities of the robot, i.e. including any overhanging bodywork, weaponry or protrusions.\n3.3. The measurements would be taken in the position that the robot would enter the arena, i.e. if the robot starts a fight with weaponry or other devices in a retracted position, the width, breadth and height are measured with these in this retracted position.\n3.4. After every duel the robot is expected to autonomously retract itself in its original dimensions provided that these have been altered during the fight. Failure to do this will result in the robot losing the battle.\n4. Power\n4.1. The machine can be powered electrically only. Use of an IC engine in any form is not allowed. \n4.2. The only permitted batteries are ones that cannot spill or spray any of their contents when damaged or inverted. This means that standard automotive and motorcycle wet cell batteries are prohibited. Examples of batteries that are permitted: (Such as gel cells, lithium, NiCad, NiMH, or dry cells). \n4.3. All onboard voltages above 36 Volts require prior approval from this event. (It is understood that a charged battery's initial voltage is above their nominal value)\n4.4. All electrical power to weapons and drive systems (systems that could cause potential human bodily injury) must have a manual disconnect that can be activated within 15 seconds without endangering the person turning it off. (E.g. No body parts in the way of weapons or pinch points).\n4.5. Shut down must include a manually operated mechanical method of disconnecting the main battery power, such as a suitable high current switch or removable link. Relays may be used to control power, but there must also be a mechanical disconnect.\n4.6. All efforts must be taken to protect the battery terminals from a direct short and causing a fire. Failure in doing so will lead to disqualification.\n4.7. Only bots with onboard power supply are permitted.\n5. Pneumatics\n5.1. Robot can use pressurized non-inflammable gases to actuate pneumatic devices. Maximum allowed outlet nozzle pressure is 10 bar. \n5.2. The storage tank and pressure regulators used by teams need to be certified and teams using pneumatics are required to produce the Safety and Security letters at the Registration Desk at the venue. Failing might lead to direct disqualification.\n5.3. Participants must be able to indicate the used pressure with integrated or temporarily fitted pressure gauge. Also there should be provision to check the cylinder pressure on the bot. The organisers will not provide any equipment to gauge the pressure.\n5.4. The maximum pressure in cylinder should not exceed the rated pressure at any point of time.\n5.5. You must have a safe way of refilling the system and determining the on board pressure.\n5.6. All pneumatic components on board a robot must be securely mounted. Care must be taken while mounting the pressure vessel and armour to ensure that if ruptured it will not escape the robot.\n5.7. Entire pneumatic setup should be onboard, no external input (from outside the arena) can be given to the robot for functioning of its pneumatic system.\n\n\n6. Hydraulics\n6.1. Hydraulic pressure is limited to 3000 psi. The competitor must be able to demonstrate the pressure used and carry with them a portable pressure gauge that can be fitted to the system if required to do so by the organizing team. The organisers will not provide any equipment to gauge the pressure.\n6.2. The use of accumulators on the Hydraulic circuits is strictly prohibited.\n6.3. Hydraulic fluid storage tanks must be of a suitable material.\n6.4. The lines must be routed to minimize the chances of being cut.\n\n\n7. Weapon Systems\n7.1. All pyrotechnics(refer 7.2); explosives; flames; firearms; corrosives; liquids; electronic devices - e.g. radio jamming, heat-guns, Tesla coils - are banned.\n7.2. Small, non-offensive pyrotechnics - e.g. flash puffs - May be allowed at the organizer’s discretion.\n7.3. Devices using inflammable or combustion-supporting gases are banned.\n7.4. Rules regarding projectiles\n7.4.1. Untethered projectiles are not allowed.\n7.4.2. Tethered projectiles are allowed, but the tether may not exceed 1.5m (approx. 5 ft) in length, (measured from the center of the robot to the tip of the projectile).\n7.5.  The speed of any rotating weapons - e.g. circular saws, carbon or steel cutting discs - must not exceed the manufacturer's specification. The manufacturer's specification must be available for inspection.\n7.6. Rotating hardened steel blades that may shatter are not allowed.\n7.7. Commercial blades - e.g. bayonets - must not exceed 20cm/8inches in length.\n7.8. All sharp edges of weapons, including fixed weapons - e.g. spikes –and robot bodywork in general that is sharp, MUST be fitted with adequate protection that must be in place at all times except in the arena. (These guards are not included with the overall weight of the robot).\n7.9.  Any moving or swinging arms - whether or not they hold sharp and/or rotating weapons - MUST be fitted with a visible locking pin that shows the arm(s) is securely locked into place.\n7.10. NO Lasers are allowed.\n\n\n8. Control Requirements\n8.1. The machine can be controlled through wired or wireless remotes. Power supply should be on board only. Refer above for further details on battery and power.\n8.2. There should be binding capability between transmitters and receivers. The remotes with such facility will only be allowed.\n8.3. The team must have at least four frequency wireless remote control circuit or two dual control circuits which may be interchanged before the start of the race to avoid frequency interference with other teams. The case of any interference in the wireless systems will not be considered for rematch or results.\n8.4. Remote control systems from toys might be used. Remote control systems available in the market may also be used.\n8.5. Nonstandard or self-made remote control systems must first be approved by the organizers.\n8.6. Team should pair up the wireless remote with the machine before putting it into the arena.\n8.7. In case of wired control, the teams are expected to bring enough wire according to the arena specifications which would be updated soon.\n\n\n\n\n\n\n\n\nArena Specifications:\nThe idea is based on the Colosseum of Rome. Below is the first look of the arena. Further details will be posted soon.\n \n\nJudging Criteria\n A robot would be victorious if its opponent is immobilized. \n A robot will be declared immobile if it cannot display linear motion of at least one inch in a timed period of 30 seconds. A robot with one side of its drive train disabled, demonstrating some degree of controlled movement would not be considered. \n A robot that is deemed unsafe by the judges after the match has begun will be disqualified and therefore declared the loser. The match will be immediately halted and the opponent will be awarded a win. \n If a robot is thrown out of the arena the match will stop immediately, and the robot still inside the arena will automatically be declared as the winner. \n  Robots cannot win by pinning or lifting their opponents. Organizers will allow pinning or lifting for a maximum of 15 seconds per pin/lift then the attacker robot will be instructed to release the opponent. If, after being instructed to do so, the attacker is able to release but does not, their robot may be disqualified. If two or more robots become entangled or a crushing or gripping weapon is employed and becomes trapped within another robot, then the competitors should make the timekeeper aware, the fight should be stopped and the robots separated by the safest means. \n In case both the robots remain mobile after the end of the round then the winner will be decided subjectively.\nPoints will be given on the basis of aggression (frequency, severity, boldness and effectiveness of attacks deliberately initiated), damage (through deliberate action), control, strategy (attack as well as defence) and crowd reaction. Further details would be put up soon! Ultimately, the Judges’ decision would be final, binding and unquestionable.\nPS: All teams wishing to participate are requested to send an abstract to bphc.phoenix@gmail.com on or before 4th October 2014\n",
+                    "Contacts": "Ananth Narayanan:+919912249214\nShashank Tripathi:+919010644913\n"
+                },
+                 {
+                    "UniqueId": "Group-0-Item-3",
+                    "Title": "Stark-Expo-14",
+                    "Subtitle": "The Stark Expo is here",
+                    "ImagePath": "Assets/3.png",
+                    "Description": "This winter, ATMOS brings to you the finest innovations in the field of technology, all under one roof. Skeptical? Judge for yourself. We have: \n1. The snazziest products from Google Cardboard and Android Wearable, Microsoft Ripple \n2.  AcYut, the first indigenous humanoid and a brainchild of BITS Pilani\n3. A 3D printer brought to you by Imaginarium Pvt Ltd.\n4. A fully functioning Go-Kart built from scratch by our own students\n5.  An exhibition of Point-of-Care devices i.e. biological innovations that have generated widespread acclaim in media.\n6. Channel your inner Jesus, and experience \"Walking on water\" and other wonders of Non-Newtonian Fluid \n",
+                    "Content": "Catch it at ATMOS, Bits Pilani Hyderabad Campus from the 10-12th October. See you there!! \n",
+                    "Contacts": "Mudit Jain:+918498085518\n"
+                },
+                 {
+                    "UniqueId": "Group-0-Item-4",
+                    "Title": "MiniGP",
+                    "Subtitle": "On the line of the ecstatic Moto GP competition.",
+                    "ImagePath": "Assets/4.png",
+                    "Description": "I bet most of us have dreamt of racing our cars at top speeds through spick, black race courses. Come October and BITS, Pilani Hyderabad Campus will be all set to fulfill your dream, well, in a way. On the line of the ecstatic Moto GP competition, we are conducting The Mini GP competition. The competition will have its participants (or racers) drive self-designed remote controlled cars through deliciously twisty race tracks to win the final cup! Seems simple? Well, brace yourselves for some rock solid competition. Forget not, the more innovative and inventive your design is, the closer you are to the Mini GP cup. Fasten your seatbelts and let the adrenaline pump up!\n",
+                    "Content": "Problem Statement\nThe participants are expected to race their remote control based IC engine cars through tracks whose complexity is bound to increase level after level. The teams completing the laps in the best possible time will qualify for a grans final race. The design skills and application of real-world driving skills to the miniature cars are put to test.\nJudging Criteria\n Participants are expected to design their own racing car. However, in case the participants use readymade cars, they will only be evaluated for 3/4th of the total marks. That is a penalty if 1/4th of the total marks will be levied on them. If their car is part self-designed and part readymade, then the marks will be given accordingly as per the judge’s discretion. Above mentioned penalty is not applicable for the final round.  \n Driving ability and application skills of the participant will also be put to test.¬¬¬¬\n Lap time will be another criterion to decide the winner.\nVehicle Specifications\n The vehicle should be designed so that it fits in an 800mm X 700 mm box at every given point of time in the race. This is excluding the remote controller. \n It is essential that the car be designed with an internal combustion engine (IC engine). Motors etc. should not be the main driving sources of the car. However, for steering mechanisms or any other mechanism apart from propulsion DC motors and servos can be used. \n Only one IC engine should be used in the vehicle. Use of any other sources such as chemicals, compressed gas, rockets etc. for propulsion is not allowed. The allowed capacity of IC engine to be used is 4.5 cc or less.\n The vehicle has to be necessarily controlled by a wireless remote control system throughout the competition. The vehicle must have two remote controllers of different frequencies or an alternate frequency remote control circuit which can be switched to either frequency before the start of the game. This is done to avoid frequency interference between the two competing vehicles.\n Remote control systems from toys or the ones purchased from a market might be used without any fear of penalization.\n The vehicle parts can be ready made. But there will be extra points if you make chassis and steering mechanism by yourself (See judging criteria for more detail).\n If you are making your car then other functional parts like motors and servos, gears, springs, engine, remote control systems, batteries, wheels, braking mechanism are allowed to be used as directly available from the market.\n It is essential that the vehicle has an onboard power supply to provide electricity to any mechanism requiring electric power.\n Electric voltage not more than 12V should be used in the machine wherever required.\n Participants are advised to use a proper cooling mechanism to prevent overheating of the engine.\n Verify with the organizers if you have the slightest doubt whether a component can be used or not. Please do not hesitate. Designs not complying with the vehicle specifications will be disqualified.\nArena Specifications\nComing shortly!\nCompetition Rules\n The track will have check points at regular intervals.\n In case a machine tumbles, or halts, or goes off the arena at any point on the track, only one of the participants is allowed to lift it up and place it at the nearest checkpoint behind that point. (Previous two rules are for non-racing rounds. The rules for racing round will be told on the spot)\n Until and unless there is a need to touch the vehicle as stated above, they have to be fully remot3e controlled throughout the rave.\n Every time the machine requires lifting by the team member, a time-penalty will be imposed.\n Any vehicle is not allowed to leave any disintegrated part on the race track amidst of the race. In case this happens, the team will be disqualified.\n The teams are also not allowed to damage the opponent's vehicle deliberately. If found guilty, the accused team will be disqualified.\n There will be a time-penalty for reverse gearing.\n Teams may consist of a maximum of 5 members.\n\nGeneral Rules\n Depending on the number of teams participating and other time constraints, the arena will be given to the participants for practicing.\n The time slots will be given on the basis of first come first serve basis, but little duration for practicing is assured to everyone.\n Each team must come up with its own, unique team name.\n Organizers reserve the right to change any of the above rules.\n Participants can address their queries indirectly via e-mail or forums and directly by calling up the organizers.\n For help and reference, some material will be uploaded soon.\n Organizers and judges’ decision shall be considered as final and binding on all.\nEligibility\nEach participant must be a full time student enrolled in an undergraduate or post graduate program from any recognized university or college. Any professional body other than student are not allowed in this competition.\nRegistration\nParticipants have to submit an abstract giving the complete description of their vehicles based on the following lines.\n1. Teams that fabricate their own vehicle must explain the steering mechanism and the chassis layout in detail, along with proper illustrations. Picture(s) showing all the three should be attached.\n2. The participants are required to send the photographs of the chassis before assembly so as to ensure that the parts of the car have been built by themselves, that being the case.\n3. Photograph of the car in the current state must also be sent with the name of the photograph as the date on which it is taken.\n4. Specification of all other components like the engine, remote controllers etc must be specified.\n5. The complete abstract along with the photos and the team name and members name.\n6. If readymade cars are used by the team then the team should mail the exact specification of the car.\n7. Write the name of team along with the name of team leader and team members with contact numbers and e-mail ids. {put contact details here and the email to which they have to send their design illustrations}\n8. A confirmation mail will be sent to the Team leaders\n",
+                    "Contacts": "Sailesh Reddy:+919666650968\n"
+                },
+
+                 {
+                    "UniqueId": "Group-0-Item-5",
+                    "Title": "BYOES",
+                    "Subtitle": "Build your own Embedded Systems using LabVIEW by National Instruments",
+                    "ImagePath": "Assets/5.png",
+                    "Description": "This workshop will enable the participants to do “REAL ENGINEERING”.  The participants will experiment with the basic concepts of engineering using graphical programming language LabVIEW and at the end of the workshop every participant will be able to build their own embedded systems using the same graphical system design environment LabVIEW. \n",
+                    "Content": "The workshop structure is as follows:\nDay 1: 09:30AM to 01PM & 02PM to 05PM\n Introduction to Graphical Programming Language LabVIEW\n Hands on training on LabVIEW\nDay 2: 09:30AM – 01PM & 02PM to 05PM\n Introduction to System Design\n Hands-on training on BYOES\nSpeaker Profile: \nVisweswaran J, National Instruments Bangalore\n Currently working as Sr. Academic Technical Consultant and DSM for South India at National Instruments and is handling the major responsibility of “Improving the quality of Engineering & Science Education”.  \n Faculty for IUCEE (Indo US Collaboration for Engineering Education) 2010, 2011 and 2012 FLP (Faculty Leadership Program) representing NI\n BOS member at Anna University of Technology Madurai, SRM University Chennai & Avinashilingam University Coimbatore, VR Siddartha College of Engg Vijaywada and many more \n He is also Project Advisory Committee member of ISTE-WPLP (Working Professionals Learning Project) Program \n He has travelled widely in India and has delivered lectures in more than 300 Indian Engineering Institutions. He has delivered more than 500 Lectures on   \"Experiential Engineering Education\" on a variety of technical topics.\nKey Interest areas:\n- Measurements & Automation\n- Embedded System Design\n\nAll participants should download LabVIEW software from the following link before attending:\nhttp://www.ni.com/gate/gb/GB_EVALLV/US \n",
+                    "Contacts": "Shashank Tripathi:+919010644913\n"
+                },
+                {
+                    "UniqueId": "Group-0-Item-6",
+                    "Title": "Paper Presentations",
+                    "Subtitle": "Present your original research papers",
+                    "ImagePath": "Assets/6.png",
+                    "Description": "Paper Presentation at ATMOS provides people from all over India to present us with their ideas, research and their thoughts related to new, emerging technologies or the significance of older ones in the current context. Specifically, the event comprises of two rounds. In the first round, participants are invited to send us the abstract as well as the paper they want to present through email. These entries would go through extensive cross-checking for plagiarism, creativity and choice of topic. Participants selected in this round would be eligible for the second round which is the on-site round to be conducted during ATMOS 2014 at BITS Pilani Hyderabad Campus. The participants would have to provide a presentation in front of a panel, comprising of Faculty of the respective department, concerning the details of their paper.",
+                    "Content": "Deadline : 5th October\nElectronics, Electrical and Communication - phoenix@hyderabad.bits-pilani.ac.in \nComputer Science and Information Systems - voxcsabphc@gmail.com \nMechanical - bphc.mea@gmail.com \nCivil - cea.bphc@gmail.com \nChemical - bphc.ace@gmail.com \nSciences\nPhysics - physics.bitshyd@gmail.com \nChemistry - bphc.chemistry@gmail.com \nEconomics - eco.bphc@gmail.com \nMaths - axiommathassoc.bphc@gmail.com \nBiological Sciences - bphc.bio@gmail.com \nPharmacy - bphc.panacea@gmail.com \nSamshod (Nirmaan) - parishodnirmaan@gmail.com\n",
+                    "Contacts": "Mudit Jain:+918498085518\n"
+
+                },
+                 {
+                    "UniqueId": "Group-0-Item-7",
+                    "Title": "Linux Security Workshop",
+                    "Subtitle": "A part of the nation-wide workshop series conducted in lieu of National Linux Security Championship.",
+                    "ImagePath": "Assets/7.png",
+                    "Description": "General Description\nComputer Science Association is proud to present the Linux Security Workshop, a premiere event at ATMOS 2014 at BITS Pilani Hyderabad Campus. The workshop is a part of the nation-wide workshop series conducted in lieu of National Linux Security Championship to be conducted Indian Institute of Technology, Delhi. The championship is conducted by EES, IIT Delhi with their official training partner being VBM Technologies Pvt. Ltd. The workshop to be conducted at ATMOS 2014 would also be associated with the Zonal round for NLSC 2014-15. \nAbout NLSC \nNLSC 2014-15 is National Linux Security Championship and a workshop series jointly being organized by EES, IIT-Delhi and VBM Technologies Pvt. Ltd, Noida. All the preliminary rounds will be held at various esteemed Engineering institutes across INDIA in present academic year and the grand finale will be organized at IIT Delhi under the banner of NLSC (National Linux Security Championship).\n",
+                    "Content": "Event Details\nThe workshop is divided into 2 stages as detailed below:\nStage 1 (Workshop Round):\n A two day hands-on Linux Implementation workshop will be held at only 50 Zonal centers all across India.                           \n The details of the Zonal centers will be available on website for a great promotion of the Institute as a Zonal Center.\n All the participants who want to participate in NLSC 2014-15 are required to attend the workshops at any Zonal Center and participate in the competition after the workshop.\n \n\n\n\nStage 2 (Zonal Round)\n Just after the workshop a Mega Competition of NLSC 2014-15 on the basis of two day workshop will be held.\n Winners will be awarded by Certificate of Excellence, and are required to participate in Final Rounds which will be held in the month of Jan 2015 at IIT Delhi in association with EES-IIT Delhi.\n Winners to receive NLSC Goodies.\nAs mentioned above, the winners of the zonal round conducted at the end of the workshop have the opportunity to compete against other zonal qualifiers at NLSC 2014-15 at IIT Delhi during January 2015. Prizes worth ₹ 1, 00,000 including laptops, tablets are up for grabs for the winners as well as the runners-up during the final round of NLSC 2014-15 in Jan 2015. Participants also have to opportunity to work as an intern at VBM Technologies Pvt. Ltd.\nDuration and Trainer Profile\nThe Duration of the Linux workshop will be of 2 Days (7-8 hrs. /day). The workshop will be delivered by Red Hat Certified Professionals working with VBM Technologies Pvt. Ltd, Noida.\n",
+                    "Contacts": "Utkarsh Gupta  :+918185016466\nRahul Singh Katoch :+919705281055\n"
+                }
+            ]
+        },
+        {
+            "UniqueId": "Group-1",
+            "Title": "Workshops",
+            "Subtitle": "All events associated with Computer Science.",
+            "ImagePath": "Assets/CS.jpg",
+            "Items": [
+                {
+                    "UniqueId": "Group-1-Item-1",
+                    "Title": "Code Carnival ",
+                    "Subtitle": "A workshop-cum-hackathon on Google APIs",
+                    "ImagePath": "Assets/1.png",
+                    "Description": "Rules:\nGot a team (or be it an individual) and want to participate follow this steps -\nStep 1 \" Got an Idea?\"\"\"Register your team\"onsite.\nStep 2 \" Build your Hack\"\" The registered teams will be given\"12 hrs\"to transform their idea into an app using *any* open source APIs including the Google APIs (developers.google.com). Though the event is for 12 hours, you are allowed to think of an idea before the event.\nNote: The project must be open sourced and made available on GitHub.\nTeam Size:\nTeams of up to 3(a Hacker, a Hipster, a Hustler would be recommended) people are allowed. You are free to choose the team to join. \nHave fun: It's a hackathon with a twist! Use whatever languages or hacks you have in your arsenal. Show us new concepts. \nWhat to Build: Create a prototype of a solution to a problem that can\"t be easily found anywhere else.\nIt's okay to Hack! :\"Feel free to use any tools, tricks, gems, shortcuts, or workarounds you\"ve discovered over the years to help you build quicker. Use any frameworks, hosting service, etc.\nWhat We'll Provide\n? Wi-Fi\n? Assistance from GDG's experts (like the ones who have delivered in Silicon Valley)\n? A chill space to hack\n? A GitHub space for the ease of Version Control of your project\nWhat to Bring\n? Laptop\n? Mobile Devices\n? All Necessary Software (like SDK, IDE) pre-installed\nJava: http://www.oracle.com/technetwork/java/javase/downloads/jdk7-downloads-1880260.html\nAndroid: http://developer.android.com/sdk/index.html\n? Power Cords\n? Student Photo ID \n? Competitive Spirit!\nSubmissions\nEach team must pitch their hack at the end of the event. Each team will get 5 minutes to demo their project.\nJudging Criteria\nOriginality, Innovation and creative approach: to solving the outlined problem, along with actual demonstrated solution for the problem. Does the Contest App clearly address the theme, fighting against human trafficking? Is it creative in its usage of the theme? How distinct is the application compared to similar apps on the market?\nFunctionality: working functionality of submission as submitted, without further demonstration, and the potential for the submission to be completed through to launch (this will also take into account demonstrated technical capabilities).\nScalability: potential for internationalization and / or global scalability.\nImpact: the potential for the submission to drive immediate real world impact.\nDesign / User experience: for intuitive use of app, platform, website.\nSocial & Googleyness: Any integration with Google+ or usage of other Google products! (optional)\nPrizes (worth more than 1.5Lakh now & still increasing)\n? Cash prizes as following:\n? Grand Prize: 3K INR\n? Second Prize: 2K INR\n? Third Prize: 1K INR\n? GitHub will provide the following:\n? Grand prize: 1 year of Silver plan of an Organizational account\n? Second place: 1 year of Bronze plan of an Organizational account \n? Third place: 6 months of Bronze plan of an Organizational account \n? Goodies for the participants\n? CodeSchool will provide the following:\n? Grand Prize: 6-month subscription credits to each individual\n? Second place:  3-month subscription credits to each individual\n? GDG-Hyderabad will also provide prizes in the form of goodies.\n? Much more goodies and swegs are waiting for you ! :)\nSchedule of events: Coming Soon!\n",
+                    "Content": "Rules:\nGot a team (or be it an individual) and want to participate follow this steps -\nStep 1 \" Got an Idea?\"\"\"Register your team\"onsite.\nStep 2 \" Build your Hack\"\" The registered teams will be given\"12 hrs\"to transform their idea into an app using *any* open source APIs including the Google APIs (developers.google.com). Though the event is for 12 hours, you are allowed to think of an idea before the event.\nNote: The project must be open sourced and made available on GitHub.\nTeam Size:\nTeams of up to 3(a Hacker, a Hipster, a Hustler would be recommended) people are allowed. You are free to choose the team to join. \nHave fun: It's a hackathon with a twist! Use whatever languages or hacks you have in your arsenal. Show us new concepts. \nWhat to Build: Create a prototype of a solution to a problem that can\"t be easily found anywhere else.\nIt's okay to Hack! :\"Feel free to use any tools, tricks, gems, shortcuts, or workarounds you\"ve discovered over the years to help you build quicker. Use any frameworks, hosting service, etc.\nWhat We'll Provide\n? Wi-Fi\n? Assistance from GDG's experts (like the ones who have delivered in Silicon Valley)\n? A chill space to hack\n? A GitHub space for the ease of Version Control of your project\nWhat to Bring\n? Laptop\n? Mobile Devices\n? All Necessary Software (like SDK, IDE) pre-installed\nJava: http://www.oracle.com/technetwork/java/javase/downloads/jdk7-downloads-1880260.html\nAndroid: http://developer.android.com/sdk/index.html\n? Power Cords\n? Student Photo ID \n? Competitive Spirit!\nSubmissions\nEach team must pitch their hack at the end of the event. Each team will get 5 minutes to demo their project.\nJudging Criteria\nOriginality, Innovation and creative approach: to solving the outlined problem, along with actual demonstrated solution for the problem. Does the Contest App clearly address the theme, fighting against human trafficking? Is it creative in its usage of the theme? How distinct is the application compared to similar apps on the market?\nFunctionality: working functionality of submission as submitted, without further demonstration, and the potential for the submission to be completed through to launch (this will also take into account demonstrated technical capabilities).\nScalability: potential for internationalization and / or global scalability.\nImpact: the potential for the submission to drive immediate real world impact.\nDesign / User experience: for intuitive use of app, platform, website.\nSocial & Googleyness: Any integration with Google+ or usage of other Google products! (optional)\nPrizes (worth more than 1.5Lakh now & still increasing)\n? Cash prizes as following:\n? Grand Prize: 3K INR\n? Second Prize: 2K INR\n? Third Prize: 1K INR\n? GitHub will provide the following:\n? Grand prize: 1 year of Silver plan of an Organizational account\n? Second place: 1 year of Bronze plan of an Organizational account \n? Third place: 6 months of Bronze plan of an Organizational account \n? Goodies for the participants\n? CodeSchool will provide the following:\n? Grand Prize: 6-month subscription credits to each individual\n? Second place:  3-month subscription credits to each individual\n? GDG-Hyderabad will also provide prizes in the form of goodies.\n? Much more goodies and swegs are waiting for you ! :)\n",
+                    "Contacts": "Srujan Jha:+919010718698\nSagar Anand:+919666836106\n"
+
+                },
+                {
+                    "UniqueId": "Group-1-Item-2",
+                    "Title": "BYOES",
+                    "Subtitle": "Build your own Embedded Systems using LabVIEW by National Instruments",
+                    "ImagePath": "Assets/5.png",
+                    "Description": "This workshop will enable the participants to do “REAL ENGINEERING”.  The participants will experiment with the basic concepts of engineering using graphical programming language LabVIEW and at the end of the workshop every participant will be able to build their own embedded systems using the same graphical system design environment LabVIEW. \n",
+                    "Content": "The workshop structure is as follows:\nDay 1: 09:30AM to 01PM & 02PM to 05PM\n Introduction to Graphical Programming Language LabVIEW\n Hands on training on LabVIEW\nDay 2: 09:30AM – 01PM & 02PM to 05PM\n Introduction to System Design\n Hands-on training on BYOES\nSpeaker Profile: \nVisweswaran J, National Instruments Bangalore\n Currently working as Sr. Academic Technical Consultant and DSM for South India at National Instruments and is handling the major responsibility of “Improving the quality of Engineering & Science Education”.  \n Faculty for IUCEE (Indo US Collaboration for Engineering Education) 2010, 2011 and 2012 FLP (Faculty Leadership Program) representing NI\n BOS member at Anna University of Technology Madurai, SRM University Chennai & Avinashilingam University Coimbatore, VR Siddartha College of Engg Vijaywada and many more \n He is also Project Advisory Committee member of ISTE-WPLP (Working Professionals Learning Project) Program \n He has travelled widely in India and has delivered lectures in more than 300 Indian Engineering Institutions. He has delivered more than 500 Lectures on   \"Experiential Engineering Education\" on a variety of technical topics.\nKey Interest areas:\n- Measurements & Automation\n- Embedded System Design\n\nAll participants should download LabVIEW software from the following link before attending:\nhttp://www.ni.com/gate/gb/GB_EVALLV/US \n",
+                    "Contacts": "Shashank Tripathi:+919010644913\n"
+                },
+                {
+                    "UniqueId": "Group-1-Item-3",
+                    "Title": "Linux Security Workshop",
+                    "Subtitle": "A part of the nation-wide workshop series conducted in lieu of National Linux Security Championship.",
+                    "ImagePath": "Assets/7.png",
+                    "Description": "General Description\nComputer Science Association is proud to present the Linux Security Workshop, a premiere event at ATMOS 2014 at BITS Pilani Hyderabad Campus. The workshop is a part of the nation-wide workshop series conducted in lieu of National Linux Security Championship to be conducted Indian Institute of Technology, Delhi. The championship is conducted by EES, IIT Delhi with their official training partner being VBM Technologies Pvt. Ltd. The workshop to be conducted at ATMOS 2014 would also be associated with the Zonal round for NLSC 2014-15. \nAbout NLSC \nNLSC 2014-15 is National Linux Security Championship and a workshop series jointly being organized by EES, IIT-Delhi and VBM Technologies Pvt. Ltd, Noida. All the preliminary rounds will be held at various esteemed Engineering institutes across INDIA in present academic year and the grand finale will be organized at IIT Delhi under the banner of NLSC (National Linux Security Championship).\n",
+                    "Content": "Event Details\nThe workshop is divided into 2 stages as detailed below:\nStage 1 (Workshop Round):\n A two day hands-on Linux Implementation workshop will be held at only 50 Zonal centers all across India.                           \n The details of the Zonal centers will be available on website for a great promotion of the Institute as a Zonal Center.\n All the participants who want to participate in NLSC 2014-15 are required to attend the workshops at any Zonal Center and participate in the competition after the workshop.\n \n\n\n\nStage 2 (Zonal Round)\n Just after the workshop a Mega Competition of NLSC 2014-15 on the basis of two day workshop will be held.\n Winners will be awarded by Certificate of Excellence, and are required to participate in Final Rounds which will be held in the month of Jan 2015 at IIT Delhi in association with EES-IIT Delhi.\n Winners to receive NLSC Goodies.\nAs mentioned above, the winners of the zonal round conducted at the end of the workshop have the opportunity to compete against other zonal qualifiers at NLSC 2014-15 at IIT Delhi during January 2015. Prizes worth ₹ 1, 00,000 including laptops, tablets are up for grabs for the winners as well as the runners-up during the final round of NLSC 2014-15 in Jan 2015. Participants also have to opportunity to work as an intern at VBM Technologies Pvt. Ltd.\nDuration and Trainer Profile\nThe Duration of the Linux workshop will be of 2 Days (7-8 hrs. /day). The workshop will be delivered by Red Hat Certified Professionals working with VBM Technologies Pvt. Ltd, Noida.\n",
+                    "Contacts": "Utkarsh Gupta  :+918185016466\nRahul Singh Katoch :+919705281055\n"
+                },
+               {
+                    "UniqueId": "Group-1-Item-4",
+                    "Title": "Workshop on Process modelling in Chemical engineering",
+                    "Subtitle": "Workshop on process modelling using ASPEN Tech",
+                    "ImagePath": "Assets/aspen.png",
+                    "Description": "The association of Chemical Engineers is proud to present the workshop on process modelling using ASPEN Tech©. It is a comprehensive chemical process modelling software used by various chemical organizations and related industries to improve the design, operation, safety, and productivity of various chemical processes. In this workshop you will work on the Process Modeling module to conduct steady state simulations. \n",
+                    "Content": "The workshop would be conducted in following steps:\n1) Basic of Process Modeling GUI\n2) Process flow sheeting\n3) Physical Properties\n4) Regression of VLE data from NIST standards\n5) Basic Reactors\n6) Separation Processes\n7) Integrated Flow sheeting Simulation.\nDuration: 2 day \nParticipation fee: ₹1000/-\n",
+                    "Contacts": "Abhishek Deshpande:+918187871372\n"
+                },
+               {
+                    "UniqueId": "Group-1-Item-5",
+                    "Title": "The Cantilever Way",
+                    "Subtitle": "Ever wondered how the Golden Gate was designed? ",
+                    "ImagePath": "Assets/cantilever.png",
+                    "Description": "Ever wondered how the Golden Gate was designed? If yes, then this is your thing. Welcome to Bridge Design - a vital topic of study in Civil Engineering. Bridges are the primary example to prove the importance of Civil Engineers. In the Bridge Design Workshop, participants will design and fabricate their own bridge. \n",
+                    "Content": "The bridge model made by participants can take up to 1000 times the self-weight. The workshop includes instruction on the key structural components of Structural engineering and bridge construction – beams, arches, trusses, suspensions, and test for maximum load.\n",
+                    "Contacts": "Piyush Kontu : +919542553599\n"
+                },
+                {
+                    "UniqueId": "Group-1-Item-6",
+                    "Title": "Introduction to design of aircraft ",
+                    "Subtitle": "Learn to make gliders",
+                    "ImagePath": "Assets/glider.png",
+                    "Description": "Physics behind functioning of aircraft. Exposure to multi-disciplinary content behind Aircraft. Complete glider designed and fabricated by the Participants. No ready-to-assemble kits.",
+                    "Content": "Price: ₹1400 for 2 people",
+                    "Contacts": "Sailesh Reddy :+919666650968 \n"
+                },
+               {
+                    "UniqueId": "Group-1-Item-7",
+                    "Title": "Software Workshop",
+                    "Subtitle": "1 workshop, 2 days, 2 softwares.",
+                    "ImagePath": "Assets/Ansys.png",
+                    "Description": "MEA proudly announce the first ever combo workshop at ATMOS 2014 at BITS Pilani Hyderabad Campus. 1 workshop, 2 days, 2 softwares. This is all what mechanical and manufacturing engineers of India needs today. In this workshop we will train for 3D simulation software-FLEXSIM and finite element analysis in ANSYS.\n",
+                    "Content": "ANSYS\nANYSYS is a finite element analysis software. This workshop will introduce ANSYS ant then workshop will be about modelling in Work Bench, contacts and their importance, Materials in oil and gas industry, and some hands on workshop on the same. Students will be trained by Anirudh Krishnan, Engineering Analyst at FMC Technologies. FMC Technologies is a world leader in the oil and gas equipment service industry. Anirudh, a BITSian, brings around more than 3 years of experience in the ANSYS analysis of oil and gas extraction equipment. \n",
+                    "Contacts": "Sailesh Reddy:+919666650968\n"
+                },
+                 {
+                    "UniqueId": "Group-1-Item-8",
+                    "Title": "Augmented Reality (AR) Workshop",
+                    "Subtitle": " AR is a live, direct or indirect, view of a physical, real-world environment whose elements are augmented by computer-generated sensory input such as sound, video, graphics or GPS data.",
+                    "ImagePath": "Assets/aug.png",
+                    "Description": "General Description\n Inspired by Google GLASS, the Information Systems Association presents the much awaited, premiere workshop on Augmented Reality (AR).\n AR is a live, direct or indirect, view of a physical, real-world environment whose elements are augmented by computer-generated sensory input such as sound, video, graphics or GPS data. As a result, the technology functions by enhancing one’s current perception of reality, the information about the surrounding real world becoming interactive and digitally manipulatable. \n AR in action: https://www.youtube.com/watch?v=oH_LfXnklRw \n",
+                    "Content": "Workshop Highlights\n1. The workshop will take participants through the basics of Augmented Reality, its applications and working. They’ll be working with AR Developers to develop AR Apps.\n 2. The workshop will entail a live Google GLASS demonstration, streamed online from the developers at Purdue University, US to enhance concept learning.\n3. Apart from a cutting edge learning experience, each participant gets comprehensive post workshop study material, required essential softwares and loads of AR Apps\n4. There are no-prerequisites for the workshop. It is open to all the students of all branches.\n5. Participants have to bring their own laptops (preferably with Windows OS). No laptops will be provided by the organisers.\n 6. The registration fee for the workshop is INR 1000/- per person.\n\n Duration & Trainer Profile\n Workshop Duration: 7 hours each day for 2 days with in between breaks.\nThe workshop is being conducted in collaboration with the experts from Botrio Development Pvt. Ltd., a consecutive three time workshop partner for Techfest, IIT Bombay. They have coached in IITs, NITs & other premiere engineering colleges in the country, and have relevant experience in the field. Your relationship with them will continue even after the workshop where they offer online and offline technical support to convert participants’ ideas into reality. \n",
+                    "Contacts": " Santhosh Kumar Reddy: +919705254514\n Nandini Aishwarya: +919912608184\n"
+                }
+            ]
+        },
+        {
+
+            "UniqueId": "Group-2",
+            "Title": "Biology",
+            "Subtitle": "All events associated with Biological Sciences.",
+            "ImagePath": "Assets/Bio.png",
+            "Items": [
+                {
+                    "UniqueId": "Group-2-Item-1",
+                    "Title": "BIOLOGY PAPER PRESENTATION",
+                    "Subtitle": "Bring out the scientist in you! ",
+                    "ImagePath": "Assets/paper.png",
+                    "Description": "Bring out the scientist in you! Here at ATMOS 2014 we present you a platform to showcase your stellar research and who knows you might be the next Darwin!\n",
+                    "Content": "Eligibility- Original work related to any field of Biology will be accepted\nNumber of members per team- Maximum 3\nJudging Criteria- Abstracts (about 250 words) have to be sent to bphc.bio@gmail.com on or before 4th October 2014. Selected participants have to give a PowerPoint Presentation on campus during Atmos’14. Further details regarding the PowerPoint presentation will be mailed to the selected participants.\n",
+                    "Contacts": "Tanmaye Nallan : +918498085610\n"
+                },
+
+                {
+                    "UniqueId": "Group-2-Item-2",
+                    "Title": "NATURE O’ TRIVIA",
+                    "Subtitle": "Trigger your grey cells and fire your neurons for this life sciences quiz!",
+                    "ImagePath": "Assets/Bio2.png",
+                    "Description": "Trigger your grey cells and fire your neurons for this life sciences quiz!\n",
+                    "Content": "Number of members per team- Maximum 3\nRounds- 1st round will consist of questions pertaining to natural science. Top teams will be selected for the 2nd round.\n",
+                    "Contacts": "Tanmaye Nallan : +918498085610\n"
+                },
+
+                {
+                    "UniqueId": "Group-2-Item-3",
+                    "Title": "Anatomy of Murder",
+                    "Subtitle": "Amazed by the crime scenes in CSI? Wanna be like Dexter? Come feel the adrenaline rush at ATMOS’14 in BPHC.",
+                    "ImagePath": "Assets/Bio3.png",
+                    "Description": "Amazed by the crime scenes in CSI? Wanna be like Dexter? Come feel the adrenaline rush at ATMOS’14 in BPHC.\n",
+                    "Content": "Rules:\nNumber of members per team- Maximum 3\nRounds-\n1st round: Written quiz testing your basic detective skills.\n2nd round: Trace footprints, analyze blood, gather evidence and find out who the real killer is!\nWarning: This event is not for the faint hearted!\n",
+                    "Contacts": "Tanmaye Nallan : +918498085610\n"
+                }
+            ]
+        },
+        {
+            "UniqueId": "Group-3",
+            "Title": "Chemical Engineering",
+            "Subtitle": "All events associated with Chemical Engineering",
+            "ImagePath": "Assets/Chemical.png",
+            "Items": [
+                {
+                    "UniqueId": "Group-3-Item-1",
+                    "Title": "Cannon Wars",
+                    "Subtitle": "A chance to jump into war with your custom made Cannon! ",
+                    "ImagePath": "Assets/Chemical1.png",
+                    "Description": "A chance to jump into war with your custom made Cannon! Cannon wars is a technical competition where teams compete with their miniature cannons, powered by reaction of some very common chemicals like Baking Soda and Kitchen Acids (e.g. Acetic Acid and Citric Acid).\nAll that you have to do is:\nForm a team of max 3 (solo allowed) and register by mailing the names of your team members to bphc.ace@gmail.com \n",
+                    "Content": "RULES:\n1. NO EXPLOSIVES ALLOWED\n2. First round: The range of your cannons will be tested\n3. Second round will test the accuracy of your cannons\n",
+                    "Contacts": "D. Niteesha:+919705162902\n"
+                },
+
+                {
+                    "UniqueId": "Group-3-Item-2",
+                    "Title": "Scavenger Hunt",
+                    "Subtitle": "Solve the riddles to procure the required chemical products in the given time limit.",
+                    "ImagePath": "Assets/Chemical2.png",
+                    "Description": "The rules are simple- get a team of 3 members, solve the riddles to procure the required chemical products in the given time limit. Those who manage to solve the maximum number of riddles and getting the products will win the event. So hurry up and register soon!\n",
+                    "Content": "3 participants per group.\n",
+                    "Contacts": "D. Niteesha:+919705162902\n"
+                },
+
+                {
+                    "UniqueId": "Group-3-Item-3",
+                    "Title": "CHEMICAL PAPER PRESENTATIONS",
+                    "Subtitle": "Present papers to showcase your research projects.",
+                    "ImagePath": "Assets/paper.png",
+                    "Description": "The Association of Chemical Engineers, BITS PILANI Hyderabad invites paper presentations on the following topics:\n Material Science and Engineering\n Nanotechnology and its applications \n Biochemical Engineering\n Advanced Separation Processes\n Transport Phenomena\n Environmental Engineering\n Polymer Engineering\n Chemical Technology\n Petroleum and Petrochemicals\n Biofuels and Renewable Energy\n Process Development and Process Intensification\n Process Control and Instrumentation\n CFD: Modelling and Simulation\n Reaction Engineering and catalysis\n Chemical-Pharma Interface\n",
+                    "Content": "1. Submit the abstract of your paper (not more than 1 page) along with your contact information on or before 04-10-2014 on the given email address. \n2. Papers to be presented during atoms’14 will be selected on the basis of the abstracts uploaded online.\n3. Every participant will be given 5 minutes for presentation and 2 minutes for the Questions & answers session.\n4. The number of students per team cannot exceed (4) \n5. Participants need to submit a hard copy of their report which should not be more than 4 pages and have the following specifications:\nFont: Times new roman, Font size: 11, line spacing: 1.15.\n6. Plagiarism is not encouraged.\n7. The decision of the judges will be final and binding.\n\nJudging criteria:\nThe presentation will be judged based on 4 major Categories:-\n1. Topic: - Whether it is a current one or how important the topic is, if it is an old problem, is there any new solution for it, novelty of the topic...\n2. Knowledge: - Analogies, personal insights, clarity of thought...\n3. Presentation skills: - Speaking, poise, ppt, team work, fluidity of the presentation...\n4. Q&A: - Relevance of the answers, clarity while explaining...\n",
+                    "Contacts": "D. Niteesha:+919705162902\n"
+                },
+
+                {
+                    "UniqueId": "Group-3-Item-4",
+                    "Title": "Workshop on Process modelling in Chemical engineering",
+                    "Subtitle": "Workshop on process modelling using ASPEN Tech",
+                    "ImagePath": "Assets/Chemical4.png",
+                    "Description": "The association of Chemical Engineers is proud to present the workshop on process modelling using ASPEN Tech©. It is a comprehensive chemical process modelling software used by various chemical organizations and related industries to improve the design, operation, safety, and productivity of various chemical processes. In this workshop you will work on the Process Modeling module to conduct steady state simulations. \n",
+                    "Content": "The workshop would be conducted in following steps:\n1) Basic of Process Modeling GUI\n2) Process flow sheeting\n3) Physical Properties\n4) Regression of VLE data from NIST standards\n5) Basic Reactors\n6) Separation Processes\n7) Integrated Flow sheeting Simulation.\nDuration: 2 day \nParticipation fee: ₹1000/-\n",
+                    "Contacts": "Abhishek Deshpande:+918187871372\n"
+                }
+
+            ]
+        },
+        {
+            "UniqueId": "Group-4",
+            "Title": "Chemistry",
+            "Subtitle": "All events associted with Chemistry.",
+            "ImagePath": "Assets/Chemistry.png",
+            "Items": [
+                {
+                    "UniqueId": "Group-4-Item-1",
+                    "Title": " CHEMISRTY PAPER PRESENTATIONS",
+                    "Subtitle": "Paper presentations to showcase your research projects ",
+                    "ImagePath": "Assets/paper.png",
+                    "Description": "ALCHEMY (The Chemistry Association) of BITS Pilani, Hyderabad Campus invites the paper presentations to showcase your research projects (papers)related to chemistry.\n",
+                    "Content": "1. Email the abstract of your paper (not more than 250 lines)  before 02-10-2014  to bphc.chemistry@gmail.com.\n2. Students whose abstracts have been selected will receive a mail with registration details, date, time and venue of the event.\n3. The number of students per team cannot exceed (3).\n4. The decision of the judges will be final.\n",
+                    "Contacts": "A.Sai Charan Kumar:+919010917258\n"
+                },
+
+                {
+                    "UniqueId": "Group-4-Item-2",
+                    "Title": "CHEMHUNT",
+                    "Subtitle": "Quiz+Hunt",
+                    "ImagePath": "Assets/Chemistry2.png",
+                    "Description": "Overview:  This event has 2 rounds.\nRound1: \nIt’s a general chemistry quiz round (for 45 min) in the written format. A printed Objective type Question paper will be given. The shortlisted teams (around 15 to 20) will be allowed to the 2nd round.\n\nRound 2: \nThis round is for 60 min where the participants have to bring the items (that we use in our daily life) by finding them, with the list of the clues given to them. The clues will be the chemical ingredients of the items.\n",
+                    "Content": "1. Teams of maximum 3 members are only allowed. No entry fee.\n2. The participants can access the internet in 2nd round only\n",
+                    "Contacts": "A.Sai Charan Kumar:+919010917258\n"
+                },
+
+                {
+                    "UniqueId": "Group-4-Item-3",
+                    "Title": "CHEMYSTERY",
+                    "Subtitle": "Sorcery or Science? Myths and Mysteries behind illusions busted.",
+                    "ImagePath": "Assets/Chemistry3.png",
+                    "Description": "Sorcery or Science? Myths and Mysteries behind illusions busted.\n",
+                    "Content": "Overview:   A showcase event from Alchemy revealing science behind magic tricks and Illusions.\n",
+                    "Contacts": "A.Sai Charan Kumar:+919010917258\n"
+                }
+
+            ]
+        },
+
+        {
+            "UniqueId": "Group-5",
+            "Title": "Civil Engineering",
+            "Subtitle": "All events associated with Civil Engineering.",
+            "ImagePath": "Assets/Civil.png",
+            "Items": [
+                {
+                    "UniqueId": "Group-5-Item-1",
+                    "Title": "The Cantilever Way",
+                    "Subtitle": "Ever wondered how the Golden Gate was designed? ",
+                    "ImagePath": "Assets/Civil1.png",
+                    "Description": "Ever wondered how the Golden Gate was designed? If yes, then this is your thing. Welcome to Bridge Design - a vital topic of study in Civil Engineering. Bridges are the primary example to prove the importance of Civil Engineers. In the Bridge Design Workshop, participants will design and fabricate their own bridge. \n",
+                    "Content": "The bridge model made by participants can take up to 1000 times the self-weight. The workshop includes instruction on the key structural components of Structural engineering and bridge construction – beams, arches, trusses, suspensions, and test for maximum load.\n",
+                    "Contacts": "Piyush Kontu : +919542553599\n"
+                },
+
+                {
+                    "UniqueId": "Group-5-Item-2",
+                    "Title": "Urbanismo",
+                    "Subtitle": "This event throws a real life challenge to the aspiring civil engineer to bring forth all their creativity and zest for design. ",
+                    "ImagePath": "Assets/Civil2.png",
+                    "Description": "Traffic congestion brings equilibrium to the world, whether you are rich or poor, everybody lives on the road\nThousands have lived without love, not one without water.\n\"And God said, \"Let there be light\" and there was light, but the Electricity Board said He would have to wait until Thursday to be connected.\"\nHow many of us have cursed the place we live? Due to problems of electricity, water sanitation and transport every day we struggle to get ahead. It’s time to take up the challenge and come up with ideas to eradicate these problems. This event throws a real life challenge to the aspiring civil engineer to bring forth all their creativity and zest for design. This is your chance to put your brains to the service of towns and metros of tomorrow. \n",
+                    "Content": "Try to plan your way through  and if you can come up with the most feasible solution, you win the race. Urbanize and Expand out.\n",
+                    "Contacts": "Piyush Kontu : +919542553599\n"
+                },
+
+                {
+                    "UniqueId": "Group-5-Item-3",
+                    "Title": "CIVIL Paper Presentation",
+                    "Subtitle": "Present your original research papers.",
+                    "ImagePath": "Assets/paper.png",
+                    "Description": "This is a highlight event of the fest every year. Screening and selection have traditionally been an arduous task.\n",
+                    "Content": " Mail your original research papers to us for initial screening (cea.bitshyd@gmail.com ), get invited and present them during ATMOS-2014!! A chance to be reviewed by top-guns from academia and industry! \n",
+                    "Contacts": "Piyush Kontu : +919542553599\n"
+                },
+
+                {
+                    "UniqueId": "Group-5-Item-4",
+                    "Title": "Poster Presentation",
+                    "Subtitle": "Entries for Poster Presentation",
+                    "ImagePath": "Assets/poster.png",
+                    "Description": "The Civil Engineering Department of BITS Pilani, Hyderabad Campus calls in entries for Poster Presentation. The originality of the work will be appreciated and the closer it is to the theme –“Waste Materials in Construction”, the better. \n",
+                    "Content": "Grab your chance to gather fame and name by presenting your work at the most awaited Techno-management fest, ATMOS- Hyderabad.\n",
+                    "Contacts": "Piyush Kontu : +919542553599\n"
+                },
+
+                {
+                    "UniqueId": "Group-5-Item-5",
+                    "Title": "CAD Competition (REVIT ARCHITECTURE)",
+                    "Subtitle": "Manipulate whole buildings or assemblies ",
+                    "ImagePath": "Assets/Civil5.png",
+                    "Description": "The Revit work environment allows users to manipulate whole buildings or assemblies (in the project environment) or individual 3D shapes (in the family editor environment).\n",
+                    "Content": "Solve some basic problems in design and modelling and bring out the architecture in you.\n",
+                    "Contacts": "Piyush Kontu : +919542553599\n"
+                },
+
+                {
+                    "UniqueId": "Group-5-Item-6",
+                    "Title": "Bob-The Green Builder",
+                    "Subtitle": "Develop a stable and an economical Green building Structure.",
+                    "ImagePath": "Assets/Civil6.png",
+                    "Description": "In this world of increased pollution and constantly degrading resources, join BITS Pilani Hyderabad Campus in developing a stable and an economical Green building Structure.\n",
+                    "Content": "The participants would be given a problem statement along with the description (Cost, etc.) of Green Building materials. The most economical and stable Green building structure solution will be awarded.\nSubmit your entries to cea.bitshyd@gmail.com by 10th of October.\n“Don’t find fault; find a remedy.” “GO GREEN”\n",
+                    "Contacts": "Piyush Kontu : +919542553599\n"
+                }
+
+            ]
+        },
+        {
+            "UniqueId": "Group-6",
+            "Title": "Computer Science",
+            "Subtitle": "All events associated with Computer Science and Engineering.",
+            "ImagePath": "Assets/CS.png",
+            "Items": [
+                {
+                    "UniqueId": "Group-6-Item-1",
+                    "Title": "Code Carnival",
+                    "Subtitle": "A workshop + hackathon on popular Google API's.",
+                    "ImagePath": "Assets/CS1.png",
+                    "Description": "You want APIs? Google's got’em by the fistful.\nIf you've been itching to build something in a fast-paced, time-crunched environment, to show off your skills or to flesh out your resume, we want you to come to this event, laptop in-hand. Best of all, learn directly from the Googlers, the ones who have also delivered in Silicon Valley.\nThe event has three parts :\n Workshop on Google APIs\no APIs that will be covered are:\n Cloud Storage API \n Google Maps Engine API \nhttps://developers.google.com/apis-explorer/#p/\n Hackathon, where you develop Android apps\n Talk on Cloud Computing and Google Wearables + Demo\nDates: 10th, 11th October\nTheme: “Campus Life”\nSchedule of events: https://drive.google.com/folderview?id=0BxjnaetpYGq2UFhZT04yNG9USEE&usp=sharing\n",
+                    "Content": "Rules:\nGot a team (or be it an individual) and want to participate follow this steps -\nStep 1 – Got an Idea? – Register your team onsite.\nStep 2 – Build your Hack – The registered teams will be given 12 hrs to transform their idea into an app using *any* open source APIs including the Google APIs (developers.google.com). Though the event is for 12 hours, you are allowed to think of an idea before the event.\nNote: The project must be open sourced and made available on GitHub.\nTeam Size:\nTeams of up to 3(a Hacker, a Hipster, a Hustler would be recommended) people are allowed. You are free to choose the team to join. \nHave fun: It’s a hackathon with a twist! Use whatever languages or hacks you have in your arsenal. Show us new concepts. \nWhat to Build: Create a prototype of a solution to a problem that can’t be easily found anywhere else.\nIt’s okay to Hack! : Feel free to use any tools, tricks, gems, shortcuts, or workarounds you’ve discovered over the years to help you build quicker. Use any frameworks, hosting service, etc.\nWhat We'll Provide\n Wi-Fi\n Assistance from GDG’s experts (like the ones who have delivered in Silicon Valley)\n A chill space to hack\n A GitHub space for the ease of Version Control of your project\nWhat to Bring\n Laptop\n Mobile Devices\n All Necessary Software (like SDK, IDE) pre-installed\nJava: http://www.oracle.com/technetwork/java/javase/downloads/jdk7-downloads-1880260.html\nAndroid: http://developer.android.com/sdk/index.html\n https://drive.google.com/folderview?id=0BxjnaetpYGq2UFhZT04yNG9USEE&usp=sharing\n Power Cords\n Student Photo ID \n Competitive Spirit!\nSubmissions\nEach team must pitch their hack at the end of the event. Each team will get 5 minutes to demo their project.\nJudging Criteria\nOriginality, Innovation and creative approach: to solving the outlined problem, along with actual demonstrated solution for the problem. Does the Contest App clearly address the theme, “Campus Life”? Is it creative in its usage of the theme? How distinct is the application compared to similar apps on the market?\nFunctionality: working functionality of submission as submitted, without further demonstration, and the potential for the submission to be completed through to launch (this will also take into account demonstrated technical capabilities).\nScalability: potential for internationalization and / or global scalability.\nImpact: the potential for the submission to drive immediate real world impact.\nSocial & Googleyness: Any integration with Google+ or usage of other Google products! (completely optional)\nPrizes (worth more than 1.5Lakh now & still increasing)\n Cash prizes as following:\no Grand Prize: 3K INR\no Second Prize: 2K INR\no Third Prize: 1K INR\n GitHub will provide the following:\no Grand prize: 1 year of Silver plan of an Organizational account\no Second place: 1 year of Bronze plan of an Organizational account \no Third place: 6 months of Bronze plan of an Organizational account \no Goodies for the participants\n CodeSchool will provide the following:\no Grand Prize: 6-month subscription credits to each individual\no Second place:  3-month subscription credits to each individual\n GDG-Hyderabad will also provide prizes in the form of goodies.\n Much more goodies and swegs are waiting for you ! :)\n",
+                    "Contacts": "Srujan Jha :+919010718698\nSagar Anand: +919666836106\n"
+                },
+
+                {
+                    "UniqueId": "Group-6-Item-2",
+                    "Title": "Linux Security Workshop",
+                    "Subtitle": "A part of the nation-wide workshop series conducted in lieu of National Linux Security Championship.",
+                    "ImagePath": "Assets/CS2.png",
+                    "Description": "General Description\nComputer Science Association is proud to present the Linux Security Workshop, a premiere event at ATMOS 2014 at BITS Pilani Hyderabad Campus. The workshop is a part of the nation-wide workshop series conducted in lieu of National Linux Security Championship to be conducted Indian Institute of Technology, Delhi. The championship is conducted by EES, IIT Delhi with their official training partner being VBM Technologies Pvt. Ltd. The workshop to be conducted at ATMOS 2014 would also be associated with the Zonal round for NLSC 2014-15. \nAbout NLSC \nNLSC 2014-15 is National Linux Security Championship and a workshop series jointly being organized by EES, IIT-Delhi and VBM Technologies Pvt. Ltd, Noida. All the preliminary rounds will be held at various esteemed Engineering institutes across INDIA in present academic year and the grand finale will be organized at IIT Delhi under the banner of NLSC (National Linux Security Championship).\n",
+                    "Content": "Event Details\nThe workshop is divided into 2 stages as detailed below:\nStage 1 (Workshop Round):\n A two day hands-on Linux Implementation workshop will be held at only 50 Zonal centers all across India.                           \n The details of the Zonal centers will be available on website for a great promotion of the Institute as a Zonal Center.\n All the participants who want to participate in NLSC 2014-15 are required to attend the workshops at any Zonal Center and participate in the competition after the workshop.\n \n\n\n\nStage 2 (Zonal Round)\n Just after the workshop a Mega Competition of NLSC 2014-15 on the basis of two day workshop will be held.\n Winners will be awarded by Certificate of Excellence, and are required to participate in Final Rounds which will be held in the month of Jan 2015 at IIT Delhi in association with EES-IIT Delhi.\n Winners to receive NLSC Goodies.\nAs mentioned above, the winners of the zonal round conducted at the end of the workshop have the opportunity to compete against other zonal qualifiers at NLSC 2014-15 at IIT Delhi during January 2015. Prizes worth ₹ 1, 00,000 including laptops, tablets are up for grabs for the winners as well as the runners-up during the final round of NLSC 2014-15 in Jan 2015. Participants also have to opportunity to work as an intern at VBM Technologies Pvt. Ltd.\nDuration and Trainer Profile\nThe Duration of the Linux workshop will be of 2 Days (7-8 hrs. /day). The workshop will be delivered by Red Hat Certified Professionals working with VBM Technologies Pvt. Ltd, Noida.\n",
+                    "Contacts": "Utkarsh Gupta  :+918185016466\nRahul Singh Katoch :+919705281055\n"
+                },
+
+                {
+                    "UniqueId": "Group-6-Item-3",
+                    "Title": "Algomaniac",
+                    "Subtitle": "Do you find it interesting to solve problems via a certain logic? Maybe you use certain steps to decipher that logic? ",
+                    "ImagePath": "Assets/CS3.png",
+                    "Description": "Describing the event\nDo you find it interesting to solve problems via a certain logic? Maybe you use certain steps to decipher that logic? Algomaniac is just the place for you. The “certain steps”, i.e. algorithms are at the core of this event. But if you’ve answered the questions asked above in negative, do not worry! The event also aims at testing the logic, common sense and implementation methods of the participants.\nAlgomaniac consists of two rounds:\n1. Round 1: - This round consists of riddles and puzzles. Of course, how can you be good at algorithms unless you are good at puzzles .No knowledge of algorithms is required for this round. Anyone can participate.\n2. Round 2:- This round consists of basic algorithms, but the definition of basic is really altered here to suit our purpose. There would be 12-15 questions of some easy and some not-so-easy algorithms and their implementations.\n",
+                    "Content": "Event Rules\n1. Bring your own pen. Seriously.\n2. People for the next round and the winners will be selected on the basis of their scores in each round. There is no predetermined number of participants going through to each round.\n",
+                    "Contacts": "Bhumit Shinghala : +919553785275\nNaveen Jafer : +919603445607\n"
+                },
+
+                {
+                    "UniqueId": "Group-6-Item-4",
+                    "Title": "Code-Jam",
+                    "Subtitle": "Free to code in any language from a long list of programming languages.",
+                    "ImagePath": "Assets/CS4.png",
+                    "Description": "Code-Jam is a premier coding contest of BITS Pilani Hyderabad Campus conducted every year at ATMOS. Free to code in any language from a long list of programming languages, the contestants are majorly judged in mathematics and their understanding and implementation of algorithms. The two levels of the contest aim to determine the best coder present at ATMOS. \n",
+                    "Content": "On-Site Round: Teams from the above round will be invited for the first On-Site Code-Jam Round to be conducted during ATMOS’14 and will compete with teams selected from our own campus.\nFinal Round: Top 20 teams will be selected from the above round to participate in the final and second on-site round, where the best and meticulous programmers battle it out to become the Tesla of programming throughout the nation. The top 20 teams are awarded certificates and the winners (3 teams) receive hefty cash prizes and the immense reverence associated with it.\n\nPrizes (worth more than 1.5Lakh now & increasing)\n Cash Prizes:\no Grand Prize: 6K INR\no Second Prize: 4K INR\no Third Prize: 2K INR\n HacekerEarth will provide the following:\no Grand Prize: Flipkart Vouchers of 3K INR & a swaggy HackerEarth T-Shirt\no Second Prize: Flipkart Voucher of 2K INR & a swaggy HackerEarth T-Shirt\no Third Prize: Flipkart Voucher of 1K INR & a swaggy HackerEarth T-Shirt\no Finalists (20 teams): A swaggy HackerEarth T-shirt to each individual\n GitHub will provide the following:\no Grand prize: 1 year of Silver plan of an Organizational account\no Second place: 1 year of Bronze plan of an Organizational account \no Third place: 6 months of Bronze plan of an Organizational account \no Finalists (20 Teams): 3 months of Bronze plan of an Organizational account each\no Goodies for the participants\n CodeSchool will provide the following:\no Grand Prize: 6-month subscription credits to each individual\no Second place:  3-month subscription credits to each individual\n Much more goodies and swegs are waiting for you ! :)\n",
+                    "Contacts": "Srujan Jha :+919010718698\nRahul Singh Katoch:+919705281055\n"
+                },
+
+                {
+                    "UniqueId": "Group-6-Item-5",
+                    "Title": "Mozilla Talks",
+                    "Subtitle": "\"What does the fox say\"",
+                    "ImagePath": "Assets/CS5.png",
+                    "Description": "Talk Abstract: \nA small group of coders, designers and idealists came together as part of a non-profit to build a greater web, a project that strives to bring complete security and unhindered freedom to the masses and with this objective Mozilla was born. \n\nMillions identify Mozilla with firefox but there is much more to it, come meet the Mozilla team and learn why millions work on this mass community project and together with them, let’s explore what lies in store for the future with a talk on open source computing, discover the new firefox OS with a hands-on experience of some exciting devices such as Firefox Flame, Firefox tablet and the Alcatel Firefox phone powered by it.\n\nThis ATMOS ’14 let’s join the movement and let’s make a better web, together with the Mozilla team.\n",
+                    "Content": "Dates: 12th October\nTimings: 2-5 PM\n",
+                    "Contacts": "Srujan Jha : +919010718698\nApurva Verma: +919705103261\n"
+                },
+
+                {
+                    "UniqueId": "Group-6-Item-6",
+                    "Title": "How BIG actually is Data? IBM explains",
+                    "Subtitle": "Data Analysis, Data Analytics and Big Data",
+                    "ImagePath": "Assets/CS6.png",
+                    "Description": "This event is a treat to the aspirants of Data Analysis, Data Analytics and Big Data. Computer Science Association, BITS Pilani is proud to present a workshop on the above mentioned topic in association with IBM. The host of services provided by IBM such as infrastructural, hosting and consulting services in wide areas cannot be possible without successfully manipulating Big Data. Professionals from IBM would join the students and participants at ATMOS 2014 to unveil a question long asked. What is Big Data? Is it really that big? Why do we use Big Data? How do we handle it?\nThe major aim of this workshop is to encourage the crowd to dwell into currently the hottest topic, BIG DATA.\n",
+                    "Content": "Event Details\n1. The talk is for around 2-3 hours.\n2. The workshop is focused on explaining the above questions as well as introducing the crowd to the basics of Data Sciences.\n3.  The various real world application of Big Data would be discussed along with some real life projects, which the students can focus on. \n",
+                    "Contacts": "Sai Anvesh : +919010529933\nYogesh Chopra : +917730867444\n"
+                },
+
+                {
+                    "UniqueId": "Group-6-Item-7",
+                    "Title": "CS Paper Presentation",
+                    "Subtitle": "Present your own research papers related to Computer Science.",
+                    "ImagePath": "Assets/paper.png",
+                    "Description": "Paper Presentation at ATMOS provides people from all over India to present us with their ideas, research and their thoughts related to new, emerging technologies or the significance of older ones in the current context. Specifically, the event comprises of two rounds. In the first round, participants are invited to send us the abstract as well as the paper they want to present through email. These entries would go through extensive cross-checking for plagiarism, creativity and choice of topic. Participants selected in this round would be eligible for the second round which is the on-site round to be conducted during ATMOS 2014 at BITS Pilani Hyderabad Campus. The participants would have to provide a presentation in front of a panel, comprising of Faculty of the respective department, concerning the details of their paper.\n",
+                    "Content": "Judging Criteria \nThe first round be judged on the basis of the idea or field chosen by the participants. Fields having real life implementations would be preferred. The abstract sent by the participant would be checked for correctness as well as plagiarism. PLEASE AVOID PLAGIARISM.\nThe second round would be based on the presentation of the participant with the judging procedure entirely selected by the panel as such.\nEvent Rules\n1. Participants should send the abstracts of their papers to example@example.com.\n2. Plagiarism up to 30% is allowed.\n3. Participants selected for the second round must create a formal presentation concerning their paper. Any other form would not be accepted.\n",
+                    "Contacts": "Aviral Gupta  : +919010487770\nMohnish Godhia  :+917729875888\n"
+                },
+
+                {
+                    "UniqueId": "Group-6-Item-8",
+                    "Title": "Google Cardboard & Wearables Demo",
+                    "Subtitle": "Demonstration as well as Talk on the Google Cardboard Project and Google’s wearable devices.",
+                    "ImagePath": "Assets/CS8.png",
+                    "Description": "This ATMOS, tune into to the next generation of electronic gadgets and virtual reality. The Computer Science Association presents to you a demonstration as well as Talk on the Google Cardboard Project and Google’s wearable devices presented to you by Google Developers Group, Hyderabad. The initiative is to spread awareness among the people about the futuristic plans under the belt of Google.\n",
+                    "Content": "Details on Google Cardboard\nCardboard is a no-frills enclosure that transforms a phone into a basic Virtual Reality headset, and the accompanying open software toolkit that makes writing VR software as simple as building a web or mobile app.\nBy making it easy and inexpensive to experiment with VR, we hope to encourage developers to build the next generation of immersive digital experiences and make them available to everyone.\nDetails on Android Wearables\nAndroid Wear is a collection of next gen Smart watches that are designed to connect to your Android smartphone and then allow the user to experience almost all the features of a smartphone on his wrist. It acts as an mp3 player, allows texting, is useful to reach your fitness goals and tells the time as well.\nEvent Details\n1. The talk is for around 2-3 hours.\n2. The talk is scheduled at the last session of Code Carnival by Google Developers Group Hyderabad.\n",
+                    "Contacts": "Navya Sri :  +919666643585\nDeepak Gupta :+917730090396\n"
+                },
+
+                {
+                    "UniqueId": "Group-6-Item-9",
+                    "Title": "Midnight ATMOS Hackathon (MAH)",
+                    "Subtitle": "There is no better feeling than to sit in front of your PC/Laptop, sip a cup of Coffee and code all night.",
+                    "ImagePath": "Assets/CS9.png",
+                    "Description": "There is no better feeling than to sit in front of your PC/Laptop, sip a cup of Coffee and code all night. Well, Computer Science Association provide the people with such an opportunity. But wait, this is not your regular coding contest. This is the Midnight ATMOS Hackathon (MAH), the ma of all contests at ATMOS 2014. Find your way through a puzzling set of questions based on maybe web design or maybe normal querying the code.\n",
+                    "Content": "1. The event starts at 12AM. The contest is 8 hours long.\n2. Participants are allowed to form teams of up to 2.\n3. Further event details to be added after discussion among Assoc members.\n",
+                    "Contacts": "Rahul Singh Katoch  :+919705281055\nAshish Kumar Alla : +919705235153\n"
+                },
+
+                {
+                    "UniqueId": "Group-6-Item-10",
+                    "Title": "Devthon@Bits",
+                    "Subtitle": "A hackathon for engineers, designers and data scientists interested in solving problems.",
+                    "ImagePath": "Assets/CS10.png",
+                    "Description": "Devthon@Atmos is a hackathon for engineers, designers and data scientists interested in solving problems in the field of urban transportation, sanitation, power, health and education.  \n",
+                    "Content": "Who can attend\n\nAnyone with the skills and interest to solve problems and design the next generation of smart cities. We welcome people from all disciplines\n\nSample problems\n\n Detect, notify and alerts of damaged road surfaces\n Empower citizens with civic and urban support systems using data sets\n Enable citizen journalism to gather data related to civic, crime, transport, etc\n Enhance city’s road safety and minimizing traffic related incidents and fatalities\n Improving pedestrian safety at zebra crossings and footpaths\n Improve urban mobility & traffic management to enhance the quality of life for citizens\n Tackle power challenges through better backup systems at residences\n \nWhy attend?\n\n Address challenges and devise solutions to important solutions.\n Access to datasets and platforms.\n Mentors from diverse backgrounds like design, engineering, data science, web development and more.\n Networking opportunities.\n",
+                    "Contacts": "Sujeath Pareddy : +917893621721\nAshish Kumar Alla:  +919705235153\n"
+                }
+
+            ]
+        },
+        {
+            "UniqueId": "Group-7",
+            "Title": "Economics",
+            "Subtitle": "All events associated with economics.",
+            "ImagePath": "Assets/Eco.png",
+            "Items": [
+                {
+                    "UniqueId": "Group-7-Item-1",
+                    "Title": "Island Crisis",
+                    "Subtitle": "It is basically a management game and is played in teams.",
+                    "ImagePath": "Assets/Eco1.png",
+                    "Description": "It is basically a management game and is played in teams. During the course of the game various situations, tasks, investment options etc are given. Your strategy and wit throughout the game helps you win.\n",
+                    "Content": "During the course of the game various situations, tasks, investment options etc are given. Your strategy and wit throughout the game helps you win.\n",
+                    "Contacts": "Upender Kataria : +919948541848\n"
+                },
+
+                {
+                    "UniqueId": "Group-7-Item-2",
+                    "Title": "Open Outcry",
+                    "Subtitle": "It’s a virtual stock market game.",
+                    "ImagePath": "Assets/Eco2.png",
+                    "Description": "It’s a virtual stock market game. Club members act as the traders and accountants. And everyone playing the game have a fixed amount virtual money. Which they need to maximise by the end of the game by investing in different stocks. \n",
+                    "Content": "It’s a virtual stock market game. Club members act as the traders and accountants. And everyone playing the game have a fixed amount virtual money. Which they need to maximise by the end of the game by investing in different stocks. \n",
+                    "Contacts": "Upender Kataria : +919948541848\n"
+                },
+
+                {
+                    "UniqueId": "Group-7-Item-3",
+                    "Title": "Stock Market Challenge",
+                    "Subtitle": "STOCK MARKET CHALLENGE",
+                    "ImagePath": "Assets/Eco3.png",
+                    "Description": "The Economics Association, BITS-PILANI Hyderabad presents an opportunity to create and manage your own portfolio and compete with other players in a risk-free environment by playing the pre-Atmos online event \"STOCK MARKET CHALLENGE\" in affiliation with DSIJ (Dalal Street Investment Journal).Stock Market Challenge is easy to use. Simply buy stocks to build your initial portfolio. Continue to track the market and keep an eye on your portfolio to grab opportunities provided etc. Access financial information on stocks to get better insight on its potential and fundamentals.…\n",
+                    "Content": "We will be uploading other events very soon. \n",
+                    "Contacts": "Upender Kataria : +919948541848\n"
+                },
+
+                {
+                    "UniqueId": "Group-7-Item-4",
+                    "Title": "ECONOMICS Paper Presentations",
+                    "Subtitle": "Present your research papers.",
+                    "ImagePath": "Assets/paper.png",
+                    "Description": "If yours is a brain full of mind-boggling ideas, itching to be shared, then this is the place to be. \nWe’ve got some topics for you, but then again, who are we to bind your imagination.\n",
+                    "Content": "The topics will be released soon, but feel free to pick your own. \n",
+                    "Contacts": "Upender Kataria : +919948541848\n"
+                },
+
+                {
+                    "UniqueId": "Group-7-Item-5",
+                    "Title": "The Knotty Problem ",
+                    "Subtitle": "The Knotty Problem",
+                    "ImagePath": "Assets/Eco5.png",
+                    "Description": "Conversations that go like “It could have been handled better.”, “What was the government thinking!”.  \nIf you’ve been there, done that, then we expect to see you there.\n",
+                    "Content": "Come here, analyze the situation, get that critic in you, and debate it out!\n",
+                    "Contacts": "Upender Kataria : +919948541848\n"
+                },
+
+                {
+                    "UniqueId": "Group-7-Item-6",
+                    "Title": "Policy Dilemma",
+                    "Subtitle": "Statistics lovers, policy critics, you wouldn’t want to miss this.",
+                    "ImagePath": "Assets/Eco6.png",
+                    "Description": "Statistics lovers, policy critics, you wouldn’t want to miss this.\nGet that inquisite economist out. Let’s frame some policies!\n",
+                    "Content": "Statistics lovers, policy critics, you wouldn’t want to miss this.\nGet that inquisite economist out. Let’s frame some policies!\n",
+                    "Contacts": "Upender Kataria : +919948541848\n"
+                }
+
+            ]
+        },
+        {
+            "UniqueId": "Group-8",
+            "Title": "ECE|EEE|EnI",
+            "Subtitle": "All events associated wth electrical and electronics.",
+            "ImagePath": "Assets/EEE.png",
+            "Items": [
+                {
+                    "UniqueId": "Group-8-Item-1",
+                    "Title": "BYOES-Build your own Embedded Systems using LabVIEW by National Instruments",
+                    "Subtitle": "Build your own Embedded Systems using LabVIEW by National Instruments",
+                    "ImagePath": "Assets/EEE1.png",
+                    "Description": "This workshop will enable the participants to do “REAL ENGINEERING”.  The participants will experiment with the basic concepts of engineering using graphical programming language LabVIEW and at the end of the workshop every participant will be able to build their own embedded systems using the same graphical system design environment LabVIEW. \n",
+                    "Content": "The workshop structure is as follows:\nDay 1: 09:30AM to 01PM & 02PM to 05PM\n Introduction to Graphical Programming Language LabVIEW\n Hands on training on LabVIEW\nDay 2: 09:30AM – 01PM & 02PM to 05PM\n Introduction to System Design\n Hands-on training on BYOES\nSpeaker Profile: \nVisweswaran J, National Instruments Bangalore\n Currently working as Sr. Academic Technical Consultant and DSM for South India at National Instruments and is handling the major responsibility of “Improving the quality of Engineering & Science Education”.  \n Faculty for IUCEE (Indo US Collaboration for Engineering Education) 2010, 2011 and 2012 FLP (Faculty Leadership Program) representing NI\n BOS member at Anna University of Technology Madurai, SRM University Chennai & Avinashilingam University Coimbatore, VR Siddartha College of Engg Vijaywada and many more \n He is also Project Advisory Committee member of ISTE-WPLP (Working Professionals Learning Project) Program \n He has travelled widely in India and has delivered lectures in more than 300 Indian Engineering Institutions. He has delivered more than 500 Lectures on   \"Experiential Engineering Education\" on a variety of technical topics.\nKey Interest areas:\n- Measurements & Automation\n- Embedded System Design\n\nAll participants should download LabVIEW software from the following link before attending:\nhttp://www.ni.com/gate/gb/GB_EVALLV/US \n",
+                    "Contacts": "Shashank Tripathi:+919010644913\n"
+                },
+
+                {
+                    "UniqueId": "Group-8-Item-2",
+                    "Title": "Circuit Art",
+                    "Subtitle": "Put your circuit making skills to the ultimate test. ",
+                    "ImagePath": "Assets/EEE2.png",
+                    "Description": "About the event:\nPut your circuit making skills to the ultimate test. Connect the components and conjure your own artwork that solves a real world problem. With Clocks, amplifiers and many more digital components put together, make a real world application and there you are up for your present!! Its time to showcase your electronics skills and practical thinking to your best and achieve a handful experience.\n\nCircuit Art is anybody's game - from beginners to professionals!!\n",
+                    "Content": "Eligibility Criteria:\n1. The competition is open only to students\n2. The team may consist of at most 3 members. A student cannot be a part of more than one team.\n\nRules and Specifications:\nRound 1: This is a paper and pen quiz round. Get your basics geared up as you will be tested on the same and be as quick as you can giving a shooting challenge to your competitors. \nRound 2: After your pen and paper fight, here comes your game with digital electronics and electrical circuits with a real world application. You will be given a problem statement to be analyzed and bring out your skills in making a circuit for the same!! \n\nThe group that comes up with a most appropriate model will be the one walking away with prizes!!\n",
+                    "Contacts": "Shashank Tripathi:+919010644913\n"
+                },
+
+                {
+                    "UniqueId": "Group-8-Item-3",
+                    "Title": "Open Micro Challenge",
+                    "Subtitle": "Combine your knowledge of digital electronics, microprocessors to create miracles and solve real life problems. ",
+                    "ImagePath": "Assets/EEE3.png",
+                    "Description": "About the event:\nIf microprocessor and microcontrollers are your toys on interest, this contest is made for you. Combine your knowledge of digital electronics, microprocessors to create miracles and solve real life problems. With ticking clock and all your skills put at test, work on your preferred microcontroller platform and walk away with prizes this October. It’s high time you gear up for the challenge, with all your concepts at their best and programming skills tuned up to the level of professionals. We present to all you Microprocessor fanatics the Open Micro Challenge! \n",
+                    "Content": "Eligibility criteria- \n1. The competition is open only to students.\n2. The team may consist of at most three members. A student can’t be part of more than one team. \nRules and Specifications:-\nThe entire event is divided into 3 rounds. The one who emerges out of the last round with the best solution will have their hands on the trophy.\nRound 1: \n This a paper and pen quiz round, where your basics of the subject will be put under test with time running out of your hand and confusing choices on paper. You and your team mates have to outperform your counterparts to continue in the game.\nRound 2: \n For all the programming geeks out there, this is your chance to get your fingers going on solving some amazing microprocessor based problems. In a nut-shell what is expected of you in this round is to write ASM codes to the problems given taking all the given requirements into consideration.\n\nRound 3:\nOpen up your minds for innovative nerdy ideas to tackle real life based problems. You will be given the problem statement on the spot and also all the equipment, you need to build a working model to the desired specifications.\n",
+                    "Contacts": "Shashank Tripathi:+919010644913\n"
+                },
+
+                {
+                    "UniqueId": "Group-8-Item-4",
+                    "Title": "I-Vision",
+                    "Subtitle": "Image Processing",
+                    "ImagePath": "Assets/EEE4.png",
+                    "Description": "Overview: \nChaos has finally arrived in Gotham, but not in the form of Bane. Following Rachael’s death, Batman went haywire, pulping the Joker’s face and snapping Commissioner Gordon to death. Blaming the system, he further went on to terrorizing Gotham and becoming the new underworld boss, forcing the citizens to live in refugee camps on the outskirts of the city. It will be a while before ‘Justice League’ springs into action. Your mission, should you choose to accept, is to design GRAB (Gotham Refuge Autonomous Bot), based on computer vision algorithms, capable of delivering the air-packages to these camps.\n",
+                    "Content": "Eligibility\n All the students willing to restore peace to Gotham can participate in this event.\n All the students eligible for participation in ATMOS 2014 are also eligible to participate in this event.\n The teams can register in the official ATMOS Website. The link to the website is www.bits-atmos.org \n A team can have a maximum of 4 participants. Students from different institutes are allowed to form a team. However a student can be a part of ‘only’ one team.\n\n\nProblem Statement\nBuild a computer controlled robot capable of traversing the streets of Gotham City and delivering the needed packages with the help of an overhead/onboard camera. To win the event, the bot must “complete” the desired task in each round.\nRound 1: \nThe robot has to deliver the package from the militarized zone to the refugee camps set up on the outskirts of Gotham City. The bot must deliver the package to the camp whose color matches that of the package.\nRound 2:\n The robot needs to traverse through the Gotham city’s streets and deliver the packages. .Once again, the package is to be delivered considering the colour of the package and the camp. The robot must avoid all the radiation zones radiation zones in its path.\n\nRules and Specifications:\nGeneral Rules:\n The organizer’s decision will be final on all issues of conflict.\n The organizers hold the right to make certain changes to the rule and event patterns. Any such change will be communicated well in advance.\n The bot must not leave the arena at any instant of time.\n\nGameplay:\nThe competition consists of two rounds.  The first being an elimination round. Teams will be qualified for the second round on the basis of the score obtained in the first round.\n\nRound1:\n The bot should start from the center of the arena. The teams will be provided a package of either a red or green color. The bot must deliver the package to the camp whose color matches with the package.   \n The two refugee camps are painted red and green and are bigger in size than the packages.\n If the bot stops in the middle of the arena before completing the task, the team will be given one more chance and maximum of the scores of both the rounds will be taken. However the teams will not be allowed to change the code during subsequent chances. The organiser reserves the right to change the colour of the package randomly for the subsequent rounds.(to prevent hard-coded algorithms)\n The bot must be designed to carry the package given by the organizer to the camp. \n The packages will be made of thermocol (for dimensions check the Specifications below).\n Care must be taken that the mechanism designed doesn’t disrupts the arena or else the team may be penalized.\n After delivering the package the bot must stop at the refugee camp and glow a red led.\n A package is considered to be delivered if the bot carrying the package stops at the camp and glows the led.\n\nRound 2:\n The bot must perform the same task of delivering the package to the camp whose color matches with it as in the first round.\n The team is awarded extra points if the bot delivers the package completely in the black region(refer the Judging criteria for clarifications).\n The arena will be marked with blue stripes which represent radiation zones. Radiation zones will be placed at definite intervals between the starting position and the camp\n The bot must avoid all these radiation zones while en route to camp. A radiation zone is considered to be crossed if the bot covers that much distance without coming in contact with the radiation zone.\n After delivering the package the bot must stop at the camp and glow a led.\n A package is considered to be delivered if the bot carrying the package stops at the camp and glows the led.\nSpecifications:\nSHAPES\n The air package will be of dimensions 10 cm * 10 cm *5 cm.\n The dimensions of the arena are 240 cm* 120 cm.\n The dimensions of the camps are 120 cm * 40 cm.\n The dimensions of the black regions are 60 cm *20 cm.\nBOT\n The bot must fit into a cube of dimensions 25cm * 25 cm * 20cm at all times. \n The dimensions of the bot should not exceed specified dimensions during its run in the arena.\n Participants may use the overhead camera/onboard camera for the purpose of navigation. No extensions from the bot beyond the specified dimensions, will be allowed at any point during the run.\n Cables will be provided for the former one.\n The bot should be fully autonomous, with absolutely no remote controls. Also once the bot starts its run over the track, the participants will not be allowed to touch their bot unless the run is over.\n The bot should not damage the arena or its surroundings. It should put off the flame without dropping the candle.\n At any two points the potential difference in the circuitry of the bot should not exceed 24 volts.\n  Once the bot is submitted, no change in code will be allowed.\n A sample space will be given to the participants for the purpose of threshold setting before submission and it will be ensured that lighting conditions remain uniform.\n The arena will be revealed to the participants only after all the bots have been submitted.\nARENA\n COMPETITION SETUP\n There would be one overhead camera above the arena perpendicular to the ramp. \n All the teams will be given 20 minutes prior to the event for calibration. \n In case of overhead camera, the participants must use the camera provided by the organizers.\n The details of the camera provided by the organizers will be put up soon.\nJUDGING CRITERIA \n The decisions of the judges will be final. Participants are requested not to question the decisions, the organizers will provide a legitimate explanation in case of doubts and other such issues.\n Judges have the power to disqualify any bot that they deem unfit, with proper explanations. \n Judges at any time may question participants regarding the construct, working and programming of the bot. Participants are thus expected to have a thorough knowledge of what they are making. Participants that are unable to answer judge’s questions will face heavy deductions in their points or even disqualifications.\n The teams will qualify for the second round based on the score obtained after the first round.  \n In the first round, a team gets 30 points for delivering the air package. However five points will be deducted if the bot fails to glow an led.\n The points of the first round will not be carried forward in the second round.\n In the second round, the team is also awarded 30 points for delivering the air package to the camp. However if the package is delivered completely in the black zone, a team also gets an additional 15 points. \n A team will be awarded 10 points for avoiding each radiation zone in its path. However if the team steps into the radiation zone, 5 points will be deducted for the same.  \n The team with the maximum score wins the round and the event. In case of a tie, the team avoiding the maximum number of hurdles gets the upper edge. If there is still a tie, the team completing the task in minimum time wins the event.   \n",
+                    "Contacts": "Animesh Agarwal:+919912608021                                                    \nShashank  Tripathi:+919010644913\n"
+                },
+
+                {
+                    "UniqueId": "Group-8-Item-5",
+                    "Title": "iNavigate ",
+                    "Subtitle": "Gesture controlled (manually controlled) robot",
+                    "ImagePath": "Assets/EEE5.png",
+                    "Description": "OBJECTIVE\nTeams are supposed to design and build an accelerometer based hand gesture controlled (manually controlled) robot and maneuver it with agility through the arena.\n",
+                    "Content": "ARENA DESCRIPTION:\nROUND I: \nThe arena for round one will be a simple track. The bot is supposed to navigate through the track without touching the side walls on the path. Touching the sidewalls will carry negative points. The distance between the sidewalls will be 40cm (5% error). A view of Round 1 sample arena:\n\nROUND II:\nThe arena of round two will also be consisting of uneven surfaces, elevations (wedges), depressions and some other surprises which are kept for the event. The specifications of the wedges and depressions (height and angle of inclination) will be soon put up. The actual Layout of the arena will be shown 60 minutes before the commencement of the contest.\n\n \nROBOT SPECIFICATIONS & RULES:\n The Robot should conform to the maximum dimensions 25cm X 25cm X 25cm (l X b X h).\n It should not damage the game field and should not leave a trail behind to mark its path. It may be disqualified for adversely damaging the game field.\n Only one Robot is allowed per team.\n Team members are not allowed to touch the Robot once the game begins.\n No trials will be given before the beginning of the competition.\n The total weight of the Robot to be used in the game field must not exceed 5kg (10% tolerance).\n The robot could be either wired or wireless, though wireless robots are given bonus points as mentioned below.\n All the robots should be powered by an on-board supply.\n Maximum voltage between any two points should not exceed 12V.\n Teams should be self-equipped with charged batteries. In any case, AC power supply will not be provided by the organizers.\n Teams have to take a wise decision regarding wireless communication. \n Organizers will not be responsible for any kind of interference. \n Any robot that is unable to finish the task will be given just a single re-attempt. \n The robot has to re-start from the starting point during the re-attempt, failing which it will be disqualified.\n Time will be recorded by the judges. Time is recorded from the moment the robot starts from the starting position until the time it reaches the end of the maze.\n In any case of disputes, the decision of the judges will be considered final.\n Failure to comply with any of the above rules will lead to disqualification by the organizers.\n\n\nJUDGING CRITERIA\nTime and perfection in navigating are of importance in the 1st round having a total of 600 points in the beginning. Team Score will be calculated with the following relation:\nScore = 600 - (time taken (in sec.) to complete the arena) - 5 X (number of times the bot collides with the side walls).\nNOTE: Teams which make a wireless robot will be awarded 50 bonus points.\nTop teams will qualify for the 2nd\nThe same rules are applicable for the score calculations in the 2nd\n",
+                    "Contacts": "Sidharth Sai: +919542669769\nJayanth: +919705782828\n"
+                },
+
+                {
+                    "UniqueId": "Group-8-Item-6",
+                    "Title": "Line and Wall Follower",
+                    "Subtitle": "Build a robot which follows lines and walls.",
+                    "ImagePath": "Assets/EEE6.png",
+                    "Description": "Overview-\nIt’s the year 2050, humans and machines have finally learnt to coexist in unison. The reason being Artificial Intelligence that breathes life into the consciousness of all machines, gifting them with emotions and intellect.\nLiFo is an ordinary looking robot that works in manufacturing factory, who deploys parts of machinery to be assembled at various locations by following black stripes. Though simple, LiFo is one of the few robots with a sense of altruism, a trait that was acquired by robots in unknown fashion.\nOn a dull and greasy day while working meticulously, LiFo was swept off his wheels by strong tremors underneath. Walls and the ceiling began to leak dust, and swiftly as the cracks formed the walls began to crumble down. He in an instant guessed what was to follow and took refuge under a steel table. A few moments passed, as the shockwaves calmed he pushed out the rubble and reached out to recover his path. Watching his human colleagues crushed under the concrete battling for their life, LiFo, overwhelmed by emotions is determined to help them. He puts his well laid out path to his aid, but the lines are broken and scattered fragments of walls are all that’s left. You are the only survivor and thankfully a Robotics Engineer! Contemplating over LiFo’s despair, you decide to reprogram LiFo with new hardware and save your colleagues, but will it be in time?\n",
+                    "Content": "Problem Statement-\nConstruction of an autonomous bot, which is a line follower as well as a wall follower. To win, it should complete the entire arena successfully in the 2 rounds as specified.\n\nRound 1\nThe bot has to follow a black colored line on a white colored background in the shortest time. There may be some cross junction where bot has to follow straight path. \nRound 2\nSecond round would involve a little more than just line-following .The track consists of some discontinuity where bot should follow the wall.\n(Please refer to Rules and Specifications for more instructions)\n\nEligibility criteria-\n1. All teams must register for the event.\n2. The competition is open only to students. Both undergraduate and graduate students can participate in this event.\n3. The team may consist of at most four members. Students from different educational institutes can form a team.\n4. An individual cannot be a member of more than one team for the event. Only one bot per team is allowed.\n\nRules and Specifications-\nGeneral (for each round):\n1. The bot should fit in a box of dimensions(l*b*h)- 25*25*20(centimeters)\n2. The dimensions of the bot should not exceed specified dimensions during its run in the arena.\n3. Participants may use one or more than one type of sensors for the purpose of navigation. No extensions from the bot beyond the specified dimensions, will be allowed at any point during the run.\n4. The bot should be fully autonomous, with absolutely no remote controls. Also once the bot starts its run over the track, the participants will not be allowed to touch their bot unless the run is over.\n5. The bot while its run should not damage the arena or its surroundings. It should put off the flame without dropping the candle.\n6. At any two points the potential difference in the circuitry of the bot should not exceed 24 volts.\n7. Changes in the code of the bot will not be allowed once the bot is submitted before the event.\n8. A sample space will be given to the participants for the purpose of threshold setting before submission and it will be ensured that lighting conditions will remain uniform.\n9. The arena will be revealed to the participants only after all the bots have been submitted.\n10. Penalties for adjusting the bot on track during the event for more than 3 times.\nRound 1:\n1. The 1st round is a complete line following event. The width of the line for the entire round will be 2.5 cm. There can be +-3% error in the width of the line.\n2. The lines will be made with an electrical tape/painted with no markings on it, over a white flexi sheet.\n3. Lines will be cut off at certain points with a gap of at most 2 cm. The bot is expected to continue following in the direction of the line before.\n4. Each team will be given two runs, and for each run, time will be recorded. The run with the least time will be recorded officially.\n5. Depending upon the number of participants, maximum 1/3rd of the number of participants with least run time or maximum distances will be selected for the 2nd round. Preference will be given to those teams that complete the track.\n6. The path will consist of curves, right angles on intersections, obtuse angled turns, and circular loops, as shown in the rough sample arena.\n\n\nRound 2:\n1. The second round will be a line following as well as a wall following event.\n2. The width of the line for the entire round will be 2.5 cm. There can be +-3% error in the width of the line. The walls will be of height 10 +-3% cm. And will be covered with a white chart paper.\n3. In absence of lines there will be walls and vice-versa. Lines and walls will not be present together.\n4. In case the bot doesn’t complete the track, then the run with maximum distance will be recorded as the official run.\n5. The path will consist of curves, right angles on intersections, obtuse angled turns, and circular loops, as shown in the rough sample arena.\n6. Each team will be given two runs, and for each run time will be recorded. Points will be awarded for crossing certain check points, turn and completing the arena.(Refer to Judging criteria for more details)\n7. The walls will be placed at a distance of 14-15 cms from the line. The bot should not damage the walls or displace them, at any point during the run\n\nP.S. ANY BOT NOT ADHERING TO THE MENTIONED SPECIFICATIONS AND RULES WILL BE DISQUALIFIED.\nJudging Criteria:\n1. The decisions of the judges will be final. Participants are requested not to question the decisions, the organizers will provide a legitimate explanation in case of doubts and other such issues.\n2. Judges have the power to disqualify any bot that they deem unfit, with proper explanations.\n3. Judges at any time may question participants regarding the construct, working and programming of the bot. Participants are thus expected to have a thorough knowledge of what they are making. Participants that are unable to answer judge’s questions will face heavy deductions in their points or even disqualifications.\n4. Time is of essence in the first round. It is the only factor ensuring the bot goes to 2nd round. There are no points in the 1st round.\n5. If the bot deviates from the line, time will not be stopped and will be included in total run time. Time will be stopped when judges declare that the run is over and there is no scope for the bot to return to the line.\n6. In case the bot doesn’t complete the track, then the run with maximum distance will be recorded as the official run. However when selecting teams, preference will be given to the bot that has completed the track over the ones that did not complete.\n7. In round 2, time is not of importance and will be used only in case of a tie-breaker.\n8. Points will be decided, unequal weightage will be given to certain check points and turns on the track. The bot will be successfully awarded the respective points only if it crosses the checkpoint, without much deviation from the path.\n9. Points will be awarded heavily for successfully completing the entire track without any interference from participants on the bot.\n10. The bot with maximum no. of points wins the 2nd round and the event.\n",
+                    "Contacts": "Tarun Khatri: +919553718446\n"
+                },
+
+                {
+                    "UniqueId": "Group-8-Item-7",
+                    "Title": "EEE|ECE|ENI Paper Presentations",
+                    "Subtitle": "Present your research papers",
+                    "ImagePath": "Assets/paper.png",
+                    "Description": "This is a highlight event of the fest every year. Screening and selection have traditionally been an arduous task. Mail your original research papers to us for initial screening (phoenix@hyderabad.bits-pilani.ac.in ), get invited and present them during ATMOS-2014!! A chance to be reviewed by top-guns from academia and industry! Keep checking the website for more updates...\n",
+                    "Content": "A chance to be reviewed by top-guns from academia and industry! Keep checking the website for more updates...\n",
+                    "Contacts": "Shashank tripthi: +919010644913\n"
+                },
+
+                {
+                    "UniqueId": "Group-8-Item-8",
+                    "Title": "ROBOWARS",
+                    "Subtitle": "A clash of robo-titans.",
+                    "ImagePath": "Assets/EEE8.png",
+                    "Description": "“War does not determine who is right…\n       ONLY WHO IS LEFT”\n         -Bertrand Russell\nThe headliner, the crowd-puller, the pure visual euphoria in any ATMOS always had just one name - RoboWars! See the rebirth of the majestic medieval knights in their 21st century avatar. See the robots battle it all out at the Colosseum in BITS Pilani Hyderabad Campus. Behold a futuristic projection of Gladiatorial days of combat.  \nThe war is about to begin. Tighten the screws, charge your batteries, oil the parts, it’s going to get messy. Are you ready?\n\nProblem Statement\nDesign and construct a robot capable of fighting a one on one tournament.\nGeneral Instructions\n All participants are to build and operate robots at their own risk. Combat robotics is dangerous. Please take care to not hurt yourself or others when building, testing and competing.\n Compliance with all event rules is mandatory. It is expected that competitors will comply with the rules and procedures of their own accord and not require constant policing.\n Robots will be inspected for safety and reliability before being allowed to compete. As a builder you are obligated to disclose all operating principles and potential dangers to the Event Coordinators.\n Proper activation and deactivation of robots is critical. Robots must only be activated in the arena, or with expressed consent of the Coordinators.\n Moving weapons that can cause damage or injury must have a clearly visible locking device in place at all times when not in the arena. Locking devices must be clearly capable of stopping, arresting or otherwise preventing harmful motion of the weapon.\n It is expected that all builders follow basic safety practices during work on the robot at the event. Please be alert and aware of your neighbors and people passing by.\n Any kind of damage to the arena or people standing by would mean immediate disqualification without the need for proper explanation.\n In all cases the decision of the Coordinators at the venue would be final, binding and unquestionable. \n",
+                    "Content": "BOT Specifications:\n1. Style\n1.1. Robots can be built using wheels, tracks and legs (Walker robots).\n1.2. Other styles or methods may be considered, but it is be sure to contact the Coordinators before registering.\n1.3. 'Cluster Bots' - robots consisting of two or more components - are allowed, but they must enter the arena as a single object. If 50% or more of the Cluster Bot is immobilized, the robot will be deemed to have lost that particular battle.\n\n2. Weight\n2.1. The maximum weight allowed for the robot is 40kgs (This assumes that the power supply for the robot is on-board).\n2.2. If interchangeable weapons /armor /systems are used, the weight measured is the one with the heaviest set-up in place.\n2.3. A 50% relaxation in weight and dimensions would be given to absolute walker bots. Decision of whether a particular Bot is an absolute walker Bot would be taken by the organizers, upon abstract submission.\n\n3. Dimensions\n3.1. Overall dimensions must not exceed 60cm x 60cm x 60cm (W x B x H) respectively.\n3.2. Width, breadth and height are measured to the extremities of the robot, i.e. including any overhanging bodywork, weaponry or protrusions.\n3.3. The measurements would be taken in the position that the robot would enter the arena, i.e. if the robot starts a fight with weaponry or other devices in a retracted position, the width, breadth and height are measured with these in this retracted position.\n3.4. After every duel the robot is expected to autonomously retract itself in its original dimensions provided that these have been altered during the fight. Failure to do this will result in the robot losing the battle.\n4. Power\n4.1. The machine can be powered electrically only. Use of an IC engine in any form is not allowed. \n4.2. The only permitted batteries are ones that cannot spill or spray any of their contents when damaged or inverted. This means that standard automotive and motorcycle wet cell batteries are prohibited. Examples of batteries that are permitted: (Such as gel cells, lithium, NiCad, NiMH, or dry cells). \n4.3. All onboard voltages above 36 Volts require prior approval from this event. (It is understood that a charged battery's initial voltage is above their nominal value)\n4.4. All electrical power to weapons and drive systems (systems that could cause potential human bodily injury) must have a manual disconnect that can be activated within 15 seconds without endangering the person turning it off. (E.g. No body parts in the way of weapons or pinch points).\n4.5. Shut down must include a manually operated mechanical method of disconnecting the main battery power, such as a suitable high current switch or removable link. Relays may be used to control power, but there must also be a mechanical disconnect.\n4.6. All efforts must be taken to protect the battery terminals from a direct short and causing a fire. Failure in doing so will lead to disqualification.\n4.7. Only bots with onboard power supply are permitted.\n5. Pneumatics\n5.1. Robot can use pressurized non-inflammable gases to actuate pneumatic devices. Maximum allowed outlet nozzle pressure is 10 bar. \n5.2. The storage tank and pressure regulators used by teams need to be certified and teams using pneumatics are required to produce the Safety and Security letters at the Registration Desk at the venue. Failing might lead to direct disqualification.\n5.3. Participants must be able to indicate the used pressure with integrated or temporarily fitted pressure gauge. Also there should be provision to check the cylinder pressure on the bot. The organisers will not provide any equipment to gauge the pressure.\n5.4. The maximum pressure in cylinder should not exceed the rated pressure at any point of time.\n5.5. You must have a safe way of refilling the system and determining the on board pressure.\n5.6. All pneumatic components on board a robot must be securely mounted. Care must be taken while mounting the pressure vessel and armour to ensure that if ruptured it will not escape the robot.\n5.7. Entire pneumatic setup should be onboard, no external input (from outside the arena) can be given to the robot for functioning of its pneumatic system.\n\n\n6. Hydraulics\n6.1. Hydraulic pressure is limited to 3000 psi. The competitor must be able to demonstrate the pressure used and carry with them a portable pressure gauge that can be fitted to the system if required to do so by the organizing team. The organisers will not provide any equipment to gauge the pressure.\n6.2. The use of accumulators on the Hydraulic circuits is strictly prohibited.\n6.3. Hydraulic fluid storage tanks must be of a suitable material.\n6.4. The lines must be routed to minimize the chances of being cut.\n\n\n7. Weapon Systems\n7.1. All pyrotechnics(refer 7.2); explosives; flames; firearms; corrosives; liquids; electronic devices - e.g. radio jamming, heat-guns, Tesla coils - are banned.\n7.2. Small, non-offensive pyrotechnics - e.g. flash puffs - May be allowed at the organizer’s discretion.\n7.3. Devices using inflammable or combustion-supporting gases are banned.\n7.4. Rules regarding projectiles\n7.4.1. Untethered projectiles are not allowed.\n7.4.2. Tethered projectiles are allowed, but the tether may not exceed 1.5m (approx. 5 ft) in length, (measured from the center of the robot to the tip of the projectile).\n7.5.  The speed of any rotating weapons - e.g. circular saws, carbon or steel cutting discs - must not exceed the manufacturer's specification. The manufacturer's specification must be available for inspection.\n7.6. Rotating hardened steel blades that may shatter are not allowed.\n7.7. Commercial blades - e.g. bayonets - must not exceed 20cm/8inches in length.\n7.8. All sharp edges of weapons, including fixed weapons - e.g. spikes –and robot bodywork in general that is sharp, MUST be fitted with adequate protection that must be in place at all times except in the arena. (These guards are not included with the overall weight of the robot).\n7.9.  Any moving or swinging arms - whether or not they hold sharp and/or rotating weapons - MUST be fitted with a visible locking pin that shows the arm(s) is securely locked into place.\n7.10. NO Lasers are allowed.\n\n\n8. Control Requirements\n8.1. The machine can be controlled through wired or wireless remotes. Power supply should be on board only. Refer above for further details on battery and power.\n8.2. There should be binding capability between transmitters and receivers. The remotes with such facility will only be allowed.\n8.3. The team must have at least four frequency wireless remote control circuit or two dual control circuits which may be interchanged before the start of the race to avoid frequency interference with other teams. The case of any interference in the wireless systems will not be considered for rematch or results.\n8.4. Remote control systems from toys might be used. Remote control systems available in the market may also be used.\n8.5. Nonstandard or self-made remote control systems must first be approved by the organizers.\n8.6. Team should pair up the wireless remote with the machine before putting it into the arena.\n8.7. In case of wired control, the teams are expected to bring enough wire according to the arena specifications which would be updated soon.\n\n\n\n\n\n\n\n\nArena Specifications:\nThe idea is based on the Colosseum of Rome. Below is the first look of the arena. Further details will be posted soon.\n \n\nJudging Criteria\n A robot would be victorious if its opponent is immobilized. \n A robot will be declared immobile if it cannot display linear motion of at least one inch in a timed period of 30 seconds. A robot with one side of its drive train disabled, demonstrating some degree of controlled movement would not be considered. \n A robot that is deemed unsafe by the judges after the match has begun will be disqualified and therefore declared the loser. The match will be immediately halted and the opponent will be awarded a win. \n If a robot is thrown out of the arena the match will stop immediately, and the robot still inside the arena will automatically be declared as the winner. \n  Robots cannot win by pinning or lifting their opponents. Organizers will allow pinning or lifting for a maximum of 15 seconds per pin/lift then the attacker robot will be instructed to release the opponent. If, after being instructed to do so, the attacker is able to release but does not, their robot may be disqualified. If two or more robots become entangled or a crushing or gripping weapon is employed and becomes trapped within another robot, then the competitors should make the timekeeper aware, the fight should be stopped and the robots separated by the safest means. \n In case both the robots remain mobile after the end of the round then the winner will be decided subjectively.\nPoints will be given on the basis of aggression (frequency, severity, boldness and effectiveness of attacks deliberately initiated), damage (through deliberate action), control, strategy (attack as well as defence) and crowd reaction. Further details would be put up soon! Ultimately, the Judges’ decision would be final, binding and unquestionable.\nPS: All teams wishing to participate are requested to send an abstract to bphc.phoenix@gmail.com on or before 4th October 2014\n",
+                    "Contacts": "Ananth Narayanan:+919912249214\nShashank Tripathi:+919010644913\n"
+                }
+
+            ]
+        },
+        {
+            "UniqueId": "Group-9",
+            "Title": "Information Systems",
+            "Subtitle": "All events Associated with Information Systems.",
+            "ImagePath": "Assets/IS.png",
+            "Items": [
+                {
+                    "UniqueId": "Group-9-Item-1",
+                    "Title": "Googled",
+                    "Subtitle": "None but only Google can be your saviour!",
+                    "ImagePath": "Assets/IS1.png",
+                    "Description": "Description\n Information Systems Association together with CRUx – the Coding Club of BITS-Pilani Hyderabad presents Googled, an event where none but only Google can be your saviour. So, if you know how to tame the beast, you are in for a roll! \n\n Googled consists of 2 rounds:\nFirst round: Participating teams have to find answers to a set of simple yet tricky, objective type questions using their googling skills. \n Final round: The challenge becomes tougher, trickier and all the more nerve wrecking. A sort of on-stage round wherein the selected teams from the previous round compete against each other to score a maximum, in order to ace the event. \n",
+                    "Content": "Event Rules\n 1. On-spot registrations. Register in teams of two.\n 2. Top 6 teams from the first round battle it out in the final round.\n 3. Rules for each round are intended to hold an element of surprise. Hence, will be revealed at the venue itself.  \n 4. Get your own stationery.\n 5. No electronic gadgets of any type allowed in the venue.\n 6. In any case of discrepancy, the decision of the organisers will be final and binding\n\nJudging Criteria\n In general, weightage will be given to the response time and correctness of the answer. Rules specific to each round will be revealed at the venue.\n\n > Prize money worth INR 4,000/- (tentative)\n",
+                    "Contacts": "Ishdeep Singh: +919705275418\nSrujan Jha: +919010718698\n"
+                },
+
+                {
+                    "UniqueId": "Group-9-Item-2",
+                    "Title": "Information Systems Paper Presentation",
+                    "Subtitle": "Present your research papers",
+                    "ImagePath": "Assets/paper.png",
+                    "Description": "Description\n CS & IS Paper Presentation at ATMOS provides people from all over India to present us with their ideas, research and their thoughts related to new, emerging technologies or the significance of older ones in the current context. Specifically, the event comprises of two rounds. \n In the first round, participants are invited to send us the abstract as well as the paper they want to present through email. These entries would go through extensive cross-checking for plagiarism, creativity and choice of topic. Participants selected in this round would be eligible for the second round which is the on-site round to be conducted during ATMOS 2014 at BITS-Pilani, Hyderabad Campus. The participants would have to present before a panel, comprising of faculty from the Department of CS & IS at BITS-Pilani Hyderabad, concerning the details of their paper. \n",
+                    "Content": "Judging Criteria\n The first round be judged on the basis of the idea or field chosen by the participants. Fields having real life implementations would be preferred. The abstract sent by the participant would be checked for correctness as well as plagiarism. PLEASE AVOID PLAGIARISM. \n The second round would be based on the presentation of the participant with the judging procedure entirely selected by the panel as such. \n Event Rules \n 1. Participants should send the abstracts of their papers to example@example.com. \n 2. Plagiarism up to 30% is allowed. \n 3. Participants selected for the second round must create a formal presentation concerning their paper. Any other form would not be accepted. \n\n> Prize money worth INR 6,000/- (tentative)\n",
+                    "Contacts": "Aviral Gupta: +919010487770 \nMohnish Godhia: +917729875888 \n"
+                },
+
+                {
+                    "UniqueId": "Group-9-Item-3",
+                    "Title": "Augmented Reality (AR) Workshop",
+                    "Subtitle": " AR is a live, direct or indirect, view of a physical, real-world environment whose elements are augmented by computer-generated sensory input such as sound, video, graphics or GPS data.",
+                    "ImagePath": "Assets/IS3.png",
+                    "Description": "General Description\n Inspired by Google GLASS, the Information Systems Association presents the much awaited, premiere workshop on Augmented Reality (AR).\n AR is a live, direct or indirect, view of a physical, real-world environment whose elements are augmented by computer-generated sensory input such as sound, video, graphics or GPS data. As a result, the technology functions by enhancing one’s current perception of reality, the information about the surrounding real world becoming interactive and digitally manipulatable. \n AR in action: https://www.youtube.com/watch?v=oH_LfXnklRw \n",
+                    "Content": "Workshop Highlights\n1. The workshop will take participants through the basics of Augmented Reality, its applications and working. They’ll be working with AR Developers to develop AR Apps.\n 2. The workshop will entail a live Google GLASS demonstration, streamed online from the developers at Purdue University, US to enhance concept learning.\n3. Apart from a cutting edge learning experience, each participant gets comprehensive post workshop study material, required essential softwares and loads of AR Apps\n4. There are no-prerequisites for the workshop. It is open to all the students of all branches.\n5. Participants have to bring their own laptops (preferably with Windows OS). No laptops will be provided by the organisers.\n 6. The registration fee for the workshop is INR 1000/- per person.\n\n Duration & Trainer Profile\n Workshop Duration: 7 hours each day for 2 days with in between breaks.\nThe workshop is being conducted in collaboration with the experts from Botrio Development Pvt. Ltd., a consecutive three time workshop partner for Techfest, IIT Bombay. They have coached in IITs, NITs & other premiere engineering colleges in the country, and have relevant experience in the field. Your relationship with them will continue even after the workshop where they offer online and offline technical support to convert participants’ ideas into reality. \n",
+                    "Contacts": " Santhosh Kumar Reddy: +919705254514\n Nandini Aishwarya: +919912608184\n"
+                },
+
+                {
+                    "UniqueId": "Group-9-Item-4",
+                    "Title": "Obfuscated Code Challenge (OCC)",
+                    "Subtitle": "The point is to ruin code to such an extent that it is nearly impossible to read - and yet, it should run successfully.",
+                    "ImagePath": "Assets/IS4.png",
+                    "Description": "Description\n Obfuscate (v.) – to make obscure, unclear, or unintelligible. Obfuscation is the process in software development which is the deliberate act of creating code that is difficult for humans to understand. All that we ask you in the Challenge is that you disobey your CS teachers in every possible way. Remember how they asked you not to use ‘goto’? Feel free. Remember how you weren't supposed to name your variables 'a' and 'A' and have them mean completely different things? We love it.\n Essentially, the point is to ruin code to such an extent that it is nearly impossible to read - and yet, it should run successfully.\n \n Obfuscated Code Challenge consists of 2 rounds:\n In the first round, we will give you a regular, faculty-approved C code that is meant to accomplish a particular task. Mess it up in as many ways as possible; there's one catch: the code must still compile & execute successfully.\n In the second round, it's all open. 8 teams will qualify; and you may use any language to compile your code, and all we'll give you is a problem statement. It's up to you to interpret it in any way required. You will be given 15 minutes on stage to demonstrate and explain your code, compile and execute the code successfully. \n",
+                    "Content": " Round 1 - Teams of 2\n 1) Input as well as the output will be specified. In fact, a C code will be given.\n2) You are NOT allowed to use anything in the machines at BITS-Pilani, Hyderabad Campus apart from gcc compiler.\n 3) You may use as many pre-processor directives as needed.\n 4) The code should not use more than 256 kB of memory and not take more than 5 seconds to execute.\n 5) Your obfuscated code has to conform to the problem statement.\n \n Round 2 - Top 8 teams \n 1) A problem statement will be given. You write an obfuscated code in any programming language in 45 mins. duration.\n 2) Each team will be given exactly 15 minutes including setup time to explain their code.\n 3) The code cannot use more than 0.5 mB of memory and take more than 5 seconds to execute.\n 4) The code should solve the problem. It remains the judges' prerogative to decide whether the code solves the problem statement.\n 5) This round will require LAPTOPs. Do get them. They will NOT be provided by the organizers.\n \n General Instructions: Use of any electronic gadgets except college machines (in 1st round) and laptops (in 2nd round) inside the venue is not allowed. Access to internet will be strictly prohibited.\n\nJudging Criteria\n\n          Criteria                        Weightage: Round 1  | Round \n 1. Non-trivial de-optimizations          30% | 10%\n 2. Retention of problem statement & output 30% | 40%\n 3. Character count (more details at the venue)20% | 10%\n 4. Creativity                    20% | 40%\n \n THE DECISION OF THE JUDGES WILL BE FINAL AND BINDING.\n\n > Prize money worth INR 6,000/- (tentative)\n",
+                    "Contacts": " Arvind Badri: +919542225819\nSanthosh Kumar Reddy: +919705254514\n"
+                }
+
+            ]
+        },
+        {
+            "UniqueId": "Group-10",
+            "Title": "Management",
+            "Subtitle": "All events associated with management.",
+            "ImagePath": "Assets/Management.png",
+            "Items": [
+                {
+                    "UniqueId": "Group-10-Item-1",
+                    "Title": "Manager Dilemma",
+                    "Subtitle": "To be a great manager, you must have an extensive set of skills - from planning and delegation to communication and motivation. ",
+                    "ImagePath": "Assets/Management1.png",
+                    "Description": "To be a great manager, you must have an extensive set of skills - from planning and delegation to communication and motivation. While leaders may bring us vision, inspiration and challenge, these things count for nothing without the efficient implementation brought about by good management. This event invites you to pit your skills against each other in an exciting competition based on management principles.\n",
+                    "Content": " A general business quiz, followed by an exciting group discussion and finally a company based case study is what we have in store for you. So folks!Get your thinking caps on to solve the manager's dilemma!\n",
+                    "Contacts": "Priyamvada :+919912682540\n"
+                },
+
+                {
+                    "UniqueId": "Group-10-Item-2",
+                    "Title": "Hackmania",
+                    "Subtitle": "A two-day tech Hackathon",
+                    "ImagePath": "Assets/Management2.png",
+                    "Description": "HackMania is a two-day tech Hackathon, which will be held at BITS Pilani Hyderabad Campus and is one of its kind Hackathon in the city and will take on other cities too, moreover here in two days breath-taking products will be developed & showcased.Tech & Non-Tech Internship offers on from 50+ start-ups. Prizes worth more than ₹ 50,000 to be won.\n",
+                    "Content": "What to expect?\nThe event will extend over two days during the Weekend in which sponsors will be able to meet and talk with some of the best developers, designers, and hackers from in and around Hyderabad. The development time will lasts 24 hours starting at approximately 12:00pm on Saturday and end at 12:00pm on Sunday. During this time sponsors will be able to interact with participants, provide mentoring, host special events such a workshops and can also prepare a company exhibit on one of the provided booths.\nOrganizer\nIntellogi Global Solutions Private Limited is a Hyderabad based start up, which is focused to increase the innovation and creativity among the student community. Moreover, Intellogi is Microsoft Registered Partner; also it has the following partners\n1. Mozilla Firefox\n2. Hyderabad Entrepreneurs Society\n3. Hewlett Packard (HP)\n4. Carve Events\n",
+                    "Contacts": "Priyamvada :+919912682540\n"
+                },
+
+                {
+                    "UniqueId": "Group-10-Item-3",
+                    "Title": "Ground Reality",
+                    "Subtitle": "It is not just about putting your ideas on paper but also implementing them.",
+                    "ImagePath": "Assets/Management3.png",
+                    "Description": "BITS Pilani Hyderabad Campus is back with its annual startup challenge, Ground Reality. One of a kind, Ground Reality is not just about putting your ideas on paper but also implementing them. All you have to do is to fill out a form pertaining to your startup idea and the best ones would be given a chance to take their idea from paper to practice for a brief period of three months. Seek guidance of our mentors and thereby submit a continued progress report. \n",
+                    "Content": "The startup that progresses the most would then take the cake. Grab this chance to get the mentorship from industry experts to steer your startup idea to success.\n",
+                    "Contacts": "Priyamvada :+919912682540\n"
+                },
+
+                {
+                    "UniqueId": "Group-10-Item-4",
+                    "Title": "Innovatia",
+                    "Subtitle": "Bring out the designers inside of the young entrepreneurs ",
+                    "ImagePath": "Assets/Management4.png",
+                    "Description": "This event is basically designed to bring out the designers inside of the young entrepreneurs and develop out of box thinking skills. In this event, participants’ creative skills will be put to test when they will be asked to innovate with some random given items and transform those items into something useful to solve a certain problem. On the way, participants’ will be made to do a survey, interact with the opposite teams and play the game to the best of their abilities.\n",
+                    "Content": "On the way, participants’ will be made to do a survey, interact with the opposite teams and play the game to the best of their abilities.\n",
+                    "Contacts": "Priyamvada :+919912682540\n"
+                },
+
+                {
+                    "UniqueId": "Group-10-Item-5",
+                    "Title": "Suit Up",
+                    "Subtitle": "An interesting and fun marketing game.",
+                    "ImagePath": "Assets/Management5.png",
+                    "Description": "An interesting and fun marketing game where participants will be put in situations where they will be the owners of various startup in different industries like e-commerce, education, travel. For all those blessed with the gift of the gab to survive crunch situations, this is the perfect opportunity to gauge your abilities. Being challenged by tricky business situations, you will have to make smart financial and marketing decisions, tackle market crises, copyright issues and bid, fight and bribe your way through the bureaucratic system to beat the best in the business. It’s time to take charge and bring out the leader in you.\n",
+                    "Content": "Participation \nTeams of 4-6 people.\n",
+                    "Contacts": "Priyamvada :+919912682540\n"
+                },
+
+                {
+                    "UniqueId": "Group-10-Item-6",
+                    "Title": "Appconnect",
+                    "Subtitle": "Online contest wherein the participants need to submit JUST THE idea for a mobile application.",
+                    "ImagePath": "Assets/Management6.png",
+                    "Description": "This is an online contest wherein the participants need to submit JUST THE idea for a mobile application. This is a contest designed with the basic aim of forcing the people to think outside the box and making them come up with ideas for innovative yet useful mobile apps. A chance to have your apps built on Android and Windows platform and a direct entry to the final round of Ground Reality\nThe national B-Plan competition held at BPHC for the apps with a strong business plan. \nAll the finalist to be awarded appropriately for attending ATMOS.\n",
+                    "Content": "Categories:  \nSocial App     Commercial App (the one for GR) Problem solving App   The craziest idea\nPrizes: Cash reward \n",
+                    "Contacts": "Priyamvada :+919912682540\n"
+                }
+
+            ]
+        },
+        {
+            "UniqueId": "Group-11",
+            "Title": "Mathematics",
+            "Subtitle": "All events associated with Mathematics.",
+            "ImagePath": "Assets/Maths.png",
+            "Items": [
+                {
+                    "UniqueId": "Group-11-Item-1",
+                    "Title": "Mathefia",
+                    "Subtitle": "If you like exercising your brain.",
+                    "ImagePath": "Assets/Maths1.png",
+                    "Description": "Overview\nIf you like exercising your brain,\nFiguring things ‘round and round’ till you explode,\nThen this event is for you! It is based on Basic Mathematical Ability, Logic, I.Q and Approachability towards Question. They can be solved by deduction without deep math knowledge and a little lateral thinking.\n",
+                    "Content": "Event Format:\nEvent will be held in three rounds.\nA team of 2 is allowed to participate.\nPrizes: 1st: Rs.2500/-\n                 2nd: Rs.1500/-\n                 3rd :Rs.1000/-\n",
+                    "Contacts": "Abhiram Chilukuri :+919705099205\nSamhita Vadrevu:+919010665141\n"
+                },
+
+                {
+                    "UniqueId": "Group-11-Item-2",
+                    "Title": "Ncrypton",
+                    "Subtitle": "Have codes and ciphers always intrigued you? ",
+                    "ImagePath": "Assets/Maths2.png",
+                    "Description": "DESCRIPTION: \nHave codes and ciphers always intrigued you? Feeling like Nicholas Cage already? Here’s your chance to know where you stand. Participate in this event based on logic and your knowledge of cipher texts and code breaking.\n",
+                    "Content": "PROBLEM STATEMENT:\nRound 1:\nParticipants will be given a set of questions based on logical ability and basic mathematics.\n\nRound 2:\nParticipants will be given a set of questions based on popular cipher texts.\nHints may be provided for selected questions in both rounds.\nRULES:\nThis is a team event of two participants.\nPrizes: 1st: Rs.3000/-\n               2nd: Rs.2000/-\n",
+                    "Contacts": "Abhiram Chilukuri :+919705099205\nSamhita Vadrevu:+919010665141\n"
+                },
+
+                {
+                    "UniqueId": "Group-11-Item-3",
+                    "Title": "MATHEMATICS Paper Presentations:",
+                    "Subtitle": "Present your original research papers.",
+                    "ImagePath": "Assets/paper.png",
+                    "Description": "Topics:\n Financial Mathematics\n Pure Mathematics\n Computational Mathematics\n Applied Mathematics\n Cryptography\n Differential Equations\n Mathematical modelling\n",
+                    "Content": "Event Format:\nRound 1: Paper Submission\nThe papers selected in this round will be shortlisted for the next round.\n The participants are expected to submit.\n An abstract in at most 100 words as the content of the e-mail.\n The paper in .pdf format to mathassoc.bphc@gmail.com on/before deadline.\n Subject of the mail to be sent should follow the format: <Paper Presentation – Topic>\n An Email will be sent confirming the selection of the paper.\n The decision of the judges shall be treated as final and binding on all.\nRound 2: Presentation\n The short listed participants who are eligible to present their paper in Round-2 will be intimated through e-mail and this list of finalists will also be put up on this website by deadline. They would have to send replies confirming their participation by deadline.\n Presentations should be in power point presentation. Microsoft Office 2003 / 2007\n Each team will be allotted 10 minutes for presentation and 5 minutes for question/answer.\n  Any extension in the allotted time may result in the loss of points.\n The participants should bring their presentation on CD/USB drive along with 2 hard copies for the judges.\nTeam:\nA maximum of 2 students per team is allowed.\nPrizes: 1st: Rs.3000/-\n             2nd: Rs.2000/-\n Participation certificate will be awarded to all the participants who qualify \nNOTE\n1. The papers should be original. Plagiarism will lead to disqualification.\n2. If any of the rules given above are breached by any participant, the judging panel reserves the rights to disqualify the participant team.\n3. The organizers reserve the right to change the rules of the event at any time and will do their best to update the contestants of the same. However it is the responsibility of the participants to keep themselves updated.\n\nImportant Dates:\n1. Abstract and Papers to be sent on/before: 5th October, 2013.\n2. Announcement of Paper Acceptance: 8th October, 2013 \n",
+                    "Contacts": "Abhiram Chilukuri :+919705099205\nSamhita Vadrevu:+919010665141\n"
+                },
+
+                {
+                    "UniqueId": "Group-11-Item-4",
+                    "Title": "Boxed In",
+                    "Subtitle": "Like challenges with numbers and puzzles like Sudoku, kakuro etc?",
+                    "ImagePath": "Assets/Maths4.png",
+                    "Description": "Overview:\nLike challenges with numbers and puzzles like Sudoku, kakuro etc?\nThen here is a wonderful opportunity. Head off to BOXED-IN to tickle your grey matter and get an adrenaline rush playing with numbers.  \n",
+                    "Content": "Event Format:\nIndividual event\nEvent will be held in 2 rounds.\nPrizes: 1st: Rs.2500/-\n                 2nd: Rs.1500/-\n                 3rd :Rs.1000/-.\n",
+                    "Contacts": "Abhiram Chilukuri :+919705099205\nSamhita Vadrevu:+919010665141\n"
+                }
+
+            ]
+        },
+        {
+            "UniqueId": "Group-12",
+            "Title": "Mechancial Engineering",
+            "Subtitle": "All events associated with mechanical engineering.",
+            "ImagePath": "Assets/Mech.png",
+            "Items": [
+                {
+                    "UniqueId": "Group-12-Item-1",
+                    "Title": "MiniGP",
+                    "Subtitle": "On the line of the ecstatic Moto GP competition.",
+                    "ImagePath": "Assets/Mech1.png",
+                    "Description": "I bet most of us have dreamt of racing our cars at top speeds through spick, black race courses. Come October and BITS, Pilani Hyderabad Campus will be all set to fulfill your dream, well, in a way. On the line of the ecstatic Moto GP competition, we are conducting The Mini GP competition. The competition will have its participants (or racers) drive self-designed remote controlled cars through deliciously twisty race tracks to win the final cup! Seems simple? Well, brace yourselves for some rock solid competition. Forget not, the more innovative and inventive your design is, the closer you are to the Mini GP cup. Fasten your seatbelts and let the adrenaline pump up!\n",
+                    "Content": "Problem Statement\nThe participants are expected to race their remote control based IC engine cars through tracks whose complexity is bound to increase level after level. The teams completing the laps in the best possible time will qualify for a grans final race. The design skills and application of real-world driving skills to the miniature cars are put to test.\nJudging Criteria\n Participants are expected to design their own racing car. However, in case the participants use readymade cars, they will only be evaluated for 3/4th of the total marks. That is a penalty if 1/4th of the total marks will be levied on them. If their car is part self-designed and part readymade, then the marks will be given accordingly as per the judge’s discretion. Above mentioned penalty is not applicable for the final round.  \n Driving ability and application skills of the participant will also be put to test.¬¬¬¬\n Lap time will be another criterion to decide the winner.\nVehicle Specifications\n The vehicle should be designed so that it fits in an 800mm X 700 mm box at every given point of time in the race. This is excluding the remote controller. \n It is essential that the car be designed with an internal combustion engine (IC engine). Motors etc. should not be the main driving sources of the car. However, for steering mechanisms or any other mechanism apart from propulsion DC motors and servos can be used. \n Only one IC engine should be used in the vehicle. Use of any other sources such as chemicals, compressed gas, rockets etc. for propulsion is not allowed. The allowed capacity of IC engine to be used is 4.5 cc or less.\n The vehicle has to be necessarily controlled by a wireless remote control system throughout the competition. The vehicle must have two remote controllers of different frequencies or an alternate frequency remote control circuit which can be switched to either frequency before the start of the game. This is done to avoid frequency interference between the two competing vehicles.\n Remote control systems from toys or the ones purchased from a market might be used without any fear of penalization.\n The vehicle parts can be ready made. But there will be extra points if you make chassis and steering mechanism by yourself (See judging criteria for more detail).\n If you are making your car then other functional parts like motors and servos, gears, springs, engine, remote control systems, batteries, wheels, braking mechanism are allowed to be used as directly available from the market.\n It is essential that the vehicle has an onboard power supply to provide electricity to any mechanism requiring electric power.\n Electric voltage not more than 12V should be used in the machine wherever required.\n Participants are advised to use a proper cooling mechanism to prevent overheating of the engine.\n Verify with the organizers if you have the slightest doubt whether a component can be used or not. Please do not hesitate. Designs not complying with the vehicle specifications will be disqualified.\nArena Specifications\nComing shortly!\nCompetition Rules\n The track will have check points at regular intervals.\n In case a machine tumbles, or halts, or goes off the arena at any point on the track, only one of the participants is allowed to lift it up and place it at the nearest checkpoint behind that point. (Previous two rules are for non-racing rounds. The rules for racing round will be told on the spot)\n Until and unless there is a need to touch the vehicle as stated above, they have to be fully remot3e controlled throughout the rave.\n Every time the machine requires lifting by the team member, a time-penalty will be imposed.\n Any vehicle is not allowed to leave any disintegrated part on the race track amidst of the race. In case this happens, the team will be disqualified.\n The teams are also not allowed to damage the opponent's vehicle deliberately. If found guilty, the accused team will be disqualified.\n There will be a time-penalty for reverse gearing.\n Teams may consist of a maximum of 5 members.\n\nGeneral Rules\n Depending on the number of teams participating and other time constraints, the arena will be given to the participants for practicing.\n The time slots will be given on the basis of first come first serve basis, but little duration for practicing is assured to everyone.\n Each team must come up with its own, unique team name.\n Organizers reserve the right to change any of the above rules.\n Participants can address their queries indirectly via e-mail or forums and directly by calling up the organizers.\n For help and reference, some material will be uploaded soon.\n Organizers and judges’ decision shall be considered as final and binding on all.\nEligibility\nEach participant must be a full time student enrolled in an undergraduate or post graduate program from any recognized university or college. Any professional body other than student are not allowed in this competition.\nRegistration\nParticipants have to submit an abstract giving the complete description of their vehicles based on the following lines.\n1. Teams that fabricate their own vehicle must explain the steering mechanism and the chassis layout in detail, along with proper illustrations. Picture(s) showing all the three should be attached.\n2. The participants are required to send the photographs of the chassis before assembly so as to ensure that the parts of the car have been built by themselves, that being the case.\n3. Photograph of the car in the current state must also be sent with the name of the photograph as the date on which it is taken.\n4. Specification of all other components like the engine, remote controllers etc must be specified.\n5. The complete abstract along with the photos and the team name and members name.\n6. If readymade cars are used by the team then the team should mail the exact specification of the car.\n7. Write the name of team along with the name of team leader and team members with contact numbers and e-mail ids. {put contact details here and the email to which they have to send their design illustrations}\n8. A confirmation mail will be sent to the Team leaders\n",
+                    "Contacts": "Sailesh Reddy:+919666650968\n"
+                },
+
+                {
+                    "UniqueId": "Group-12-Item-2",
+                    "Title": "JUNK YARD WARS",
+                    "Subtitle": "How quick and creative one can be at the same time and solve a problem.",
+                    "ImagePath": "Assets/Mech2.png",
+                    "Description": "Description\nThe participants will be given random scrap material (the only inventory) out of which you have to build a working model (machine) which can perform the specified task. It’s a test of your dexterity and intuitive thought process.\nThe competition aims to test how one quick and creative one can be at the same time and solve a problem. That’s Junkyard Wards is about.\n",
+                    "Content": "PROBLEM STATEMENT:-Every team has to conceptualize, design and build a machine in limited time to compete in a specified task given to them on the spot. \nEVENT STRUCTURE:- The event will consist of a preliminary elimination round followed by the main event.\nThe elimination test for Junkyard Wars will be held on ( )th October 2013 at ( ).00 AM.  So everyone has to report at the venue 30 minutes before the commencement of the preliminary elimination round.\nPreliminary Elimination Round:- There will be a quiz which may contain both objective and subjective questions. The questions will test the student’s engineering aptitude and to make understand its significance. The duration of the quiz will be a 1 hour. Only  6 teams will be selected for the main event.\nMain Event:- The selected teams will be given 4hrs (duration may subject to change if the organising body decides so) to work out their innovations and build a perfect solution to the given problem in the given time and resources. The problem statement will be mentioned on the spot.\nRULES\n1. Students from different institutes can form a team.\n2. A team may consist of 3 to 5 members.\n3. Every participant must get himself/herself registered before the event begins.\n4. For eliminations, team have to appear for a test as single entity. Each team will be given 1 question paper and 1 answer sheet along with rough sheet.\n5. Marks of the preliminary round will not be carried to the main event.\n6. Use of any parts or instruments other than provided by the organisers is prohibited.\n7. Time for the 2nd round will start soon after the task is declared.\n8. Each team must formulate their own ideas and designs. Any form of plagiarism will lead to disqualification.\n9. There will be no restriction on the type of mechanism used by the team to perform the task provided no other rule is violated.\n10. No extra time will be given to any team under any circumstances.\n11. Organisers are not responsible for any loss of property, injury and delays during the event.\n12. Judge’s decision will be final and binding on all.\n13. The team must adhere to the team spirit & accomplish a healthy competition.   \n14. Any negligence/fraud on the part of the participating team, once detected, will lead to immediate disqualification.\n15. Organisers reserve the right to change any number of rule and the team must abide to it.\n16. Participation certificates will be provided to all the participants.\n17. Participants are required to stay up to date with the website.\nJUDGING CRITERIA:-  \n1. The quiz will be set by the panel of professors from the various engineering departments.\n2. The same panel will check the quiz paper and the results declared by them are final and no request for reconsideration will be entertained.\nPRIZES  The team that comes up with the most Innovative and Creative design will walk away with exciting CASH PRIZES.\n",
+                    "Contacts": "Sailesh Reddy:+919666650968\n"
+                },
+
+                {
+                    "UniqueId": "Group-12-Item-3",
+                    "Title": "Prodigal Designer",
+                    "Subtitle": "Do you have a passion for designing? ",
+                    "ImagePath": "Assets/Mech3.png",
+                    "Description": "Description:\n Do you have a passion for designing? Are you waiting for an opportunity to flex your CAD skills? This Atmos we bring you Prodigal Designer, an exclusive CAD based designing event. Get ready to let your imagination soar and hone your skills!\n",
+                    "Content": "Problem Statement:\n The participants have to model in proEngineer software. It consists of two rounds, the first round will test the participant’s accuracy and fastness. The second round is a spot round, its problem statement will be announced on the day of the event.\nRules:\n The participants have to design only on proE software.\n The coordinators reserve the right to disqualify a participant in case of any misbehaviour.\n In case of any disputes/discrepancies, the decision of the organisers will be final and binding.\nJudging Criteria:\n In first round the participants have to draw as many elements (ex- screw, gears etc.) as possible within the time limit.\n Participants will be judged based on the quality and number of elements they are able to draw. \n Second round is a spot round.\n",
+                    "Contacts": "Sailesh Reddy:+919666650968\n"
+                },
+
+                {
+                    "UniqueId": "Group-12-Item-4",
+                    "Title": "MECHANICAL Paper Presentations",
+                    "Subtitle": "Present your original research papers.",
+                    "ImagePath": "Assets/paper.png",
+                    "Description": "Description\nThe Paper Presentation Event organized by the Mechanical & Manufacturing Engineers Association of BITS Pilani, Hyderabad campus aims to provide the best platform to showcase your research & ideas in front of experienced faculty members and chief guests. What more? Prepare a presentation, unleash the speaker in you and bag exciting prizes.\n",
+                    "Content": "Problem Statement\nPresent your idea in the simplest possible way. Innovative ideas will be honored with deserving rewards.\nFormat\nThe event will be conducted in three rounds, sequential, which implies teams completing first round will move on to second, and so on.\n\n1. Round 1\nInterested applicants must first send in their presentation along with proper abstract to bphc.mea@gmail.com\nThe presentations must follow the following format:\n The paper should be written in Times New Roman\n Font size should be 12 pt.\n Line spacing should be 1.15\n The text alignment should be ‘Justified’.\nAll the presenters are expected to follow the above mentioned code. Presentations can also be done in teams.The topic of the presentation must strictly lie in the bounds of mechanical department. Subjects deviating largely will be rejected.\n\n\n\n\n\n2. Round 2\nEntries selected in the first round will be invited for second round through mail.\nThe second round will be held on ___ of October at BITS Pilani, Hyderabad Campus.\nPresentations should be given on the same topic that are sent for first round.\nInteractive Q@A round will follow the presentation.\nThe Maximum allowed time for presentation will be in formed in further mail.\n3. Round 3\nThe third round will be held on ___of October at BITS Pilani, Hyderabad Campus\nSame rules of second round will be followed.\nThe Maximum allowed time for presentation will be informed in further mail.\nGeneral guidelines and rules\n A team may consist of a maximum of 4 members.\n The scrutiny will be done by experienced faculty, and any form of plagiarism will be rejected.\n Participants should abide by topics given for second round.\n The last date for submission of entries is__ of October. Entries submitted later will not be entertained.\n Participants selected for second round will be informed through mail latest by__of October.\n Decision of the organizers will be final in all cases.\n",
+                    "Contacts": "Sailesh Reddy:+919666650968\n"
+                },
+
+                {
+                    "UniqueId": "Group-12-Item-5",
+                    "Title": "Software Workshop",
+                    "Subtitle": "1 workshop, 2 days, 2 softwares.",
+                    "ImagePath": "Assets/Mech5.png",
+                    "Description": "MEA proudly announce the first ever combo workshop at ATMOS 2014 at BITS Pilani Hyderabad Campus. 1 workshop, 2 days, 2 softwares. This is all what mechanical and manufacturing engineers of India needs today. In this workshop we will train for 3D simulation software-FLEXSIM and finite element analysis in ANSYS.\n",
+                    "Content": "ANSYS\nANYSYS is a finite element analysis software. This workshop will introduce ANSYS ant then workshop will be about modelling in Work Bench, contacts and their importance, Materials in oil and gas industry, and some hands on workshop on the same. Students will be trained by Anirudh Krishnan, Engineering Analyst at FMC Technologies. FMC Technologies is a world leader in the oil and gas equipment service industry. Anirudh, a BITSian, brings around more than 3 years of experience in the ANSYS analysis of oil and gas extraction equipment. \n",
+                    "Contacts": "Sailesh Reddy:+919666650968\n"
+                }
+
+            ]
+        },
+        {
+            "UniqueId": "Group-13",
+            "Title": "Nirmaan",
+            "Subtitle": "All events associated with the Social Club: Nirmaan",
+            "ImagePath": "Assets/Nirmaan.png",
+            "Items": [
+                {
+                    "UniqueId": "Group-13-Item-1",
+                    "Title": "Wish Tree",
+                    "Subtitle": "Come, be my teacher.",
+                    "ImagePath": "Assets/Nirmaan1.png",
+                    "Description": "Exhibition of Paintings from the competitions in various schools.\n",
+                    "Content": "(For more details, check - http://goo.gl/usytm8)\nCome, be my teacher. See \n http://goo.gl/6Z03L8.\n",
+                    "Contacts": "Likith Mudunuri: +919705223489\n"
+                },
+
+                {
+                    "UniqueId": "Group-13-Item-2",
+                    "Title": "SAMSHOD",
+                    "Subtitle": "Preent your original research papers",
+                    "ImagePath": "Assets/paper.png",
+                    "Description": "About\n\nSamshod is a paper presentation on social topics. Applicants are expected to come up with creative, innovation solutions or interesting analyses of social issues.\n\nWho can participate\n\nStudents enrolled in an institution of higher learning. We welcome participants from all technical backgrounds.\n\nTopics\n\nThe two topics this year are:\n\n* Technological Solutions for a better rural life.\n\n* Policy changes for a better rural life.\n",
+                    "Content": "Modalities & Timeline\n\nParticipants must submit their papers by 7th October. The authors of the best papers will be invited to present their papers in front a panel of judges during Atmos.\n\nPrize Money\n\nThere will be separate prizes for both topics. Only the top two papers will receive prizes.\n\nRegister Send your abstracts to parishodnirmaan@gmail.com. Selected Abstracts will be invited to present their paper at ATMOS’14.\n",
+                    "Contacts": "Likith Mudunuri:+919705223489\n"
+                }
+
+            ]
+        },
+        {
+            "UniqueId": "Group-14",
+            "Title": "National Service Scheme",
+            "Subtitle": "All events associated with NSS",
+            "ImagePath": "Assets/NSS1.png",
+            "Items": [
+                {
+                    "UniqueId": "Group-14-Item-1",
+                    "Title": "NSS BITS-Pilani hyderabad campus",
+                    "Subtitle": "Events that are planned to be organised by NSS for ATMOS-2014",
+                    "ImagePath": "Assets/NSS.png",
+                    "Description": "Events that are planned to be organised by NSS for ATMOS-2014\n\n NSS cloth bags should be distributed at CP and at stalls for making the fest be eco-friendly. (requires a little sponsership)\n\n* Blood donation camp : By red croos society on 10-10-2014 and 11-10-2014 at medical center.\n\n* Paper presentation : Topic for paper presentation is “ Efficient methods of utilising Solar Energy ”.\n\n* Talk on green technology: This field of \"green technology\" encompasses a continuously evolving group of methods and materials, from techniques for generating energy to non-toxic cleaning products.\n\n* Taking ideas on how to reduce/recycle elctronic waste\n\n* Debate : The topics will be given to the participants related to environmental issues and will be given specific amount of time to debate.\n",
+                    "Content": "Paper Presentation Details:\n\nEvery student has to present a paper regarding the topic “Efficient methods of utilising Solar Energy ” by 9th october to nss.bphc@gmail.com. The event comprises of two rounds. In the first round, participants are invited to send us the abstract as well as the paper they want to present through email. These entries would go through extensive cross-checking for plagiarism, creativity and choice of topic. Participants selected in this round would be eligible for the second round which is the on-site round to be conducted during ATMOS 2014 at BITS Pilani Hyderabad Campus. The participants would have to provide a presentation in front of a panel concerning the details of their paper.\n\nThe presentations must follow the following format:\n\n* The paper should be written in Times New Roman.\n\n* Font size should be 12 pt.\n\n* The text alignment should be ‘Justified’.\n\nAll the presenters are expected to follow the above mentioned code.\n\nPresentations can also be done in teams (Max. of two members per team) Prizes worth Rs.2000 would be given.\n",
+                    "Contacts": "Gopi Nihal :+919705066346\n"
+                }
+
+            ]
+        },
+        {
+            "UniqueId": "Group-15",
+            "Title": "Pharmacy",
+            "Subtitle": "All events associated with Pharmacy",
+            "ImagePath": "Assets/pharma.png",
+            "Items": [
+                {
+                
+                    "UniqueId": "Group-15-Item-1",
+                    "Title": "PHARMACY Paper Presentation",
+                    "Subtitle": "Present your original research papers.",
+                    "ImagePath": "Assets/paper.png",
+                    "Description": "The Pharmacy Department of BITS Pilani, Hyderabad Campus calls in entries for Paper Presentation.\n        For all the future Research Scholars out there, present your research paper in the National Techno Management Festival of BITS Pilani, Hyderabad Campus.\n        We call in entries for all the scientific minds to scream out their ideas and learning and showcase their comprehensive knowledge and their ability to make people understand it.\nThe research paper can be on any general topic related to pharmacy. The originality of the work will be appreciated more than the efforts taken to present it. Grab your chance to gather fame and name by presenting your work at the most awaited TechFest of Hyderabad.\n",
+                    "Content": "Problem Statement:\nRound 1 (Selection): The participants will have to submit an abstract of their paper, online to bphc.panacea@gmail.com. The abstract has a word limit of 250 words, which is to be submitted in IEEE Format, along with the teams’ full details in the paper. A research paper on any topic is accepted.\nThe abstracts will be judged by a panel which will select the teams for round 2\nRound 2(Presentation): The selected candidates from the first round will be intimated by a mail and will be asked to present their paper in ATMOS’14.\nRules:\nMaximum word limit for the Abstract is 250 words. It is to be submitted in IEEE format to bphc.panacea@gmail.com latest by 3 October, 2014.\nOnly the participants who qualify in the preliminary elimination round based on judging of the abstract of the paper shall be eligible for the finals.\nIntellectual Property Rights issues (if any) related to the project are to be mentioned.\nThe decision of the judges and event head shall be treated as final and binding on all.\nJudging Criteria:\nParticipants will be judged on the following basis:-\n        Originality of the paper\n        Depth of knowledge regarding the paper\n        Way of presentation and format of the paper\n",
+                    "Contacts": "Shruti Komanduri : +918185016221\n"
+                },
+
+                {
+                    "UniqueId": "Group-15-Item-2",
+                    "Title": "Poster Presentation",
+                    "Subtitle": "Present your original posters.",
+                    "ImagePath": "Assets/poster.png",
+                    "Description": "The Pharmacy Department of BITS Pilani, Hyderabad Campus calls in entries for Poster Presentation.\nThe poster can be on any general topic related to pharmacy. The originality of the work will be appreciated more than the efforts taken to present it. Grab your chance to gather fame and name by presenting your work at the most awaited TechFest of Hyderabad.\nProblem statement\nRound 1 (Selection): The participants will have to submit an abstract of their poster, online to bphc.panacea@gmail.com. The abstract has a word limit of 250 words, which is to be submitted in IEEE Format, along with the teams’ full details in the paper. A poster on any topic of research is accepted.\nThe abstracts will be judged by a panel which will select the teams for round 2\nRound 2(Presentation): The selected candidates from the first round will be intimated by a mail and will be asked to present their poster in ATMOS’14.\n",
+                    "Content": "Rules:\nMaximum word limit for the Abstract is 250 words. It is to be submitted in IEEE format to bphc.panacea@gmail.com latest by 3 October, 2014.\nOnly the participants who qualify in the preliminary elimination round based on judging of the abstract of the poster shall be eligible for the finals.\nIntellectual Property Rights issues (if any) related to the project are to be mentioned.\nThe decision of the judges and event head shall be treated as final and binding on all.\nPOSTER SPECIFICATIONS\nPoster presentations are to be approximately of 1m*1m width in size.\nTitle should appear on the top of the poster.\nAll the decisions made by the judges and event head will be final and binding on all.\nCandidates are allowed to bring readymade posters to the venue.\nCandidates will be allotted 1 hour duration at the venue for preparation of their poster in which the entire poster has to be assembled.\nAll Poster presenters are expected to carry a hard copy of the abstract.\n",
+                    "Contacts": "Shruti Komanduri : +918185016221\n"
+                },
+
+                {
+                    "UniqueId": "Group-15-Item-3",
+                    "Title": "Chem Live",
+                    "Subtitle": "Awaken the experimentalist in you and participate in the combination event of chemistry and analysis.",
+                    "ImagePath": "Assets/Phrama3.png",
+                    "Description": "Description:\nThe Pharmacy Department of BITS-PILANI, HYDERABAD CAMPUS proudly presents “Chem Live”.\nHave an aptitude for Chemistry and chemical reaction?\nInterested in analysis and lab experiments?\nWant to showcase your analytical and observation skills?\nHere is the right place.\nSo, awaken the experimentalist in you and participate in the combination event of chemistry and analysis: “Chem Live”\nProblem Statement:\nRound 1: A series of the most interesting experiments in chemistry will be demonstrated LIVE in front of the participants and they will be quizzed on what they have learnt and analyzed from the performed demonstrations. Top teams will be selected for Round 2.\nRound 2: The selected candidates from the first round will be asked to synthesize a compound. The required data will be given to them in an intricate way. A logical description of the compound to be synthesized will be provided and based on their previous knowledge of basic analytic chemistry, the participants will have to prepare the desired compound.\n",
+                    "Content": "Rules:\nMaximum number of participants allowed per team is 3.\nThere are no requirements for the event whatsoever, just walk in with a pen and your thinking caps on!\nJudging Criteria:\nParticipants’ analytical and observation skills will be tested in the first round which will qualify them for the second round where the participants will show their skills to efficiently perform a basic lab experiment.\nRegistration:\nChem Live is a Walk-In event , no pre-registrations required.\n",
+                    "Contacts": "Shruti Komanduri : +918185016221\n"
+                }
+
+            ]
+        },
+        {
+            "UniqueId": "Group-16",
+            "Title": "Physics",
+            "Subtitle": "All events associated with Physics.",
+            "ImagePath": "Assets/Phy.png",
+            "Items": [
+                {
+                    "UniqueId": "Group-16-Item-1",
+                    "Title": "PHYSICS Paper presentations",
+                    "Subtitle": "Present your original research papers.",
+                    "ImagePath": "Assets/paper.png",
+                    "Description": "Spectrum, the Physics Association invites original work of students for paper presentation at ATMOS, BITS, Pilani Hyderabad Campus. Interested applicants should send the abstract of their work, with the following details:-\nName\nEmail ID\nPhone No.\nInstitute affiliated to and current course and semester of study\n",
+                    "Content": "Students who are allowed to present will be notified well in advance. Students will have 20 minutes to present, 15 for their presentation and 5 minutes for questions. They will be judged by faculty of BITS Pilani, Hyderabad. They are allowed to bring working models/Presentations as well.\nMail to: physics.bitshyd@gmail.com\n",
+                    "Contacts": "Anirudh Ramesh: +919705224066\n"
+                },
+
+                {
+                    "UniqueId": "Group-16-Item-2",
+                    "Title": "Phygure IT",
+                    "Subtitle": "Physics in your Daily life",
+                    "ImagePath": "Assets/Phy2.png",
+                    "Description": "It is said, that without science, engineering is just a hobby. And without Physics, Engineering is nothing but math. This ATMOS, BITS Pilani Hyderabad, presents to you, Phygure IT. Phygure IT is the headliner event of ATMOS, and the theme of Phygure IT is “Physics in your Daily life.” You need not know Quantum Electrodynamics or String Theory. If you have studied Physics in school and love exotic and interesting aspects of the universe, this is the place to be.\n",
+                    "Content": "Composition: Teams of 2\nMulti-round event\n1. Preliminary round\nConsists of a general MCQ round, and a Movie round. Find out your Physics Trivia level and also see if you can detect faults in physics in the movies.(2-3 hrs)\n2. Finals.\nThe top teams from the Semis will be selected for the final rounds. This will be a quiz with a variety of questions.(3 hrs)\nJudging Criteria\nMarks will be allotted to each question. The decision of the Organising committee will be final.\n",
+                    "Contacts": "Manav Shah: +919553793023\n"
+                },
+
+                {
+                    "UniqueId": "Group-16-Item-3",
+                    "Title": "Water Rocket",
+                    "Subtitle": "Water rocketry is a type model rocket using water as its reaction mass.",
+                    "ImagePath": "Assets/Phy3.png",
+                    "Description": "In theory, theory and practice are same but in practice they are not. It all looked so easy when you did it on paper—where valves never froze, gyros never drifted, and rocket motors did not blow up in your face. Launch your rockets and let us see whose goes the farthest, have the accuracy to hit the target and survive longest in the air. Water rocketry is a type model rocket using water as its reaction mass. The pressure vessel, the engine of the rocket is usually a plastic soft drink bottle. Here, we evaluate the distance covered, the accuracy to hit a given target and the time of flight of the water-rocket. The competition involves  flying of water rockets under an agreed pressure. The performance of rocket is recorded and points will be awarded accordingly. Ready, get, set and go!\n",
+                    "Content": "EVENT FORMAT\nA team of 3 members is to be formed for the competition and should register for the same. The competition will be held in three rounds. In all the rounds, the angle at which the rocket is launched, the amount of water to be filled in the rocket body and the pressure inside the rocket is up to the decision of the team, provided the pressure does not exceed 50 psi.\nRound 1\n-In this round the range of the rocket will be tested. The more the range higher the points will be awarded to the team.\n-Each team will be given three chances out of which best two will be considered.\n-The points for this round will be awarded as per the following scheme:-\n Points earned = Range in meters * 4\nRound 2\n-This round is more of accuracy than range. Yes you have to hit the bull’s eye. The closer the hit from the target higher the points will be awarded to the team.\n- Each team will be given three chances out of which best two will be considered.\n-There will be three concentric circles of radius 5m, 10m and 20m with their centers at a distance of 40m from the point of shooting. The 5 meter circular area is the so called bull’s eye where you must aim your rocket but yes even if your rocket falls within the other subsequent arenas you will still be awarded marks on the following basis\n Within 5m circle: 200 points\n               In between the 5m and 10m circle: 100points\n               In between the 10m and 20m circle: 50points\nRound 3\n-Time of flight of the rocket will be measured in this round and as you expect the more the time of flight higher the points awarded to the team.\n- Each team will be given three chances out of which best two will be considered.\n-participants can add fins, small parachute to their rockets to increase the time of flight.\n-The points for this round will be awarded as per the following\nPoints earned = Time of flight in seconds * 20\nRULES AND REGULATIONS\n A team for Water Rocket can have a Maximum of 3 members. \n Only plastic soft drink bottles are to be used for the rocket body.\n The water rocket must use only compressed ambient atmospheric air as its source of energy. Only tap water shall be used in the rocket. No chemical or aerated water should be added for launching.\n The amount of water to be filled in the rocket body is left to the choice of the team.\n The pressure inside the container (rocket body) before launch should not exceed 50 psi.\n No component or a body part of the rocket should get detached from the main frame during the flight of the rocket. If any part gets detached then the rocket will be disqualified.\n The coordinators of the event Reserve the right to change any or all the above rules and the scheme for awarding the points according to the necessity.\n",
+                    "Contacts": "Harsh: +919551014855\n"
+                }
+
+            ]
+        },
+        {
+            "UniqueId": "Group-17",
+            "Title": "SRIsHTI",
+            "Subtitle": "Socially Responsible Innovations in Healthcare Technology and Industry",
+            "ImagePath": "Assets/Srishti1.png",
+            "Items": [
+                {
+                    "UniqueId": "Group-17-Item-1",
+                    "Title": "SRIsHTI",
+                    "Subtitle": "Socially Responsible Innovations in Healthcare Technology and Industry",
+                    "ImagePath": "Assets/Srishti.png",
+                    "Description": "Description\nIf there is a way to do things better...? Find it! \"INNOVATE\".\nIf you are amongst those who believe in being a part of the change, who believe in action rather than just phony words, then we have just the right thing for you, THE CENTER FOR INNOVATION, BITS PILANI HYDERABAD CAMPUS brings you SRIsHTI(Socially Responsible Innovations in Healthcare Technology and Industry) a niche event as a part of the annual techno-management fest ATMOS 2014.\nThe project aims at promoting innovations in Health care technology and industry among the student community of our nation, but this is a challenge with a TWIST. Academic camaraderie often misses out on sensitivity, the one factor from which truly great innovations draw their power, and it is thus that the emphasis is on SOCIAL IMPACT.\n",
+                    "Content": "ROUNDS:\nRound1:\nSubmission of your idea to any of the healthcare problems.\nRound 2:\nSubmission of a prototype for your idea.\n\nJudging Criteria:\nYour prototype will be judged by a team of experise in various feilds and the top three prototypes bag a whooping prize money of 30k,20k and 10k respectively and the good news just doesnt end their the top prototypes also get a chance of being incubated!!\n\nEligibility:\n All students enrolled full-time at any college/university.\n All participants must be under 25 years of age\n Inter collegiate teams are allowed and inter-disciplinary teams are encouraged.\n\nSo look no further as we have prizes worth Rs 60,000 to be grabbed this ATMOS (10-12 October 2014)!!\nRegistrations are now open! You can catch all the action at https://www.facebook.com/CFI.SRISHTI\n",
+                    "Contacts": "Ayesha :+918501021260\nAdithya:+919542226387\n"
+                }
+
+            ]
+        },
+        {
+            "UniqueId": "Group-18",
+            "Title": "Stark-Expo-14",
+            "Subtitle": "The Stark Expo is here",
+            "ImagePath": "Assets/Stark.png",
+            "Items": [
+                {
+                    "UniqueId": "Group-18-Item-1",
+                    "Title": "Stark-Expo-14",
+                    "Subtitle": "The Stark Expo is here",
+                    "ImagePath": "Assets/Stark1.png",
+                    "Description": "This winter, ATMOS brings to you the finest innovations in the field of technology, all under one roof. Skeptical? Judge for yourself. We have: \n1. The snazziest products from Google Cardboard and Android Wearable, Microsoft Ripple \n2.  AcYut, the first indigenous humanoid and a brainchild of BITS Pilani\n3. A 3D printer brought to you by Imaginarium Pvt Ltd.\n4. A fully functioning Go-Kart built from scratch by our own students\n5.  An exhibition of Point-of-Care devices i.e. biological innovations that have generated widespread acclaim in media.\n6. Channel your inner Jesus, and experience \"Walking on water\" and other wonders of Non-Newtonian Fluid \n",
+                    "Content": "Catch it at ATMOS, Bits Pilani Hyderabad Campus from the 10-12th October. See you there!! \n",
+                    "Contacts": "Mudit Jain:+918498085518\n"
+                }
+
+            ]
+        },
+        {
+            "UniqueId": "Group-19",
+            "Title": "Tech-tainment",
+            "Subtitle": "Tech-tainment",
+            "ImagePath": "Assets/Tech1.png",
+            "Items": [
+                {
+                    "UniqueId": "Group-19-Item-1",
+                    "Title": "Tech-tainment",
+                    "Subtitle": "We have a list of fun projects for showcase AROUND the entire campus during ATMOS",
+                    "ImagePath": "Assets/Tech.png",
+                    "Description": "Overview\nOur job is basically to HUNT for ideas, projects, innovations, thrilling experiences and create a repository of it for YOU and ME.\nWe have a list of fun projects for showcase AROUND the entire campus during ATMOS.\nAll the projects listed below are just to give you an idea of what we are planning.\n1. Persistence of Vision (POV) Globe - https://www.youtube.com/watch?v=ziD_1fVdDWQ\n2.  Gesture Controlled 3D 2048 - http://baiqiang.github.io/2048-3d/\n3.  Amazing Water and Sound Experiment -https://www.youtube.com/watch?v=uENITui5_jU \n4.  Sine Wave Patterns - https://www.youtube.com/watch?v=wvJAgrUBF4w\n5.  Interactive Objects around Campus (Live Dustbin - Dustbins that react in presence of people around it, Talking Trees - Trees talking to each other about different topics throughout ATMOS. Chatter Box\n6. LED Visualization - https://www.youtube.com/watch?v=FjP1wSDdw-c\n7.  We are looking for ideas to make games like Piano Tiles, Flappy Birds, interactive and attractive(just like the 3D 2048) . \n",
+                    "Content": "Overview\nOur job is basically to HUNT for ideas, projects, innovations, thrilling experiences and create a repository of it for YOU and ME.\nWe have a list of fun projects for showcase AROUND the entire campus during ATMOS.\nAll the projects listed below are just to give you an idea of what we are planning.\n1. Persistence of Vision (POV) Globe - https://www.youtube.com/watch?v=ziD_1fVdDWQ\n2.  Gesture Controlled 3D 2048 - http://baiqiang.github.io/2048-3d/\n3.  Amazing Water and Sound Experiment -https://www.youtube.com/watch?v=uENITui5_jU \n4.  Sine Wave Patterns - https://www.youtube.com/watch?v=wvJAgrUBF4w\n5.  Interactive Objects around Campus (Live Dustbin - Dustbins that react in presence of people around it, Talking Trees - Trees talking to each other about different topics throughout ATMOS. Chatter Box\n6. LED Visualization - https://www.youtube.com/watch?v=FjP1wSDdw-c\n7.  We are looking for ideas to make games like Piano Tiles, Flappy Birds, interactive and attractive(just like the 3D 2048) . \n",
+                    "Contacts": "Devesh Jain  :+919553720585 \nDeval Shah :+919603427665\n"
+                }
+            ]
+        },
+        {
+            "UniqueId": "Group-20",
+            "Title": "Cubing Atmosphere",
+            "Subtitle": "Rubik's Cube",
+            "ImagePath": "Assets/Cube.png",
+            "Items": [
+                {
+                    "UniqueId": "Group-20-Item-1",
+                    "Title": "Cubing Atmosphere",
+                    "Subtitle": "Rubik's Cube",
+                    "ImagePath": "Assets/rubik.png",
+                    "Description": "ABOUT THE EVENT\nYou know what? Researchers said that - Thousands of new cells are generated in the adult brain every day, particularly in the hippo campus, a structure involved in learning and memory. Within a couple of weeks, most of those newborn neurons will die, unless the animal(you and me :P) is challenged to learn something new. Learning—especially that involves a great deal of effort—can keep these new neurons alive. One such exercise is cube solving. It is not too easy unless you are really intelligent.So, Do you have that habit of going to the rescue of your neurons? Are you that intelligent one who can solve rubiks cube with ease and willing to prove your talent by competing with best cube solvers in India? Then come join us this October 11th and 12th as a part of our 3rd National annual Techno-Management festival- ATMOS'14.\n",
+                    "Content": "SCHEDULE\nWe are on it! Stay tuned!!\nVENUE\nB block corridors, BITS Pilani, Hyderabad campus.\nEVENTS\n1. Rubik’s Cube\n2.3x3x3 BF\n3.3x3x3 OH\n4. 3x3x3 MBF\n5.2x2x2\n6.4x4x4\n7. Pyraminx\n6. Skewb\nREGISTRATION FEE\nWe'll finalize it in no time. We'll let you know as soon as possible.\nPRIZE MONEY\nWe are discussing! Stay tuned!!\nPRE-REGISTER YOURSELF HERE\nYou can also check-in on October 11th and register yourself then. But we suggest you to pre-register for our estimation and your comfort.\n\nhttp://bits-atmos.org/cubingatmosphere.html\n",
+                    "Contacts": "Kirtan:+91\n"
+                }
+            ]
+        }
+    ]
+}

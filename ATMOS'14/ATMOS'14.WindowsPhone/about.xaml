@@ -1,0 +1,131 @@
+﻿<Page
+    x:Class="ATMOS_14.About"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:BookMyBook"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+    <Page.Resources>
+        <ResourceDictionary>
+            <DataTemplate x:Key="HubSectionHeaderTemplate">
+                <TextBlock Margin="0,0,0,-9.5" Text="{Binding}" FontSize="30"/>
+            </DataTemplate>
+        </ResourceDictionary>
+    </Page.Resources>
+    <Grid x:Name="LayoutRoot">
+        <Hub Name="Ab" Header="ATMOS '14" Margin="0,0,0,10" >
+            <Hub.Background>
+                <ImageBrush x:Name="Back" Stretch="Fill" ImageSource="Assets/HubBackground.png" Opacity="1"/>
+            </Hub.Background>
+            <HubSection Name="FAQ" Header="FAQ" HeaderTemplate="{ThemeResource HubSectionHeaderTemplate}">
+                <DataTemplate>
+                    <ScrollViewer >
+                        <StackPanel Orientation="Vertical" Width="300">
+                              <TextBlock FontSize="20"  HorizontalAlignment="Left" TextWrapping="Wrap" Text="1)What are the exact dates of the events?" VerticalAlignment="Top" FontWeight="Bold"/>
+                                <TextBlock Margin="10" HorizontalAlignment="Left" TextWrapping="Wrap" Text="The Innauguration is on 9/10/2014 and the events would start sharp after the Opening Ceremony with a Midnight Quiz. The events would be conducted over a span of three days from 10th-12th of October." VerticalAlignment="Top" Opacity="0.8" FontSize="18"/>
+                            <TextBlock FontSize="20" HorizontalAlignment="Left"  TextWrapping="Wrap" Text="2) What would be the registeration price for Atmos 14?" VerticalAlignment="Top" FontWeight="Bold"/>
+                            <TextBlock Margin="10" HorizontalAlignment="Left"  TextWrapping="Wrap" Text="The registeration Fee would be Rs200/- Only. This does not include the price of any of the workshops being conducted during the fest." VerticalAlignment="Top" Opacity="0.8" FontSize="18"/>
+                            <TextBlock  FontSize="20" HorizontalAlignment="Left"  TextWrapping="Wrap" VerticalAlignment="Top" FontWeight="Bold" Text="3)Is there provision for accomodation?"/>
+                            <TextBlock Margin="10"  HorizontalAlignment="Left" TextWrapping="Wrap" Text="YES. It is a nominal amount of Rs150/- Per day. " VerticalAlignment="Top" Opacity="0.8" FontSize="18"/>
+                            <TextBlock  FontSize="20"  HorizontalAlignment="Left"  TextWrapping="Wrap" VerticalAlignment="Top" FontWeight="Bold" Text="4)Who is a Campus Student Ambassador?"/>
+                            <TextBlock Margin="10" HorizontalAlignment="Left"  TextWrapping="Wrap" Text="You are elligible to apply as a Campus Student  Ambassador if you have taken up the following responsibilities in your college.1) Publicity -You'll be expected to publicize about the fest in your college and if your college receives posters, ensure that they are put up on your college notice board. Share ATMOS publicity material on social media groups (Eg. Facebook).  2)Co-ordination - Provision of contacts like that of HODs or college president/secretary.  3) Contingent - The campus ambassador is expected to get in a contingent of at least 10 people and register them as a single contingent only, when you come to the fest. " VerticalAlignment="Top" Opacity="0.8" FontSize="18"/>
+                            <TextBlock  FontSize="20" HorizontalAlignment="Left"  TextWrapping="Wrap" VerticalAlignment="Top" FontWeight="Bold" Text="5) Why should I apply as a Campus Ambassador?"/>
+                            <TextBlock Margin="10" HorizontalAlignment="Left"  TextWrapping="Wrap" VerticalAlignment="Top" Opacity="0.8" FontSize="18" Text="1.A BITS Atmos T-shirt will be given along with a certificate of organization as Campus Ambassador. 2)Registrations will be exempted for the Campus Ambassador for all the three fests if the contingent is above 30.  3) More Atmos goodies at a discounted price. "/>
+                            <TextBlock  FontSize="20"  HorizontalAlignment="Left" TextWrapping="Wrap" VerticalAlignment="Top" FontWeight="Bold" Text="5) How do I get to the campus?"/>
+                            <TextBlock Margin="10" HorizontalAlignment="Left"  TextWrapping="Wrap" VerticalAlignment="Top" Opacity="0.8" FontSize="18" Text="There is a State govt Bus Plying from Secunderabad Railway Station to the gates of our Campus once every hour. BUS No:  212"/>
+
+                        </StackPanel>
+                    </ScrollViewer>
+                </DataTemplate>
+            </HubSection>
+            <HubSection Name="sponsors" Header="Sponsors" HeaderTemplate="{ThemeResource HubSectionHeaderTemplate}">
+                <DataTemplate>
+                    <ScrollViewer>
+                        <StackPanel>
+                            <Image Source="Assets/sponsors.png" Opacity="0.7"/>
+                        </StackPanel>
+                    </ScrollViewer>
+                </DataTemplate>
+            </HubSection>
+            <HubSection Name="us"  Header="About Us" HeaderTemplate="{ThemeResource HubSectionHeaderTemplate}">
+                <DataTemplate>
+                    <ScrollViewer>
+                        <StackPanel>
+                            <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" Text="BITS Pilani Hyderabad Presents to you its third edition of ATMOS, an exclusive National Techno-Management festival. Year after year, we keep pushing out limits striving for more. ATMOS '14 is the result of an outrageous response to its second edition . " VerticalAlignment="Top" FontSize="18" Opacity="0.8"/>
+                            <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" Text="At ATMOS we promise to incorporate every possible aspect that helps us provide a comprehensive learning experience, with a conscious coordinated and planned effort of a marvelous conglomeration of all branches of engineering and all fields of science. From interactive learning experiences in the form of guest lectures and workshops that open doors for studnets to witness what this modern world of technology has to offer, to testing the technical mettle of students across the country with an array of amazing activities and events, ATMOS is a not to be missed oppurtunity for any inquistive mind to know of his true potential and achieve it with an exponential growth in experience and knowledge." VerticalAlignment="Top"  FontSize="18" Opacity="0.8"/>
+                       </StackPanel>
+                    </ScrollViewer>
+                </DataTemplate>
+            </HubSection>
+            <HubSection Name="author" Header="About the authors" HeaderTemplate="{ThemeResource HubSectionHeaderTemplate}">
+                <DataTemplate>
+                    <ScrollViewer>
+                        <StackPanel>
+                            <TextBlock Foreground="White" Style="{StaticResource BodyTextBlockStyle}" Margin="10,0,10,25" TextWrapping="Wrap" FontSize="20">
+            	               <Run Text="Srujan Jha"/>
+                            </TextBlock>
+                            
+                                <StackPanel Orientation="Horizontal">
+                                    <AppBarButton Icon="Phone" Click="Call" Tag="11"/>
+                                    <AppBarButton Icon="Message" Click="Call" Tag="12"/>
+                                    <AppBarButton Click="Call" Tag="13">
+                                        <AppBarButton.Icon>
+                                            <FontIcon Glyph="f" FontSize="22" FontWeight="ExtraBlack"/>
+                                        </AppBarButton.Icon>
+                                    </AppBarButton>
+                                </StackPanel>
+                            <TextBlock Foreground="White" Style="{StaticResource BodyTextBlockStyle}" Margin="10,0,10,25" TextWrapping="Wrap" FontSize="20">
+            	              
+                                <Run Text="Naveen Jafer"/>
+                            </TextBlock>
+                                <StackPanel Orientation="Horizontal">
+                                    <AppBarButton Icon="Phone" Click="Call" Tag="21"/>
+                                    <AppBarButton Icon="Message" Click="Call" Tag="22"/>
+                                    <AppBarButton Click="Call" Tag="23">
+                                        <AppBarButton.Icon>
+                                            <FontIcon Glyph="f" FontSize="22" FontWeight="ExtraBlack"/>
+                                        </AppBarButton.Icon>
+                                    </AppBarButton>
+                                </StackPanel>
+                            </StackPanel>
+                    
+                        </ScrollViewer>
+                </DataTemplate>
+            </HubSection>
+            <HubSection Name="privacy" Header="Privacy-Policy" HeaderTemplate="{ThemeResource HubSectionHeaderTemplate}">
+                <DataTemplate>
+                    <ScrollViewer>
+                        <StackPanel>
+                            <TextBlock Foreground="White" Style="{StaticResource TitleTextBlockStyle}" Text="How we protect your data..." FontSize="20" Width="321" />
+
+                            <TextBlock Foreground="White" Style="{StaticResource BodyTextBlockStyle}" Margin="10,0,10,25" TextWrapping="Wrap" FontSize="20">
+            	<Run Text=" "/>
+            	<LineBreak/>
+            	<Run Text="The Privacy Policy of the ATMOS '14 app covers the following statements:"/>
+            	<LineBreak/>
+            	<Run Text=" "/>
+            	<LineBreak/>
+            	<Run Text="* ATMOS '14 app makes use of internet connection to get the results and schedule of the events."/>
+            	<LineBreak/>
+            	<Run Text="* The app collects your personal information only if you register for the events, however it doesn't share any of the personal data in any social platforms."/>
+            	<LineBreak/>
+            	<Run Text="* Neither us (the authors) nor ATMOS/BITS-Pilani is responsible to any of your data loss or any unforeseen grievances."/>
+                            </TextBlock>
+                             </StackPanel>
+                    </ScrollViewer>
+                </DataTemplate>
+            </HubSection>
+        </Hub>
+
+    </Grid>
+    <Page.BottomAppBar>
+        <CommandBar Background="Black" Opacity="0.6" >
+
+            <CommandBar.SecondaryCommands>
+                <AppBarButton Label="tutorial" Click="tutorial_Click"/>
+                <AppBarButton Label="feedback" Click="Feedback_event"/>
+            </CommandBar.SecondaryCommands>
+        </CommandBar>
+    </Page.BottomAppBar>
+</Page>

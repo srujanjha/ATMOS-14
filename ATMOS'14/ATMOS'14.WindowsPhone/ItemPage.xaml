@@ -1,0 +1,68 @@
+﻿<Page
+    x:Class="ATMOS_14.ItemPage"
+    DataContext="{Binding DefaultViewModel.Item, RelativeSource={RelativeSource Self}}"
+    d:DataContext=" {Binding Groups[0].Items[0], Source={d:DesignData Source=../ATMOS'14.Shared/DataModel/SampleData.json, Type=data:SampleDataSource}}"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:ATMOS_14"
+    xmlns:data="using:ATMOS_14.Data"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+    <Page.Background>
+        <ImageBrush x:Name="Back" Stretch="Fill" ImageSource="Assets/signup.jpg" Opacity="1"/>
+    </Page.Background>
+    <Page.Transitions>
+        <TransitionCollection>
+            <NavigationThemeTransition>
+                <NavigationThemeTransition.DefaultNavigationTransitionInfo>
+                    <ContinuumNavigationTransitionInfo></ContinuumNavigationTransitionInfo>
+                </NavigationThemeTransition.DefaultNavigationTransitionInfo>
+            </NavigationThemeTransition>
+        </TransitionCollection>
+    </Page.Transitions>
+    <Page.Resources>
+        <DataTemplate x:Key="HubSectionHeaderTemplate">
+            <TextBlock Margin="0,0,0,-9.5" Text="{Binding}" FontSize="40" Opacity="0.9"/>
+        </DataTemplate>
+    </Page.Resources>
+
+    <Grid x:Name="LayoutRoot">
+        <Grid.ChildrenTransitions>
+            <TransitionCollection>
+                <EntranceThemeTransition/>
+            </TransitionCollection>
+        </Grid.ChildrenTransitions>
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" MinHeight="129.167"/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+
+        <!-- Title Panel -->
+        <StackPanel Grid.Row="0" Margin="19,0,0,0.167">
+            <TextBlock x:Uid="Header" Text="ATMOS '14" Style="{ThemeResource TitleTextBlockStyle}" Margin="0,12,0,0" />
+        </StackPanel>
+
+
+        <Pivot x:Name="ContentRoot" Title="{Binding Title}" TitleTemplate="{ThemeResource HubSectionHeaderTemplate}"  Margin="19,15,19,0" Grid.RowSpan="2">
+            <PivotItem Header="details">
+                <ScrollViewer>
+                    <TextBlock Name="details" FontSize="18" TextWrapping="Wrap"/>
+                </ScrollViewer>
+            </PivotItem>
+            <PivotItem Header="rules">
+                <ScrollViewer>
+                    <TextBlock Name="rules" FontSize="18" TextWrapping="Wrap"/>
+                </ScrollViewer>
+            </PivotItem>
+            <PivotItem Header="contacts">
+                <ScrollViewer>
+                    <StackPanel x:Name="ContactsList">
+
+                    </StackPanel>
+                </ScrollViewer>
+            </PivotItem>
+        </Pivot>
+    </Grid>
+</Page>

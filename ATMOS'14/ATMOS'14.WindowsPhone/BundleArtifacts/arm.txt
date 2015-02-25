@@ -1,0 +1,4 @@
+MainPackage=C:\Users\Srujan Jha\Documents\Visual Studio 2013\Projects\Windows8\ATMOS'14\ATMOS'14\ATMOS'14.WindowsPhone\bin\ARM\Release\ATMOS'14.WindowsPhone_1.1.0.20_Bundle\ATMOS'14.WindowsPhone_1.1.0.20_ARM.appx
+SymbolPackage=C:\Users\Srujan Jha\Documents\Visual Studio 2013\Projects\Windows8\ATMOS'14\ATMOS'14\ATMOS'14.WindowsPhone\AppPackages\ATMOS'14.WindowsPhone_1.1.0.20_Test\ATMOS'14.WindowsPhone_1.1.0.20_ARM.appxsym
+ResourcePack=C:\Users\Srujan Jha\Documents\Visual Studio 2013\Projects\Windows8\ATMOS'14\ATMOS'14\ATMOS'14.WindowsPhone\bin\ARM\Release\ATMOS'14.WindowsPhone_1.1.0.20_Bundle\ATMOS'14.WindowsPhone_1.1.0.20_scale-100.appx
+ResourcePack=C:\Users\Srujan Jha\Documents\Visual Studio 2013\Projects\Windows8\ATMOS'14\ATMOS'14\ATMOS'14.WindowsPhone\bin\ARM\Release\ATMOS'14.WindowsPhone_1.1.0.20_Bundle\ATMOS'14.WindowsPhone_1.1.0.20_scale-140.appx

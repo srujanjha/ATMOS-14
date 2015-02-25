@@ -1,0 +1,108 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+    <HasSharedItems>true</HasSharedItems>
+    <SharedGUID>b25fb047-94a3-4185-857b-47ffeb79d954</SharedGUID>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration">
+    <Import_RootNamespace>ATMOS_14</Import_RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <ApplicationDefinition Include="$(MSBuildThisFileDirectory)App.xaml">
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+    <Compile Include="$(MSBuildThisFileDirectory)App.xaml.cs">
+      <DependentUpon>App.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="$(MSBuildThisFileDirectory)DataModel\Events.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)DataModel\Register.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)DataModel\Available.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)DataModel\Results.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)DataModel\SampleDataSource.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)SQLite.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)SQLiteAsync.cs" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\0.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\1.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\2.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\3.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\4.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\5.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\6.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\7.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\Ansys.PNG" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\aspen.PNG" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\aug.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\badge.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\Bio2.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\Bio3.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\cantilever.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\Chemical1.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\Chemical2.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\Chemical4.PNG" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\Chemistry2.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\Chemistry3.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\Civil1.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\Civil2.PNG" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\Civil5.PNG" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\Civil6.PNG" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\courtroom.PNG" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\CS1.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\CS10.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\CS2.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\CS3.PNG" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\CS4.PNG" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\CS5.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\CS6.PNG" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\CS8.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\CS9.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\Eco1.PNG" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\Eco2.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\Eco3.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\Eco5.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\Eco6.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\EEE1.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\EEE2.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\EEE3.PNG" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\EEE4.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\EEE5.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\EEE6.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\EEE8.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\glider.PNG" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\IS1.PNG" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\IS3.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\IS4.PNG" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\Management1.PNG" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\Management2.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\Management3.PNG" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\Management4.PNG" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\Management5.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\Management6.PNG" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\Maths1.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\Maths2.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\Maths4.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\Mech1.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\Mech2.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\Mech3.PNG" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\Mech5.PNG" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\Nirmaan1.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\NSS.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\ODoUNCL.jpg" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\paper.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\Pharma3.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\Phy2.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\Phy3.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\poster.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\rubik.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\sponsors.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\Srishti.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\Stark1.png" />
+    <Content Include="$(MSBuildThisFileDirectory)Assets\Tech.png" />
+    <Content Include="$(MSBuildThisFileDirectory)DataModel\SampleData.json" />
+    <Compile Include="$(MSBuildThisFileDirectory)Common\NavigationHelper.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Common\RelayCommand.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Common\SuspensionManager.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Common\ObservableDictionary.cs" />
+    <PRIResource Include="$(MSBuildThisFileDirectory)Strings\en-US\Resources.resw" />
+  </ItemGroup>
+</Project>

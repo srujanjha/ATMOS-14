@@ -1,0 +1,57 @@
+﻿<Page
+    x:Class="ATMOS_14.RegisterPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:ATMOS_14"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+    <Page.Background>
+        <ImageBrush Stretch="Fill" ImageSource="Assets/signup.jpg"/>
+    </Page.Background>
+
+    <Grid x:Name="LayoutRoot">
+
+        <Pivot Name="Registrations">
+            <PivotItem Header="register">
+             <ScrollViewer Height="460">
+            <StackPanel >
+                <TextBox Name="Name" PlaceholderText="Name:" Height="50" Margin="10"/>
+                <TextBox Name="Email" PlaceholderText="Email:" Height="50" Margin="10" InputScope="EmailSmtpAddress"/>
+                <TextBox Name="Phone" PlaceholderText="Phone Number:" Height="50" Margin="10" InputScope="TelephoneNumber"/>
+                <TextBox Name="College" PlaceholderText="College/University:" Height="50" Margin="10"/>
+                    <Border Background="White" Margin="10,0" Opacity="0.7">
+                        <CheckBox Name="Acco" Content="Do you need accomodation ?" Margin="10,0" Background="White" BorderBrush="Black" Foreground="Black"/>
+                    </Border>
+                    <Border Background="White" Margin="10,10" Opacity="0.7">
+                        <CheckBox Name="Ambas" Content="Register as Campus Ambassador?" Margin="10,0" Background="White" BorderBrush="Black" Foreground="Black"/>
+                    </Border>
+                <Button Content=" Select the events: " Width="340" Margin="10,0" Height="50" Click="Button_Click" HorizontalContentAlignment="Stretch" Background="White" Foreground="Black" Opacity="0.7"  />
+                    
+                    <Button Name="submit" Content="Submit" Width="340" Margin="10,0"/>
+                </StackPanel>
+            </ScrollViewer>
+            
+            </PivotItem>
+            <PivotItem Header="events">
+                <StackPanel> <ListBox Name="Events1" FontSize="25" SelectionMode="Multiple" >
+                        <DataTemplate>
+                            <ListBoxItem Content="{Binding Title}" FontSize="25" />
+                        </DataTemplate>
+                    </ListBox>
+                </StackPanel>
+            </PivotItem>
+        </Pivot>
+    </Grid>
+    <Page.BottomAppBar>
+        <CommandBar >
+            <CommandBar.Background>
+                <ImageBrush Stretch="Fill" ImageSource="Assets/signup.jpg"/>
+            </CommandBar.Background>
+            <CommandBar.PrimaryCommands>
+                <AppBarButton Label="submit" Icon="Save" Click="register_Click"/>
+            </CommandBar.PrimaryCommands>
+            
+        </CommandBar>
+    </Page.BottomAppBar>
+</Page>
